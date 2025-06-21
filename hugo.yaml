@@ -1,0 +1,43 @@
+baseURL: "https://jaredgoronkin.com/"
+languageCode: "en-us"
+title: "Jared Goronkin"
+theme: "PaperMod"
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 1
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 2
+    - identifier: resume
+      name: Resume
+      url: /resume/
+      weight: 3
+
+params:
+
+
+  homeInfoParams:
+    Title: "👋 Hi, I'm Jared Goronkin"
+    Content: >
+      I'm a systems-focused game developer building modular gameplay tools and scalable Unity pipelines.
+
+  socialIcons:
+    - name: itch.io
+      url: "https://wyrdware.itch.io"
+    - name: github
+      url: "https://github.com/wyrdware"
+    - name: linkedin
+      url: "https://linkedin.com/in/jaredgoronkin"
+    - name: email
+      url: "mailto:jgoronkin@gmail.com"
+
+  ShowReadingTime: true
+  ShowCodeCopyButtons: true
+  defaultTheme: auto  # or "dark" / "light"
+
+enableInlineShortcodes: true

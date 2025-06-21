@@ -1,5 +1,7 @@
 name: Deploy portfolio to GitHub Pages
 
+baseURL: "https://wyrdware.github.io/Portfolio/"
+
 on:
   push:
     branches: [main]

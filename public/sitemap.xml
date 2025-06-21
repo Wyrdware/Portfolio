@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://wyrdware.github.io/Portfolio/</loc>
     <lastmod>2025-06-21T11:40:20-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/resume/</loc>
+    <loc>https://wyrdware.github.io/Portfolio/resume/</loc>
     <lastmod>2025-06-21T11:40:20-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://wyrdware.github.io/Portfolio/about/</loc>
     <lastmod>2025-06-21T11:40:13-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/mosaic/</loc>
+    <loc>https://wyrdware.github.io/Portfolio/projects/mosaic/</loc>
     <lastmod>2025-06-21T11:40:02-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/</loc>
+    <loc>https://wyrdware.github.io/Portfolio/projects/</loc>
     <lastmod>2025-06-21T11:40:02-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://wyrdware.github.io/Portfolio/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://wyrdware.github.io/Portfolio/tags/</loc>
   </url>
 </urlset>

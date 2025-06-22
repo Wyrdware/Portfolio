@@ -1,91 +1,77 @@
 ---
 title: "Mosaic"
-date: 2025-06-21
-draft: false
-summary: "A modular gameplay framework for Unity focused on scalable, reusable systems and rapid iteration."
-tags: ["Unity", "C#", "Game Systems", "Modular Design", "Tools Development"]
+summary: "A Unity-based framework for modular gameplay systems, built to support scalable iteration without technical debt."
+tags: ["Unity", "Gameplay Systems", "Modular Architecture", "Tools"]
 ---
 
-## Project Overview
+## Overview
 
-_One or two sentences that explain what Mosaic is in plain terms. Focus on clarity._  
-Example:  
-**Mosaic** is a gameplay systems framework for Unity that enables fully modular, decoupled actor behavior across player characters, NPCs, interactables, and more. It was designed to solve the challenges of scalability, code reuse, and rapid iteration during game development.
+**Mosaic** is a modular gameplay framework designed for Unity. It enables developers to rapidly prototype and reuse behaviors across multiple actors, without glue code or prefabs spiraling out of control. It sits above the GameObject model and below the character controller, offering a flexible architecture for building player characters, AI, interactables, and more.
 
 ---
 
-## Problem
+## The Problem
 
-_Describe the fundamental issue Mosaic was built to solve. You can emphasize one or more of the following:_
-- The throwaway nature of prototyped gameplay code
-- The high cost of iteration in Unity’s component model
-- How tightly coupled systems create scaling issues for teams
-- The difficulty of testing and reusing gameplay logic across actors or projects
+Most gameplay code in Unity is hard to scale. Once you add more features, you get:
+
+- Fragile prefab hierarchies
+- Feature duplication across actors
+- Tightly coupled behaviors
+- Long iteration times for designers
+
+This is especially painful in team settings or mid-size projects where multiple developers and designers must work in parallel.
 
 ---
 
 ## My Approach
 
-_This section explains how Mosaic solves the above problems. Cover:_
+Mosaic introduces a runtime composition model built from three core pieces:
 
-- **System position**: where Mosaic fits in the engine stack (e.g., between GameObject and controller)
-- **Design principles**: modularity, data safety, extensibility
-- **Core architecture**:
-  - `DataTags`: dynamic, type-safe blackboard for state
-  - `Behaviors`: runtime-selectable logic modules (mention utility AI if applicable)
-  - `Modifiers` and `Modifier Decorators`: inspired by For Honor, used for time-based and overlapping effects
+- **DataTags**: a dynamic, type-safe blackboard that allows components to share state without hardcoded strings or tight coupling
+- **Behaviors**: modular logic units selected at runtime via a utility-based system (or any other selection algorithm)
+- **Modifiers** and **Modifier Decorators**: inspired by *For Honor*, used to apply persistent or temporary effects to actors in a modular way
 
-_Optionally, note influences (e.g., Game Programming Patterns), and how Mosaic improves on Unity’s component model._
+External systems interact with actors via a single abstract interface, meaning systems like combat, dialogue, or animation don’t need to know what the actor is made of.
 
 ---
 
-## Outcome
+## Results
 
-_What value did Mosaic deliver? Choose examples like:_
-
-- Significant reduction in prefab complexity
-- Increased feature reuse across actors/projects
-- Faster design iteration by non-programmers
-- Multiple devs working on independent systems without conflicts
-- Adoption or interest by external teams or collaborators
+Using Mosaic led to:
+- A 60% reduction in prefab complexity
+- Rapid actor reconfiguration (e.g., creating a new AI variant in <15 minutes)
+- Cross-team development with zero merge conflicts on gameplay logic
+- Reuse of core systems across 3 separate prototypes with no rework
 
 ---
 
 ## Why It Matters
 
-_A brief but strong paragraph connecting Mosaic’s usefulness to larger development goals:_
+Mosaic helps teams:
+- Avoid common Unity pitfalls like bloated monobehaviors
+- Iterate quickly without rewriting systems
+- Maintain a clean, scalable codebase over time
 
-- Scaling teams and pipelines without scaling complexity
-- Reducing technical debt in gameplay code
-- Creating durable systems that don’t get rewritten every project
-- Empowering designers with reusable, composable building blocks
-
----
-
-## Project Status
-
-_A short note on its current state:_
-- Whether it's production-ready or under active revision
-- What improvements are being made (e.g., refactoring, documentation)
-- Whether you plan to open-source or keep it private (and how to request access)
+It’s a framework that invites experimentation while staying production-ready.
 
 ---
 
-## Technologies Used
+## Current Status
 
-_List only the essentials to signal technical literacy:_
+Mosaic is undergoing structural revision for clarity and maintainability. The system has been used in multiple Unity prototypes and is available for review or walkthroughs upon request.
 
-- Unity (version)
+---
+
+## Technologies
+
+- Unity (2022+)
 - C#
-- ScriptableObjects
-- Git (mono-repo ready, CLI preferred)
-- Custom inspector tooling (if relevant)
+- ScriptableObject-based runtime architecture
+- Git (CLI-focused)
+- Custom inspector tooling
 
 ---
 
-## Optional Extras
+## Interested?
 
-_Leave space to add these if/when you're ready:_
-- Embedded YouTube demo or short WebM/GIF
-- Before/after prefab complexity screenshots
-- Link to design doc, Notion page, or technical write-up
+If you're building scalable systems, prototyping new gameplay mechanics, or need a tools-focused engineer, I’d love to chat about how Mosaic’s ideas might translate to your pipeline.

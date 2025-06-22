@@ -1,6 +1,6 @@
 ---
 title: "Mosaic"
-date: 2025-22-06
+date: 2025-06-21
 draft: false
 summary: "A modular gameplay framework for Unity focused on scalable, reusable systems and rapid iteration."
 tags: ["Unity", "C#", "Game Systems", "Modular Design", "Tools Development"]

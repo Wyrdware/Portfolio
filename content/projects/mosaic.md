@@ -1,77 +1,62 @@
 ---
 title: "Mosaic"
-summary: "A Unity-based framework for modular gameplay systems, built to support scalable iteration without technical debt."
-tags: ["Unity", "Gameplay Systems", "Modular Architecture", "Tools"]
+date: 2022-08-01
+draft: false
+summary: "A modular Unity framework for building scalable, reusable gameplay systems—used in the award-winning Echoes in the Mists and showcased at GDC."
+tags: ["Unity", "Systems Architecture", "Game Development", "C#", "Modular Design"]
 ---
 
 ## Overview
 
-**Mosaic** is a modular gameplay framework designed for Unity. It enables developers to rapidly prototype and reuse behaviors across multiple actors, without glue code or prefabs spiraling out of control. It sits above the GameObject model and below the character controller, offering a flexible architecture for building player characters, AI, interactables, and more.
+Mosaic is a modular gameplay framework for Unity that enables designers and developers to build scalable, reusable gameplay systems. It became the architectural foundation for *Echoes in the Mists*, an RIT capstone game featured at Imagine RIT, spotlighted by Facebook and RIT, and showcased at the 2025 GDC NYS Pavilion.
 
 ---
 
-## The Problem
+## Challenge
 
-Most gameplay code in Unity is hard to scale. Once you add more features, you get:
-
-- Fragile prefab hierarchies
-- Feature duplication across actors
-- Tightly coupled behaviors
-- Long iteration times for designers
-
-This is especially painful in team settings or mid-size projects where multiple developers and designers must work in parallel.
+Gameplay systems are often tightly coupled and hard to extend or reuse, especially in student teams. This leads to brittle, one-off solutions and code debt that slows down iteration and limits collaboration.
 
 ---
 
-## My Approach
+## Approach
 
-Mosaic introduces a runtime composition model built from three core pieces:
-
-- **DataTags**: a dynamic, type-safe blackboard that allows components to share state without hardcoded strings or tight coupling
-- **Behaviors**: modular logic units selected at runtime via a utility-based system (or any other selection algorithm)
-- **Modifiers** and **Modifier Decorators**: inspired by *For Honor*, used to apply persistent or temporary effects to actors in a modular way
-
-External systems interact with actors via a single abstract interface, meaning systems like combat, dialogue, or animation don’t need to know what the actor is made of.
+- Designed a framework that sits between Unity’s GameObject model and the character controller
+- Built modular runtime elements: **Behaviors**, **Modifiers**, **Decorators**, and **DataTags**
+- Enabled runtime composition and deconstruction of features without code duplication
+- Integrated a utility-based decision system to support modular AI behavior selection
+- Created a unified external interface for interacting with actors abstractly
 
 ---
 
-## Results
+## Outcome
 
-Using Mosaic led to:
-- A 60% reduction in prefab complexity
-- Rapid actor reconfiguration (e.g., creating a new AI variant in <15 minutes)
-- Cross-team development with zero merge conflicts on gameplay logic
-- Reuse of core systems across 3 separate prototypes with no rework
+- Used in *Echoes in the Mists* ([view project →](./echoes)), a capstone game showcased at Imagine RIT and GDC
+- Enabled rapid collaboration across disciplines and clean separation of systems
+- Allowed a junior teammate to implement a full animation-matched backstab system in two days—with zero added tech debt—thanks to Mosaic’s reusable structure
+- Resulting features were fully cross-compatible across characters and projects
+- Contributed to RIT's recognition as a top 5 game design school (Princeton Review 2025)
 
 ---
 
-## Why It Matters
+## Tech Stack
 
-Mosaic helps teams:
-- Avoid common Unity pitfalls like bloated monobehaviors
-- Iterate quickly without rewriting systems
-- Maintain a clean, scalable codebase over time
-
-It’s a framework that invites experimentation while staying production-ready.
+Unity · C# · Modular Architecture · ScriptableObjects · Utility AI · Runtime Composition
 
 ---
 
 ## Current Status
 
-Mosaic is undergoing structural revision for clarity and maintainability. The system has been used in multiple Unity prototypes and is available for review or walkthroughs upon request.
-
----
-
-## Technologies
-
-- Unity (2022+)
-- C#
-- ScriptableObject-based runtime architecture
-- Git (CLI-focused)
-- Custom inspector tooling
+Mosaic is undergoing significant structural revisions. The system has been used in multiple Unity projects and is available for review or walkthroughs upon request.
 
 ---
 
 ## Interested?
 
 If you're building scalable systems, prototyping new gameplay mechanics, or need a tools-focused engineer, I’d love to chat about how Mosaic’s ideas might translate to your pipeline.
+
+---
+
+## Links
+
+- [GitHub – Wyrdware/Mosaic](https://github.com/Wyrdware/Mosaic)
+- [Used in: Echoes in the Mists →](./echoes)

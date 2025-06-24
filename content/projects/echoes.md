@@ -1,83 +1,53 @@
 ---
 title: "Echoes in the Mists"
+date: 2025-05-01
 draft: false
-summary: "A bite-sized Souls‑like developed as my M.S. capstone, featuring modular gameplay systems, tight combat design, and iterative prototyping."
-tags: ["Unity", "C#", "Gameplay", "Capstone", "Team Project"]
----
-
-## Project Overview
-
-*Echoes in the Mists* is a condensed Souls‑like developed by a small capstone team (Petrichor Studios) at RIT. You navigate a corrupted seaport as a knight, using tight melee combat, skill-chaining (“echoes”), and dramatic level shortcuts to explore and cleanse the Mists.
-
-I served as **Lead Developer & Producer**, focusing on the architecture of gameplay systems, prototyping, and team coordination.
+summary: "A retro-horror Soulslike built as an RIT capstone project, powered by Mosaic and showcased at GDC and Imagine RIT."
+tags: ["Unity", "Gameplay Systems", "Soulslike", "Horror", "Capstone"]
+cover:
+  image: images/echoes_cover_1200x630.png
 
 ---
 
-## Problem
+## Overview
 
-Define the challenges you tackled:
-
-- Building **modular gameplay systems** that support melee, dodge, healing, and echo abilities
-- Structuring a **tight combat framework** within a small team and brief dev cycle
-- Supporting **designer iteration** while keeping mechanics grounded and responsive
-- Managing scope for a “bite-sized” demo with polished feel
+*Echoes in the Mists* is a retro-inspired horror Soulslike developed as my graduate capstone at RIT. Designed and built by a small multidisciplinary team, it was powered by my modular gameplay framework Mosaic and recognized at Imagine RIT, the GDC NYS Pavilion, and multiple RIT press features.
 
 ---
 
-## My Approach
+## Challenge
 
-Highlight your technical contributions:
+We aimed to build a punishing yet fair action-horror game that balanced deep systems with rapid iteration. With a limited team and timeline, we needed scalable tools to support player abilities, AI, combat, and environmental interactions—without slowing down content creation or introducing brittle dependencies.
 
-- **Gameplay System Architecture**: Designed modular systems for dodge, attack, block, and echoes—using ScriptableObjects or data-driven setups to allow easy tuning by designers
-- **Combat Loop Prototyping**: Rapid iteration cycles—recorded player feedback and adjusted frame timing, hitbox sizes, animation blend trees, etc.
-- **Team Coordination & Tools**:
-  - Set up **Git + branching** workflows to support parallel development
-  - Created **template actors** for level designers to iterate without code
-  - Led daily standups (Agile) to synchronize design and programming
-- **Performance & UX**:
-  - Built **checkpoint/shortcut system** supporting player return and flow
-  - Optimized scene streaming and lighting for consistent frame rates
+---
+
+## Approach
+
+- Led system design and implementation across core gameplay: movement, combat, AI, and world interaction
+- Built the game entirely on **Mosaic**, allowing rapid creation of new actors and systems without rewriting logic
+- Supported team members (including non-engineers) in extending systems like animation events, modifiers, and scripted sequences
+- Applied data-driven design throughout to maximize reusability and iteration speed
 
 ---
 
 ## Outcome
 
-Explain the results of your efforts:
-
-- Delivered a polished vertical slice with responsive combat, seamless fallbacks, and clear visual feedback
-- Supported at least one full gameplay path with branching echoes and shortcuts under 1-hour playtime
-- Earned positive feedback during official GDC demo presentation (New York State Pavilion, March ’25) :contentReference[oaicite:1]{index=1}
-- Showcased at RIT Imagine Festival under both art/design and computing categories :contentReference[oaicite:2]{index=2}
-- Established a reusable foundation for future prototyping by keeping systems modifiable and well-documented
+- Featured at **Imagine RIT** 2025, with high public engagement and faculty recognition
+- Selected for the **NYS Pavilion at GDC**, where I presented the project and Mosaic architecture
+- Backed by RIT and spotlighted on Facebook, RIT News, and the Imagine portal
+- Enabled clean, scalable development of key gameplay mechanics including lock-on targeting, parry windows, boss transitions, and a fully modular backstab system
 
 ---
 
-## Technologies & Tools
+## Tech Stack
 
-- Unity (2023+)
-- C# with ScriptableObject-driven systems
-- Git + GitHub workflow
-- Agile standups and collaborative WIP demos
-- Animator Controller & Timeline for combat flow
-- Lightweight placeholder art scaled to playback
+Unity · C# · Mosaic Framework · Modular Design · Utility AI · ScriptableObjects
 
 ---
 
-## My Role & Contributions
+## Links
 
-- **Lead Developer**: Architected core systems (combat, echo abilities, shortcuts)
-- **Producer**: Organized team workflow, managed scope, and presented at GDC/RIT events
-- **Tooling & Documentation**: Put in place content pipelines and editable templates for extended iteration
-
----
-
-## Why It’s Valuable
-
-This project not only demonstrates polished gameplay and system engineering—it shows your ability to:
-
-1. Lead a **small multidisciplinary team**
-2. Balance **technical vision with production scope**
-3. Architect **data-driven systems** that are robust and scalable
-4. Design for **rapid iteration and player feedback**
-
----
+- [Play on Itch.io](https://backstab-industries.itch.io/echoes-in-the-mists)
+- [View on Imagine RIT](https://www.rit.edu/imagine/exhibits/echoes-mists-bite-sized-souls)
+- [RIT News Coverage](https://www.rit.edu/news/rit-named-top-5-university-study-game-design)
+- [Built on: Mosaic →](./mosaic)

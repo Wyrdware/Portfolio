@@ -1,8 +1,0 @@
-.post-entry .entry-cover img {
-  width: 100%;
-  height: auto;
-  aspect-ratio: 4 / 1; /* or try 16 / 9 for widescreen, 3 / 2 for natural photo feel */
-  object-fit: cover;
-  border-radius: 0.5rem; 
-  transition: transform 0.3s ease-in-out;
-}

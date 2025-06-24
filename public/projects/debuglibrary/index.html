@@ -1,8 +1,324 @@
-<!doctype html><html lang=en dir=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>Data Structure Debug Library | Jared Goronkin</title><meta name=keywords content="C++,Debug Tools,Educational Software,Data Structures,Visualization"><meta name=description content="A C++ debug and visualization tool designed to help students understand data structures in real time, used in SUNY Poly&rsquo;s CS 240 course."><meta name=author content><link rel=canonical href=https://jaredgoronkin.com/projects/debuglibrary/><link crossorigin=anonymous href=/assets/css/stylesheet.36819bea596090d8b48cf10d9831382996197aa7e4fc86f792f7c08c9ca4d23b.css integrity="sha256-NoGb6llgkNi0jPENmDE4KZYZeqfk/Ib3kvfAjJyk0js=" rel="preload stylesheet" as=style><link rel=icon href=https://jaredgoronkin.com/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://jaredgoronkin.com/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://jaredgoronkin.com/favicon-32x32.png><link rel=apple-touch-icon href=https://jaredgoronkin.com/apple-touch-icon.png><link rel=mask-icon href=https://jaredgoronkin.com/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate hreflang=en href=https://jaredgoronkin.com/projects/debuglibrary/><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--code-block-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style></noscript><meta property="og:url" content="https://jaredgoronkin.com/projects/debuglibrary/"><meta property="og:site_name" content="Jared Goronkin"><meta property="og:title" content="Data Structure Debug Library"><meta property="og:description" content="A C++ debug and visualization tool designed to help students understand data structures in real time, used in SUNY Poly’s CS 240 course."><meta property="og:locale" content="en-us"><meta property="og:type" content="article"><meta property="article:section" content="projects"><meta property="article:published_time" content="2023-04-30T00:00:00+00:00"><meta property="article:modified_time" content="2023-04-30T00:00:00+00:00"><meta property="article:tag" content="C++"><meta property="article:tag" content="Debug Tools"><meta property="article:tag" content="Educational Software"><meta property="article:tag" content="Data Structures"><meta property="article:tag" content="Visualization"><meta name=twitter:card content="summary"><meta name=twitter:title content="Data Structure Debug Library"><meta name=twitter:description content="A C++ debug and visualization tool designed to help students understand data structures in real time, used in SUNY Poly&rsquo;s CS 240 course."><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Projects","item":"https://jaredgoronkin.com/projects/"},{"@type":"ListItem","position":2,"name":"Data Structure Debug Library","item":"https://jaredgoronkin.com/projects/debuglibrary/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Data Structure Debug Library","name":"Data Structure Debug Library","description":"A C++ debug and visualization tool designed to help students understand data structures in real time, used in SUNY Poly\u0026rsquo;s CS 240 course.","keywords":["C++","Debug Tools","Educational Software","Data Structures","Visualization"],"articleBody":"Project Overview The Data Structure Debug Library is a lightweight C++ utility built to assist students in understanding, visualizing, and debugging their data structure implementations. Developed during my time at SUNY Polytechnic Institute, the tool was developed for CS 240: Data Structures \u0026 Algorithms to provide students with meaningful insights into their code’s behavior.\nI served as technical lead on this group project, managing scope and developing the core systems and architectur.By emphasizing modularity and scalability early on in development, we were able to remove bottlnecks and merge conflicts during team collaboration.\nProblem Students in CS 240 often encountered difficulty debugging complex data structures like trees, linked lists, and graphs—especially when recursion, pointer errors, or logical bugs were involved. Traditional step-debugging tools were either too cumbersome or opaque for newer programmers.\nThere was a need for a simple, accessible tool that could log and visualize the runtime state of student implementations without altering their underlying logic or requiring external dependencies.\nMy Approach I led the design of the library’s architecture, collaborating with peers to ensure each module met our goals of clarity, minimal setup, and type safety. I personally implemented [X] and reviewed/integrated.\nNon-intrusive: Easy to drop into existing student projects with minimal setup Header-only: To avoid additional build complexity Templated and flexible: Supporting a variety of student-defined types and implementations Extensible: With core modules for linked lists, binary trees, and other common structures Key Features: log_tree(Node*) – Traverses and outputs tree structure to terminal or file log_list(Node*) – Prints linked list state and pointer relationships Structure-specific checks for null pointers, invalid links, and malformed structure shapes Plaintext outputs that can be used with external visualization tools Outcome Successfully deployed in SUNY Poly’s CS 240 course Helped students catch difficult logic errors (e.g. double-frees, orphaned nodes) Reduced time-to-debug in assignment testing Received positive informal feedback from instructors and students alike Technologies Used Language: C++17 Architecture: Header-only modules with minimal dependencies Design goals: Simplicity, safety, and extensibility for educational settings Why It Matters This project showcases:\nMy C++ proficiency, particularly in designing type-safe, reusable utilities Strong educational UX instincts, designing for beginner-level programmers A focus on developer tooling and internal software that improves workflows Ability to own and deliver a solution end-to-end Repository View the source and usage examples here:\nGitHub – Wyrdware/DSDebug\nFuture Improvements Add support for heap and hash table visualizations Integrate with graphical viewers (e.g. Graphviz, HTML outputs) Build a runtime sandbox for interactive demos ","wordCount":"407","inLanguage":"en","datePublished":"2023-04-30T00:00:00Z","dateModified":"2023-04-30T00:00:00Z","mainEntityOfPage":{"@type":"WebPage","@id":"https://jaredgoronkin.com/projects/debuglibrary/"},"publisher":{"@type":"Organization","name":"Jared Goronkin","logo":{"@type":"ImageObject","url":"https://jaredgoronkin.com/favicon.ico"}}}</script></head><body id=top><script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add("dark"):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove("dark"):window.matchMedia("(prefers-color-scheme: dark)").matches&&document.body.classList.add("dark")</script><header class=header><nav class=nav><div class=logo><a href=https://jaredgoronkin.com/ accesskey=h title="Jared Goronkin (Alt + H)">Jared Goronkin</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)" aria-label="Toggle theme">
-<svg id="moon" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
-<svg id="sun" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu><li><a href=https://jaredgoronkin.com/about/ title=About><span>About</span></a></li><li><a href=https://jaredgoronkin.com/projects/ title=Projects><span>Projects</span></a></li><li><a href=https://jaredgoronkin.com/resume/ title=Resume><span>Resume</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><h1 class="post-title entry-hint-parent">Data Structure Debug Library</h1><div class=post-meta><span title='2023-04-30 00:00:00 +0000 UTC'>April 30, 2023</span>&nbsp;·&nbsp;2 min</div></header><div class=post-content><h2 id=project-overview>Project Overview<a hidden class=anchor aria-hidden=true href=#project-overview>#</a></h2><p>The <strong>Data Structure Debug Library</strong> is a lightweight C++ utility built to assist students in understanding, visualizing, and debugging their data structure implementations. Developed during my time at SUNY Polytechnic Institute, the tool was developed for <em>CS 240: Data Structures & Algorithms</em> to provide students with meaningful insights into their code’s behavior.</p><p>I served as technical lead on this group project, managing scope and developing the core systems and architectur.By emphasizing modularity and scalability early on in development, we were able to remove bottlnecks and merge conflicts during team collaboration.</p><hr><h2 id=problem>Problem<a hidden class=anchor aria-hidden=true href=#problem>#</a></h2><p>Students in CS 240 often encountered difficulty debugging complex data structures like trees, linked lists, and graphs—especially when recursion, pointer errors, or logical bugs were involved. Traditional step-debugging tools were either too cumbersome or opaque for newer programmers.</p><p>There was a need for a simple, accessible tool that could log and visualize the runtime state of student implementations without altering their underlying logic or requiring external dependencies.</p><hr><h2 id=my-approach>My Approach<a hidden class=anchor aria-hidden=true href=#my-approach>#</a></h2><p>I led the design of the library’s architecture, collaborating with peers to ensure each module met our goals of clarity, minimal setup, and type safety.
-I personally implemented [X] and reviewed/integrated.</p><ul><li><strong>Non-intrusive</strong>: Easy to drop into existing student projects with minimal setup</li><li><strong>Header-only</strong>: To avoid additional build complexity</li><li><strong>Templated and flexible</strong>: Supporting a variety of student-defined types and implementations</li><li><strong>Extensible</strong>: With core modules for linked lists, binary trees, and other common structures</li></ul><h3 id=key-features>Key Features:<a hidden class=anchor aria-hidden=true href=#key-features>#</a></h3><ul><li><code>log_tree(Node*)</code> – Traverses and outputs tree structure to terminal or file</li><li><code>log_list(Node*)</code> – Prints linked list state and pointer relationships</li><li>Structure-specific checks for null pointers, invalid links, and malformed structure shapes</li><li>Plaintext outputs that can be used with external visualization tools</li></ul><hr><h2 id=outcome>Outcome<a hidden class=anchor aria-hidden=true href=#outcome>#</a></h2><ul><li>Successfully deployed in SUNY Poly&rsquo;s <em>CS 240</em> course</li><li>Helped students catch difficult logic errors (e.g. double-frees, orphaned nodes)</li><li>Reduced time-to-debug in assignment testing</li><li>Received positive informal feedback from instructors and students alike</li></ul><hr><h2 id=technologies-used>Technologies Used<a hidden class=anchor aria-hidden=true href=#technologies-used>#</a></h2><ul><li><strong>Language</strong>: C++17</li><li><strong>Architecture</strong>: Header-only modules with minimal dependencies</li><li><strong>Design goals</strong>: Simplicity, safety, and extensibility for educational settings</li></ul><hr><h2 id=why-it-matters>Why It Matters<a hidden class=anchor aria-hidden=true href=#why-it-matters>#</a></h2><p>This project showcases:</p><ul><li>My <strong>C++ proficiency</strong>, particularly in designing type-safe, reusable utilities</li><li>Strong <strong>educational UX instincts</strong>, designing for beginner-level programmers</li><li>A focus on <strong>developer tooling and internal software</strong> that improves workflows</li><li>Ability to <strong>own and deliver a solution end-to-end</strong></li></ul><hr><h2 id=repository>Repository<a hidden class=anchor aria-hidden=true href=#repository>#</a></h2><p>View the source and usage examples here:<br><a href=https://github.com/Wyrdware/DSDebug>GitHub – Wyrdware/DSDebug</a></p><hr><h2 id=future-improvements>Future Improvements<a hidden class=anchor aria-hidden=true href=#future-improvements>#</a></h2><ul><li>Add support for heap and hash table visualizations</li><li>Integrate with graphical viewers (e.g. Graphviz, HTML outputs)</li><li>Build a runtime sandbox for interactive demos</li></ul></div><footer class=post-footer><ul class=post-tags><li><a href=https://jaredgoronkin.com/tags/c++/>C++</a></li><li><a href=https://jaredgoronkin.com/tags/debug-tools/>Debug Tools</a></li><li><a href=https://jaredgoronkin.com/tags/educational-software/>Educational Software</a></li><li><a href=https://jaredgoronkin.com/tags/data-structures/>Data Structures</a></li><li><a href=https://jaredgoronkin.com/tags/visualization/>Visualization</a></li></ul></footer></article></main><footer class=footer><span>&copy; 2025 <a href=https://jaredgoronkin.com/>Jared Goronkin</a></span> ·
-<span>Powered by
-<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
-<a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentColor"><path d="M12 6H0l6-6z"/></svg>
-</a><script>let menu=document.getElementById("menu");menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove("dark"),localStorage.setItem("pref-theme","light")):(document.body.classList.add("dark"),localStorage.setItem("pref-theme","dark"))})</script><script>document.querySelectorAll("pre > code").forEach(e=>{const n=e.parentNode.parentNode,t=document.createElement("button");t.classList.add("copy-code"),t.innerHTML="copy";function s(){t.innerHTML="copied!",setTimeout(()=>{t.innerHTML="copy"},2e3)}t.addEventListener("click",t=>{if("clipboard"in navigator){navigator.clipboard.writeText(e.textContent),s();return}const n=document.createRange();n.selectNodeContents(e);const o=window.getSelection();o.removeAllRanges(),o.addRange(n);try{document.execCommand("copy"),s()}catch{}o.removeRange(n)}),n.classList.contains("highlight")?n.appendChild(t):n.parentNode.firstChild==n||(e.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName=="TABLE"?e.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(t):e.parentNode.appendChild(t))})</script></body></html>
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Data Structure Debug Library | Jared Goronkin</title>
+<meta name="keywords" content="C&#43;&#43;, Debug Tools, Educational Software, Data Structures, Visualization">
+<meta name="description" content="A C&#43;&#43; debug and visualization tool designed to help students understand data structures in real time, used in SUNY Poly&rsquo;s CS 240 course.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/projects/debuglibrary/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.36819bea596090d8b48cf10d9831382996197aa7e4fc86f792f7c08c9ca4d23b.css" integrity="sha256-NoGb6llgkNi0jPENmDE4KZYZeqfk/Ib3kvfAjJyk0js=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/projects/debuglibrary/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Jared Goronkin (Alt + H)">Jared Goronkin</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/projects/" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/resume/" title="Resume">
+                    <span>Resume</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Data Structure Debug Library
+    </h1>
+    <div class="post-meta"><span title='2023-04-30 00:00:00 +0000 UTC'>April 30, 2023</span>&nbsp;·&nbsp;2 min
+
+</div>
+  </header> 
+  <div class="post-content"><h2 id="project-overview">Project Overview<a hidden class="anchor" aria-hidden="true" href="#project-overview">#</a></h2>
+<p>The <strong>Data Structure Debug Library</strong> is a lightweight C++ utility built to assist students in understanding, visualizing, and debugging their data structure implementations. Developed during my time at SUNY Polytechnic Institute, the tool was developed for <em>CS 240: Data Structures &amp; Algorithms</em> to provide students with meaningful insights into their code’s behavior.</p>
+<p>I served as technical lead on this group project, managing scope and developing the core systems and architectur.By emphasizing modularity and scalability early on in development, we were able to remove bottlnecks and merge conflicts during team collaboration.</p>
+<hr>
+<h2 id="problem">Problem<a hidden class="anchor" aria-hidden="true" href="#problem">#</a></h2>
+<p>Students in CS 240 often encountered difficulty debugging complex data structures like trees, linked lists, and graphs—especially when recursion, pointer errors, or logical bugs were involved. Traditional step-debugging tools were either too cumbersome or opaque for newer programmers.</p>
+<p>There was a need for a simple, accessible tool that could log and visualize the runtime state of student implementations without altering their underlying logic or requiring external dependencies.</p>
+<hr>
+<h2 id="my-approach">My Approach<a hidden class="anchor" aria-hidden="true" href="#my-approach">#</a></h2>
+<p>I led the design of the library’s architecture, collaborating with peers to ensure each module met our goals of clarity, minimal setup, and type safety.
+I personally implemented [X] and reviewed/integrated.</p>
+<ul>
+<li><strong>Non-intrusive</strong>: Easy to drop into existing student projects with minimal setup</li>
+<li><strong>Header-only</strong>: To avoid additional build complexity</li>
+<li><strong>Templated and flexible</strong>: Supporting a variety of student-defined types and implementations</li>
+<li><strong>Extensible</strong>: With core modules for linked lists, binary trees, and other common structures</li>
+</ul>
+<h3 id="key-features">Key Features:<a hidden class="anchor" aria-hidden="true" href="#key-features">#</a></h3>
+<ul>
+<li><code>log_tree(Node*)</code> – Traverses and outputs tree structure to terminal or file</li>
+<li><code>log_list(Node*)</code> – Prints linked list state and pointer relationships</li>
+<li>Structure-specific checks for null pointers, invalid links, and malformed structure shapes</li>
+<li>Plaintext outputs that can be used with external visualization tools</li>
+</ul>
+<hr>
+<h2 id="outcome">Outcome<a hidden class="anchor" aria-hidden="true" href="#outcome">#</a></h2>
+<ul>
+<li>Successfully deployed in SUNY Poly&rsquo;s <em>CS 240</em> course</li>
+<li>Helped students catch difficult logic errors (e.g. double-frees, orphaned nodes)</li>
+<li>Reduced time-to-debug in assignment testing</li>
+<li>Received positive informal feedback from instructors and students alike</li>
+</ul>
+<hr>
+<h2 id="technologies-used">Technologies Used<a hidden class="anchor" aria-hidden="true" href="#technologies-used">#</a></h2>
+<ul>
+<li><strong>Language</strong>: C++17</li>
+<li><strong>Architecture</strong>: Header-only modules with minimal dependencies</li>
+<li><strong>Design goals</strong>: Simplicity, safety, and extensibility for educational settings</li>
+</ul>
+<hr>
+<h2 id="why-it-matters">Why It Matters<a hidden class="anchor" aria-hidden="true" href="#why-it-matters">#</a></h2>
+<p>This project showcases:</p>
+<ul>
+<li>My <strong>C++ proficiency</strong>, particularly in designing type-safe, reusable utilities</li>
+<li>Strong <strong>educational UX instincts</strong>, designing for beginner-level programmers</li>
+<li>A focus on <strong>developer tooling and internal software</strong> that improves workflows</li>
+<li>Ability to <strong>own and deliver a solution end-to-end</strong></li>
+</ul>
+<hr>
+<h2 id="repository">Repository<a hidden class="anchor" aria-hidden="true" href="#repository">#</a></h2>
+<p>View the source and usage examples here:<br>
+<a href="https://github.com/Wyrdware/DSDebug">GitHub – Wyrdware/DSDebug</a></p>
+<hr>
+<h2 id="future-improvements">Future Improvements<a hidden class="anchor" aria-hidden="true" href="#future-improvements">#</a></h2>
+<ul>
+<li>Add support for heap and hash table visualizations</li>
+<li>Integrate with graphical viewers (e.g. Graphviz, HTML outputs)</li>
+<li>Build a runtime sandbox for interactive demos</li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/c&#43;&#43;/">C&#43;&#43;</a></li>
+      <li><a href="http://localhost:1313/tags/debug-tools/">Debug Tools</a></li>
+      <li><a href="http://localhost:1313/tags/educational-software/">Educational Software</a></li>
+      <li><a href="http://localhost:1313/tags/data-structures/">Data Structures</a></li>
+      <li><a href="http://localhost:1313/tags/visualization/">Visualization</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">Jared Goronkin</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

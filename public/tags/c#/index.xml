@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>C# on Jared Goronkin</title><link>https://jaredgoronkin.com/tags/c%23/</link><description>Recent content in C# on Jared Goronkin</description><generator>Hugo -- 0.147.8</generator><language>en-us</language><lastBuildDate>Mon, 01 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jaredgoronkin.com/tags/c%23/index.xml" rel="self" type="application/rss+xml"/><item><title>Mosaic</title><link>https://jaredgoronkin.com/projects/mosaic/</link><pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate><guid>https://jaredgoronkin.com/projects/mosaic/</guid><description>A modular Unity framework for building scalable, reusable gameplay systems—used in the award-winning Echoes in the Mists and showcased at GDC.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>C# on Jared Goronkin</title>
+    <link>http://localhost:1313/tags/c%23/</link>
+    <description>Recent content in C# on Jared Goronkin</description>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/c%23/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mosaic</title>
+      <link>http://localhost:1313/projects/mosaic/</link>
+      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/mosaic/</guid>
+      <description>A modular Unity framework for building scalable, reusable gameplay systems—used in the award-winning Echoes in the Mists and showcased at GDC.</description>
+    </item>
+  </channel>
+</rss>

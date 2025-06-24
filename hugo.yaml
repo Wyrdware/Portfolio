@@ -22,10 +22,6 @@ params:
   assets:
     customCSS: ["css/custom.css"]
 
-  cover:
-    image: "images/echoes_cover_1200x630.png"
-    previewOnly: true
-
   homeInfoParams:
     Title: "👋 Hi, I'm Jared Goronkin"
     Content: >

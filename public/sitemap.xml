@@ -2,74 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://wyrdware.github.io/Portfolio/</loc>
     <lastmod>2025-06-21T11:40:20-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/resume/</loc>
+    <loc>https://wyrdware.github.io/Portfolio/resume/</loc>
     <lastmod>2025-06-21T11:40:20-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://wyrdware.github.io/Portfolio/about/</loc>
     <lastmod>2025-06-21T11:40:13-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/capstone/</loc>
-    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
+    <loc>https://wyrdware.github.io/Portfolio/projects/mosaic/</loc>
+    <lastmod>2025-06-21T11:40:02-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/echoes/</loc>
-    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
+    <loc>https://wyrdware.github.io/Portfolio/projects/</loc>
+    <lastmod>2025-06-21T11:40:02-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/gameplay-systems/</loc>
-    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
+    <loc>https://wyrdware.github.io/Portfolio/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/horror/</loc>
-    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/projects/</loc>
-    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/soulslike/</loc>
-    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/unity/</loc>
-    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/c&#43;&#43;/</loc>
-    <lastmod>2023-04-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/projects/debuglibrary/</loc>
-    <lastmod>2023-04-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/data-structures/</loc>
-    <lastmod>2023-04-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/debug-tools/</loc>
-    <lastmod>2023-04-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/educational-software/</loc>
-    <lastmod>2023-04-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/visualization/</loc>
-    <lastmod>2023-04-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/c%23/</loc>
-    <lastmod>2022-08-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/game-development/</loc>
-    <lastmod>2022-08-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/modular-design/</loc>
-    <lastmod>2022-08-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/projects/mosaic/</loc>
-    <lastmod>2022-08-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/systems-architecture/</loc>
-    <lastmod>2022-08-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/projects/procgen/</loc>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://wyrdware.github.io/Portfolio/tags/</loc>
   </url>
 </urlset>

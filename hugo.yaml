@@ -19,8 +19,7 @@ menu:
       weight: 3
 
 params:
-  assets:
-    customCSS: ["css/custom.css"]
+
 
   homeInfoParams:
     Title: "👋 Hi, I'm Jared Goronkin"

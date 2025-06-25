@@ -20,7 +20,7 @@ menu:
 
 params:
   customCSS:
-    - css/custom.css
+    - /css/custom.css
 
   homeInfoParams:
     Title: "👋 Hi, I'm Jared Goronkin"

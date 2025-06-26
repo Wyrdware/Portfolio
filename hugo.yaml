@@ -39,7 +39,7 @@ params:
     enabled: true
     Title: "Hi, I'm Jared Goronkin"
     subtitle: "I'm a systems-focused game developer building modular tools and scalable Unity pipelines."
-    imageUrl: "/images/avatar.jpeg"
+    imageUrl: "/images/avatar.JPEG"
     imageTitle: "photo of Jared"
 
   homeInfoParams:

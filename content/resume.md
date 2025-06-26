@@ -5,6 +5,6 @@ title: 'Resume'
 
 You can view or download the PDF below:
 
-[Download Resume](/files/resume.pdf)
+[Download Resume](https://jaredgoronkin.com/files/resume.pdf)
 
 <embed src="/files/resume.pdf" type="application/pdf" width="100%" height="800px" />

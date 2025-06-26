@@ -19,8 +19,23 @@ menu:
       weight: 3
 
 params:
+  ShowBreadCrumbs: true
+  ShowBreadCrumbsInList: true
+  ShowCodeCopyButtons: true
+  ShowPostNavLinks: true
+  ShowReadingTime: true
+  ShowToc: false
   customCSS:
-    - /css/custom.css
+    - css/custom.css
+  defaultTheme: auto
+  enableInlineShortcodes: true
+
+  profileMode:
+    enabled: true
+    Title: "Hi, I'm Jared Goronkin"
+    subtitle: "I'm a systems-focused game developer building modular tools and scalable Unity pipelines."
+    imageUrl: "images/avatar.jpeg"
+    imageTitle: "photo of Jared"
 
   homeInfoParams:
     Title: "👋 Hi, I'm Jared Goronkin"
@@ -37,8 +52,17 @@ params:
     - name: email
       url: "mailto:jgoronkin@gmail.com"
 
-  ShowReadingTime: true
-  ShowCodeCopyButtons: true
-  defaultTheme: auto  # or "dark" / "light"
 
-enableInlineShortcodes: true
+
+
+#Metadata/SEO
+  author: "Jared Goronkin"
+  description: "A game developer and systems thinker building modular tools in Unity."
+  keywords: [portfolio, game dev, unity, systems design]
+
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON

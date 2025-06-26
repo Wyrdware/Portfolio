@@ -7,6 +7,8 @@
 }
 
 .custom-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.04);
   padding: 0;
 }
 
@@ -35,7 +37,7 @@
 
   position: relative;
   overflow: hidden;
-  height: 300px;
+  height: 320px; /* Adjust size of image here, 150 works well for a compact look, 320 gaurentees 2 on screen */
   border-radius: 8px;
 }
 .card-media img {
@@ -67,7 +69,10 @@
 
 
 
-.custom-card:hover .card-title-overlay {
+.custom-card:hover .card-title-overlay {main:has(section:not(:first-child):in-viewport) header.header {
+  background-color: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
   opacity: 1;
   transform: translateY(0);
 }
@@ -91,19 +96,39 @@
 }
 
 
+/* Sticky Header */
+header.header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  backdrop-filter: blur(8px); /* optional: softens background if transparent */
+  -webkit-backdrop-filter: blur(8px); /* Safari support */
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
 
-
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(12px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
 }
 
-.custom-card {
-  animation: fadeInUp .4s ease both;
+header.header nav a {
+  position: relative;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+header.header nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 18px;
+  width: 0%;
+  height: 1px;
+  background-color: currentColor;
+  transition: width 0.3s ease;
+}
+
+header.header nav a:hover {
+  
+  transform: translateY(-1px);
+}
+
+header.header nav a:hover::after {
+  width: 100%;
 }

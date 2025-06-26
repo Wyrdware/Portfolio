@@ -14,8 +14,10 @@
       <pubDate>Sat, 21 Jun 2025 11:40:20 -0400</pubDate>
       <guid>http://localhost:1313/resume/</guid>
       <description>&lt;p&gt;You can view or download the PDF below:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/files/resume.pdf&#34;&gt;Download Resume&lt;/a&gt;&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://jaredgoronkin.com/files/resume.pdf&#34;&gt;Download Resume&lt;/a&gt;&lt;/p&gt;
+&lt;iframe src=&#34;http://localhost:1313/files/resume.pdf&#34; width=&#34;100%&#34; height=&#34;800px&#34; style=&#34;border: none;&#34;&gt;
+  This browser doesn&#39;t support PDF viewing. [Download here](/files/resume.pdf)
+&lt;/iframe&gt;</description>
     </item>
     <item>
       <title>About</title>

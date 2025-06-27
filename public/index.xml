@@ -15,7 +15,7 @@
       <guid>http://localhost:1313/resume/</guid>
       <description>&lt;p&gt;You can view or download the PDF below:&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://jaredgoronkin.com/files/resume.pdf&#34;&gt;Download Resume&lt;/a&gt;&lt;/p&gt;
-&lt;iframe src=&#34;http://localhost:1313/files/resume.pdf&#34; width=&#34;100%&#34; height=&#34;800px&#34; style=&#34;border: none;&#34;&gt;
+&lt;iframe src=&#34;http://localhost:1313/files/resume.pdf&#34; width=&#34;100%&#34; height=&#34;970px&#34; style=&#34;border: none;&#34;&gt;
   This browser doesn&#39;t support PDF viewing. [Download here](/files/resume.pdf)
 &lt;/iframe&gt;</description>
     </item>
@@ -27,11 +27,25 @@
       <description>&lt;p&gt;Hi, I’m Jared, a systems-focused game developer&amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>The Utility of a Modular Framework: Evaluating Mosaic for Game Development</title>
+      <link>http://localhost:1313/research/mosaic-classification/</link>
+      <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/mosaic-classification/</guid>
+      <description>In this graduate thesis a taxonomy for Mosaic, along with select Character Controllers and Ability Systems, is presented contributing to an understanding of how modular design impacts production.</description>
+    </item>
+    <item>
       <title>Echoes in the Mists</title>
       <link>http://localhost:1313/projects/echoes/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/echoes/</guid>
       <description>A retro-horror Soulslike built as an RIT capstone project, powered by Mosaic and showcased at GDC and Imagine RIT.</description>
+    </item>
+    <item>
+      <title>Animations Driving the Game Simulation</title>
+      <link>http://localhost:1313/research/animation-driven-sim/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/animation-driven-sim/</guid>
+      <description>This paper analyzes animation pipelines within various engines and explores how animation driven game simulations impact development.</description>
     </item>
     <item>
       <title>Data Structure Debug Library</title>
@@ -46,6 +60,13 @@
       <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/mosaic/</guid>
       <description>A modular Unity framework for building scalable, reusable gameplay systems—used in the award-winning Echoes in the Mists and showcased at GDC.</description>
+    </item>
+    <item>
+      <title>Dark Souls UI Analysis</title>
+      <link>http://localhost:1313/research/ds-ui-analysis/</link>
+      <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/ds-ui-analysis/</guid>
+      <description>This visual analysis of the UI of Dark Souls 3 highlights how it&amp;rsquo;s design reflects the game&amp;rsquo;s overarching themes and contributes to a positive user experience.</description>
     </item>
     <item>
       <title></title>

@@ -3,13 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-06-21T11:40:20-04:00</lastmod>
+    <lastmod>2025-06-26T12:02:30-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/research/</loc>
+    <lastmod>2025-06-26T12:02:30-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/resume/</loc>
     <lastmod>2025-06-21T11:40:20-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
     <lastmod>2025-06-21T11:40:13-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/game-object-model/</loc>
+    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/modular/</loc>
+    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/mosaic/</loc>
+    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/scalable-development/</loc>
+    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/research/mosaic-classification/</loc>
+    <lastmod>2025-05-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/capstone/</loc>
     <lastmod>2025-05-01T00:00:00+00:00</lastmod>
@@ -29,11 +50,23 @@
     <loc>http://localhost:1313/tags/soulslike/</loc>
     <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/unity/</loc>
     <lastmod>2025-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/research/animation-driven-sim/</loc>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/designer-driven-tools/</loc>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/engine-architecture/</loc>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/game-animation-pipelines/</loc>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/systems-design/</loc>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/c&#43;&#43;/</loc>
     <lastmod>2023-04-30T00:00:00+00:00</lastmod>
@@ -67,6 +100,21 @@
   </url><url>
     <loc>http://localhost:1313/tags/systems-architecture/</loc>
     <lastmod>2022-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/analysis/</loc>
+    <lastmod>2022-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/research/ds-ui-analysis/</loc>
+    <lastmod>2022-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/game-ui-design/</loc>
+    <lastmod>2022-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ux-in-games/</loc>
+    <lastmod>2022-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/visual-communiction/</loc>
+    <lastmod>2022-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/procgen/</loc>
   </url><url>

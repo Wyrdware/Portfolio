@@ -6,8 +6,36 @@
     <description>Recent content in Tags on Jared Goronkin</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Game Object Model</title>
+      <link>http://localhost:1313/tags/game-object-model/</link>
+      <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/game-object-model/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Modular</title>
+      <link>http://localhost:1313/tags/modular/</link>
+      <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/modular/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mosaic</title>
+      <link>http://localhost:1313/tags/mosaic/</link>
+      <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/mosaic/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scalable Development</title>
+      <link>http://localhost:1313/tags/scalable-development/</link>
+      <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/scalable-development/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Capstone</title>
       <link>http://localhost:1313/tags/capstone/</link>
@@ -41,6 +69,34 @@
       <link>http://localhost:1313/tags/unity/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/unity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Designer-Driven Tools</title>
+      <link>http://localhost:1313/tags/designer-driven-tools/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/designer-driven-tools/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Engine-Architecture</title>
+      <link>http://localhost:1313/tags/engine-architecture/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/engine-architecture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Game Animation Pipelines</title>
+      <link>http://localhost:1313/tags/game-animation-pipelines/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/game-animation-pipelines/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Systems-Design</title>
+      <link>http://localhost:1313/tags/systems-design/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/systems-design/</guid>
       <description></description>
     </item>
     <item>
@@ -104,6 +160,34 @@
       <link>http://localhost:1313/tags/systems-architecture/</link>
       <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/systems-architecture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Analysis</title>
+      <link>http://localhost:1313/tags/analysis/</link>
+      <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Game UI Design</title>
+      <link>http://localhost:1313/tags/game-ui-design/</link>
+      <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/game-ui-design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>UX in Games</title>
+      <link>http://localhost:1313/tags/ux-in-games/</link>
+      <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ux-in-games/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Visual Communiction</title>
+      <link>http://localhost:1313/tags/visual-communiction/</link>
+      <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/visual-communiction/</guid>
       <description></description>
     </item>
   </channel>

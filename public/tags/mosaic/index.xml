@@ -10,9 +10,9 @@
     <atom:link href="http://localhost:1313/tags/mosaic/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Utility of a Modular Framework: Evaluating Mosaic for Game Development</title>
-      <link>http://localhost:1313/papers/mosaic-classification/</link>
+      <link>http://localhost:1313/research/mosaic-classification/</link>
       <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/papers/mosaic-classification/</guid>
+      <guid>http://localhost:1313/research/mosaic-classification/</guid>
       <description>In this graduate thesis a taxonomy for Mosaic, along with select Character Controllers and Ability Systems, is presented contributing to an understanding of how modular design impacts production.</description>
     </item>
   </channel>

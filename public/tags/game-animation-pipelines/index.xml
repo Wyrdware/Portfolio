@@ -10,10 +10,10 @@
     <atom:link href="http://localhost:1313/tags/game-animation-pipelines/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Animations Driving the Game Simulation</title>
-      <link>http://localhost:1313/papers/animation-driven-sim/</link>
+      <link>http://localhost:1313/research/animation-driven-sim/</link>
       <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/papers/animation-driven-sim/</guid>
-      <description>This paper analyzes animation driven game simulations as present in Dark Souls, where gameplay parameters are modified directly through animation data via metachannels.</description>
+      <guid>http://localhost:1313/research/animation-driven-sim/</guid>
+      <description>This paper analyzes animation pipelines within various engines and explores how animation driven game simulations impact development.</description>
     </item>
   </channel>
 </rss>

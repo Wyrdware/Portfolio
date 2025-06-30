@@ -125,10 +125,10 @@ header.header nav a::after {
 }
 
 header.header nav a:hover {
-  
-  transform: translateY(-1px);
+    transform: translateY(-1px);
 }
 
 header.header nav a:hover::after {
   width: 100%;
 }
+

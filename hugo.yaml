@@ -47,6 +47,12 @@ params:
     imageUrl: "https://jaredgoronkin.com/images/avatar.JPEG"
     imageTitle: "photo of Jared"
 
+    buttons:
+      - name: Projects
+        url: /projects/
+      - name: Research
+        url: /research/
+
   homeInfoParams:
     Title: "👋 Hi, I'm Jared Goronkin"
     Content: >

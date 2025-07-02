@@ -1,7 +1,6 @@
 ---
 title: "Echoes in the Mists"
 date: 2025-05-01
-draft: false
 summary: "A retro-horror Soulslike built as an RIT capstone project, powered by Mosaic and showcased at GDC and Imagine RIT."
 tags: ["Unity", "Gameplay Systems", "Soulslike", "Horror", "Capstone"]
 cover:

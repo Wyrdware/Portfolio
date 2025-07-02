@@ -6,8 +6,57 @@
     <description>Recent content on Jared Goronkin</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Jun 2025 11:40:20 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 01 Jul 2025 16:34:12 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mosaic</title>
+      <link>http://localhost:1313/projects/mosaic/</link>
+      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/mosaic/</guid>
+      <description>A modular Unity framework for building scalable, reusable gameplay systems—used in the award-winning Echoes in the Mists and showcased at GDC.</description>
+    </item>
+    <item>
+      <title>Echoes in the Mists</title>
+      <link>http://localhost:1313/projects/echoes/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/echoes/</guid>
+      <description>A retro-horror Soulslike built as an RIT capstone project, powered by Mosaic and showcased at GDC and Imagine RIT.</description>
+    </item>
+    <item>
+      <title>Procedural Terrain</title>
+      <link>http://localhost:1313/projects/procedural-terrain/</link>
+      <pubDate>Mon, 30 Jun 2025 20:36:29 -0400</pubDate>
+      <guid>http://localhost:1313/projects/procedural-terrain/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Structure Debug Library</title>
+      <link>http://localhost:1313/projects/debuglibrary/</link>
+      <pubDate>Sun, 30 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/debuglibrary/</guid>
+      <description>A C++ debug and visualization tool designed to help students understand data structures in real time, used in SUNY Poly&amp;rsquo;s CS 240 course.</description>
+    </item>
+    <item>
+      <title>Scalar Field Visualization</title>
+      <link>http://localhost:1313/projects/scalar-field-visualization/</link>
+      <pubDate>Mon, 30 Jun 2025 20:36:38 -0400</pubDate>
+      <guid>http://localhost:1313/projects/scalar-field-visualization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Marching Cube Gpu</title>
+      <link>http://localhost:1313/projects/marching-cube-gpu/</link>
+      <pubDate>Mon, 30 Jun 2025 20:36:43 -0400</pubDate>
+      <guid>http://localhost:1313/projects/marching-cube-gpu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Optimized Boids</title>
+      <link>http://localhost:1313/projects/optimized_boids/</link>
+      <pubDate>Tue, 01 Jul 2025 16:34:12 -0400</pubDate>
+      <guid>http://localhost:1313/projects/optimized_boids/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Resume</title>
       <link>http://localhost:1313/resume/</link>
@@ -34,13 +83,6 @@
       <description>This graduate thesis presents a taxonomy for Mosaic, Character Controllers, and Ability Systems, contributing to the broader understanding of how modular design impacts production.</description>
     </item>
     <item>
-      <title>Echoes in the Mists</title>
-      <link>http://localhost:1313/projects/echoes/</link>
-      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/echoes/</guid>
-      <description>A retro-horror Soulslike built as an RIT capstone project, powered by Mosaic and showcased at GDC and Imagine RIT.</description>
-    </item>
-    <item>
       <title>Animations Driving the Game Simulation</title>
       <link>http://localhost:1313/research/animation-driven-sim/</link>
       <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
@@ -48,32 +90,11 @@
       <description>This paper analyzes animation pipelines within various engines and explores how animation driven game simulations impact development.</description>
     </item>
     <item>
-      <title>Data Structure Debug Library</title>
-      <link>http://localhost:1313/projects/debuglibrary/</link>
-      <pubDate>Sun, 30 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/debuglibrary/</guid>
-      <description>A C++ debug and visualization tool designed to help students understand data structures in real time, used in SUNY Poly&amp;rsquo;s CS 240 course.</description>
-    </item>
-    <item>
-      <title>Mosaic</title>
-      <link>http://localhost:1313/projects/mosaic/</link>
-      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/mosaic/</guid>
-      <description>A modular Unity framework for building scalable, reusable gameplay systems—used in the award-winning Echoes in the Mists and showcased at GDC.</description>
-    </item>
-    <item>
       <title>Dark Souls UI Analysis</title>
       <link>http://localhost:1313/research/ds-ui-analysis/</link>
       <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/ds-ui-analysis/</guid>
       <description>This visual analysis of the UI of Dark Souls 3 highlights how it&amp;rsquo;s design reflects the game&amp;rsquo;s overarching themes and contributes to a positive user experience.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/projects/procgen/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/procgen/</guid>
-      <description></description>
     </item>
   </channel>
 </rss>

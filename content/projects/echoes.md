@@ -6,6 +6,7 @@ summary: "A retro-horror Soulslike built as an RIT capstone project, powered by 
 tags: ["Unity", "Gameplay Systems", "Soulslike", "Horror", "Capstone"]
 cover:
   image: images/echoes_cover_1200x630.png
+weight: 2
 
 ---
 

@@ -2,8 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/projects/mosaic/</loc>
+    <lastmod>2022-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/echoes/</loc>
+    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/procedural-terrain/</loc>
+    <lastmod>2025-06-30T20:36:29-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/debuglibrary/</loc>
+    <lastmod>2023-04-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/scalar-field-visualization/</loc>
+    <lastmod>2025-06-30T20:36:38-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/marching-cube-gpu/</loc>
+    <lastmod>2025-06-30T20:36:43-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/optimized_boids/</loc>
+    <lastmod>2025-07-01T16:34:12-04:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-06-26T12:02:30-04:00</lastmod>
+    <lastmod>2025-07-01T16:34:12-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/</loc>
+    <lastmod>2025-07-01T16:34:12-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/research/</loc>
     <lastmod>2025-06-26T12:02:30-04:00</lastmod>
@@ -35,16 +59,10 @@
     <loc>http://localhost:1313/tags/capstone/</loc>
     <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/echoes/</loc>
-    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/gameplay-systems/</loc>
     <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/horror/</loc>
-    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/projects/</loc>
     <lastmod>2025-05-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/soulslike/</loc>
@@ -71,9 +89,6 @@
     <loc>http://localhost:1313/tags/c&#43;&#43;/</loc>
     <lastmod>2023-04-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/debuglibrary/</loc>
-    <lastmod>2023-04-30T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/data-structures/</loc>
     <lastmod>2023-04-30T00:00:00+00:00</lastmod>
   </url><url>
@@ -95,9 +110,6 @@
     <loc>http://localhost:1313/tags/modular-design/</loc>
     <lastmod>2022-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/mosaic/</loc>
-    <lastmod>2022-08-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/systems-architecture/</loc>
     <lastmod>2022-08-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -115,8 +127,6 @@
   </url><url>
     <loc>http://localhost:1313/tags/visual-communiction/</loc>
     <lastmod>2022-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/projects/procgen/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url>

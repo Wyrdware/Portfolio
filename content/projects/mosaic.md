@@ -4,11 +4,15 @@ date: 2022-08-01
 draft: false
 summary: "A modular Unity framework for building scalable, reusable gameplay systems—used in the award-winning Echoes in the Mists and showcased at GDC."
 tags: ["Unity", "Systems Architecture", "Game Development", "C#", "Modular Design"]
+cover:
+  image: images/mosaic_diagram.png
+
+weight: 1
 ---
 
 ## Overview
 
-Mosaic is a modular gameplay framework for Unity that enables designers and developers to build scalable, reusable gameplay systems. It became the architectural foundation for *Echoes in the Mists*, an RIT capstone game featured at Imagine RIT, spotlighted by Facebook and RIT, and showcased at the 2025 GDC NYS Pavilion.
+Mosaic is a modular gameplay framework for Unity that enables designers and developers to build scalable, and fully reusable gameplay systems accross projects. It became the architectural foundation for *Echoes in the Mists*, an RIT capstone game featured at Imagine RIT, spotlighted by Facebook and RIT, and showcased at the 2025 GDC NYS Pavilion.
 
 ---
 

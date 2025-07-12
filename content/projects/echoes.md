@@ -51,3 +51,5 @@ Unity · C# · Mosaic Framework · Modular Design · Utility AI · ScriptableObj
 - [View on Imagine RIT](https://www.rit.edu/imagine/exhibits/echoes-mists-bite-sized-souls)
 - [RIT News Coverage](https://www.rit.edu/news/rit-named-top-5-university-study-game-design)
 - [Built on: Mosaic →](./mosaic)
+- [Roc Games Fest](https://www.rocgamefest.com/springminishow2025/exhibitors/#:~:text=GAME%20FEST%0AIn-,Echoes%20In%20The%20Mists,-%2C%20you%20are%20the_)
+- [Imagine RIT](https://www.rit.edu/imagine/exhibits/echoes-mists-bite-sized-souls)

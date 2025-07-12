@@ -5,3 +5,26 @@ cover:
   image: images/mc_terrain.png
 weight: 5
 ---
+## Overview
+
+
+---
+
+## Challenge
+
+
+---
+
+## Approach
+
+
+---
+
+## Outcome
+
+
+---
+
+## Links
+
+- [GitHub – Wyrdware/marching-cubes-terrain](https://github.com/Wyrdware/marching-cubes-terrain)

@@ -5,3 +5,27 @@ cover:
   image: images/mc_compute.png
 weight: 6
 ---
+## Overview
+
+
+---
+
+## Challenge
+
+
+---
+
+## Approach
+
+
+---
+
+## Outcome
+
+
+---
+
+## Links
+
+- [GitHub – Wyrdware/marching-cubes-compute](https://github.com/Wyrdware/marching-cubes-compute)
+- [Used in: Echoes in the Mists →](./echoes)

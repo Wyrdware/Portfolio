@@ -11,59 +11,37 @@ weight: 1
 
 ## Overview
 
-Mosaic is a modular gameplay framework for Unity that enables designers and developers to build scalable, and fully reusable gameplay systems accross projects. It became the architectural foundation for *Echoes in the Mists*, an RIT capstone game featured at Imagine RIT, spotlighted by Facebook and RIT, and showcased at the 2025 GDC NYS Pavilion.
+Mosaic is a universal gameplay framework for Unity used by designers and developers to build, collaborate on, and share gameplay systems. The framework ensures developed features are scalable, reusable, and fully cross compatible. This allows individuals, studios, and communities to invest in their systems creating value that is retained accross projects. Mosaic serves as the architectural foundation for *Echoes in the Mists*, an RIT capstone game featured at Roc Games Fest, showcased at the 2025 GDC NYS Pavilion, and highlighted as part of RIT’s recognition as the #3 MS game design program in the U.S.
 
 ---
 
 ## Challenge
 
-So much of what game developers create gets thrown away due to the iterative nature of development or left behind as we move onto new projects. 
-- Adding features can be expensive
-- removing features can also be expensive
-- Utilizing less experienced developers risks increasing tech debt in a project
-- 
-Gameplay systems are often tightly coupled and hard to extend or reuse, especially in student teams. This leads to brittle, one-off solutions and code debt that slows down iteration and limits collaboration.
+Game development is inherently iterative, but most gameplay systems are built rigidly, tied closely to a single project’s architecture and difficult to adapt elsewhere. As projects evolve, tech debt accumulates, making features costly to extend, remove, or reuse. Without modularity, systems resist change making experimentation and collaboration riskier. Temporary solutions often become entrenched, bloating the codebase. Less experienced developers, though valuable, can unintentionally compound these issues without clear architectural boundaries. As a result, even well-built systems struggle to scale across teams, contributors, or future projects.
 
 ---
 
 ## Approach
 
-- True Modularity
-- Designed a framework that sits between Unity’s GameObject model and the character controller
-- Built modular runtime elements: **Behaviors**, **Modifiers**, **Decorators**, and **DataTags**
-Build consistent and 
-- Enabled runtime composition and deconstruction of features without code duplication
-- Integrated a utility-based decision system to support modular AI behavior selection
-- Created a unified external interface for interacting with actors abstractly
+Mosaic was developed through iterative prototyping and extensive research into scalable architectures, including game object models, programing paradigms, along with other related systems such as ability systems and character controllers. Mosaic was also the subject of my graduate thesis. The resulting framework lies between the game object model and the character controller, offering true modularity through runtime components: Behaviors, Modifier, Decorators, and DataTags. These four components ensure full modularity across any system that uses Mosaic. The design was validated through use by peers with varying levels of experience on a long term project and feedback from mentors and colleagues in the field.
 
 ---
 
 ## Outcome
 
-- Used in *Echoes in the Mists* ([view project →](./echoes)), a capstone game showcased at Imagine RIT and GDC
-- Enabled rapid collaboration across disciplines and clean separation of systems
-- Allowed a junior teammate to implement a full animation-matched backstab system in two days—with zero added tech debt—thanks to Mosaic’s reusable structure
-- Resulting features were fully cross-compatible across characters and projects
-- Contributed to RIT's recognition as a top 5 game design school (Princeton Review 2025)
-- allow
-
----
-
-## Tech Stack
-
-Unity · C# · Modular Architecture · ScriptableObjects · Utility AI · Runtime Composition
+Mosaic demonstrated its value as a modular, scalable gameplay architecture, reducing tech debt and accelerating development. It powered Echoes in the Mists, a capstone game showcased at ROC Games Fest and GDC 2025. Its modular design enabled rapid iteration and parallel development across disciplines, while ensuring clean architectural boundaries. Less experienced developers successfully implemented complex systems, such as a fully modular animation-matched backstab, without introducing architectural overhead. Mosaic also enabled designers to compose and test behaviors independently. Its success highlights the power of well-designed abstractions to enable ambitious, sustainable game development at scale.
 
 ---
 
 ## Current Status
 
-Mosaic is undergoing significant structural revisions. The system has been used in multiple Unity projects and is available for review or walkthroughs upon request.
+Mosaic is currently undergoing structural revisions. The system has been used in multiple Unity projects and is available for review or walkthroughs upon request.
 
 ---
 
 ## Interested?
 
-If you're building scalable systems, prototyping new gameplay mechanics, or need a tools-focused engineer, I’d love to chat about how Mosaic’s ideas might translate to your pipeline.
+If you’re building scalable systems, prototyping new gameplay mechanics, or need a tools-focused engineer, I’d love to chat about how Mosaic’s ideas might translate to your pipeline.
 
 ---
 
@@ -71,3 +49,7 @@ If you're building scalable systems, prototyping new gameplay mechanics, or need
 
 - [GitHub – Wyrdware/Mosaic](https://github.com/Wyrdware/Mosaic)
 - [Used in: Echoes in the Mists →](./echoes)
+
+- [RIT Names a Top 5 University To Study Game Design](https://www.rit.edu/news/rit-named-top-5-university-study-game-design)
+
+

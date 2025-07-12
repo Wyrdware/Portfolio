@@ -27,7 +27,18 @@
       <link>http://localhost:1313/projects/procedural-terrain/</link>
       <pubDate>Mon, 30 Jun 2025 20:36:29 -0400</pubDate>
       <guid>http://localhost:1313/projects/procedural-terrain/</guid>
-      <description></description>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;challenge&#34;&gt;Challenge&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;approach&#34;&gt;Approach&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;outcome&#34;&gt;Outcome&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Wyrdware/ArcticTerrainGen&#34;&gt;GitHub – Wyrdware/ArcticTerrainGen&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Data Structure Debug Library</title>
@@ -41,21 +52,55 @@
       <link>http://localhost:1313/projects/scalar-field-visualization/</link>
       <pubDate>Mon, 30 Jun 2025 20:36:38 -0400</pubDate>
       <guid>http://localhost:1313/projects/scalar-field-visualization/</guid>
-      <description></description>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;challenge&#34;&gt;Challenge&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;approach&#34;&gt;Approach&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;outcome&#34;&gt;Outcome&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Wyrdware/marching-cubes-terrain&#34;&gt;GitHub – Wyrdware/marching-cubes-terrain&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Marching Cube Gpu</title>
       <link>http://localhost:1313/projects/marching-cube-gpu/</link>
       <pubDate>Mon, 30 Jun 2025 20:36:43 -0400</pubDate>
       <guid>http://localhost:1313/projects/marching-cube-gpu/</guid>
-      <description></description>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;challenge&#34;&gt;Challenge&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;approach&#34;&gt;Approach&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;outcome&#34;&gt;Outcome&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Wyrdware/marching-cubes-compute&#34;&gt;GitHub – Wyrdware/marching-cubes-compute&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;./echoes&#34;&gt;Used in: Echoes in the Mists →&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Optimized Boids</title>
       <link>http://localhost:1313/projects/optimized_boids/</link>
       <pubDate>Tue, 01 Jul 2025 16:34:12 -0400</pubDate>
       <guid>http://localhost:1313/projects/optimized_boids/</guid>
-      <description></description>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;challenge&#34;&gt;Challenge&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;approach&#34;&gt;Approach&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;outcome&#34;&gt;Outcome&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://wyrdware.itch.io/fish-game&#34;&gt;Play the game:&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Resume</title>

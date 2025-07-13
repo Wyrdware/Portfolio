@@ -23,7 +23,7 @@ Game development is inherently iterative, but most gameplay systems are built ri
 
 ## Approach
 
-Mosaic was developed through iterative prototyping and extensive research into scalable architectures, including game object models, programing paradigms, along with other related systems such as ability systems and character controllers. Mosaic was also the subject of my graduate thesis. The resulting framework lies between the game object model and the character controller, offering true modularity through runtime components: Behaviors, Modifier, Decorators, and DataTags. These four components ensure full modularity across any system that uses Mosaic. The design was validated through use by peers with varying levels of experience on a long term project and feedback from mentors and colleagues in the field.
+Mosaic was developed through iterative prototyping and extensive research into scalable architectures, including game object models, programing paradigms, along with other related systems such as ability systems and character controllers. Mosaic was also the subject of my graduate thesis. The resulting framework lies between the game object model and the character controller, offering true modularity through four components: Behaviors, Modifiers, Decorators, and DataTags. These four components ensure full modularity across any system that uses Mosaic. The design was validated through use by peers with varying levels of experience on a long term project and feedback from mentors and colleagues in the field.
 
 ---
 
@@ -49,7 +49,6 @@ If you’re building scalable systems, prototyping new gameplay mechanics, or ne
 
 - [GitHub – Wyrdware/Mosaic](https://github.com/Wyrdware/Mosaic)
 - [Used in: Echoes in the Mists →](./echoes)
-
 - [RIT Names a Top 5 University To Study Game Design](https://www.rit.edu/news/rit-named-top-5-university-study-game-design)
 
 

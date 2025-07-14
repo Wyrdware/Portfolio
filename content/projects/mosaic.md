@@ -2,7 +2,7 @@
 title: "Mosaic"
 date: 2022-08-01
 summary: "A modular Unity framework for building scalable, reusable gameplay systems—used in the award-winning Echoes in the Mists and showcased at GDC."
-tags: ["Unity", "Systems Architecture", "Game Development", "C#", "Modular Design"]
+tags: ["Unity", "Systems Architecture", "Game Development", "C#", "Modular Design", "Tools"]
 cover:
   image: images/mosaic_diagram.png
 

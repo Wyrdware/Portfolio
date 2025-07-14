@@ -1,7 +1,7 @@
 ---
 date: '2025-07-01T16:34:12-04:00'
 title: 'Optimized Schooling Behavior'
-tags: ["C#", "AI", "Flocking Algorithm", "Performance Optimization", "Visualization", "Obstacle Avoidance", "Boids"]
+tags: ["C#", "AI", "Flocking Algorithm", "Performance Optimization", "Obstacle Avoidance", "Boids"]
 cover:
   image: images/fish_follow.png
 weight: 7

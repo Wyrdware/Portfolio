@@ -42,8 +42,8 @@ params:
 
   profileMode:
     enabled: true
-    Title: "Hi, I'm Jared Goronkin"
-    subtitle: "I'm a systems-focused game developer building modular tools and scalable Unity pipelines."
+    Title: "Jared Goronkin"
+    subtitle: "Engineering scalable systems and tools that empower teams to iterate quickly and ship reliably."
     imageUrl: "https://jaredgoronkin.com/images/avatar.JPEG"
     imageTitle: "photo of Jared"
 
@@ -52,11 +52,6 @@ params:
         url: /projects/
       - name: Research
         url: /research/
-
-  homeInfoParams:
-    Title: "👋 Hi, I'm Jared Goronkin"
-    Content: >
-      I'm a systems-focused game developer building modular gameplay tools and scalable Unity pipelines.
 
   socialIcons:
     - name: itch.io

@@ -11,7 +11,7 @@ weight: 2
 
 ## Overview
 
-*Echoes in the Mists* is a retro-inspired horror Soulslike developed as my graduate capstone at RIT. Designed and built by a small multidisciplinary team, I took on the role of software engineer and producer on the project. it was powered by my modular gameplay framework Mosaic and recognized at the **GDC NYS Pavilion**, **Roc Games Fest**, and multiple **RIT press features**.
+*Echoes in the Mists* is a retro-inspired horror Soulslike developed as my graduate capstone at RIT. Designed and built by a small multidisciplinary team, I took on the role of software engineer and producer on the project. it was powered by my modular gameplay framework [**Mosaic**](/projects/mosaic/) and recognized at the **GDC NYS Pavilion**, **Roc Games Fest**, and multiple **RIT press features**.
 
 ---
 
@@ -25,9 +25,11 @@ For this project to scale to a full release, I needed to architect systems that 
 
 ## Approach
 
-Technical research, including reverse engineering Dark Souls’ combat system using modding tools ([read more](/research/animation-driven-sim/)) established a strong baseline for our core systems. Mosaic provided the foundational architecture of the project ensuring all of our systems were built in a scalable, modular, and re-usable manner, powering everything from enemy behavior to the dynamic charm system. Additive scenes supported collaborative level design, while all features were built to be lightweight, data-driven, and easily composable. A custom character controller and camera system were developed to feel grounded and responsive, while providing flexibility in level design through accounting for unusual geometry. 
+Technical research, including reverse engineering Dark Souls’ combat system using modding tools ([read more](/research/animation-driven-sim/)) established a strong baseline for our core systems. [Mosaic](/projects/mosaic/) provided the foundational architecture of the project ensuring all of our systems were built in a scalable, modular, and re-usable manner, powering everything from enemy behavior to the dynamic charm system. 
 
-All of these technical decisions were made in support of our fantastic designers, giving them ample control and enabling them to  confidently develop and refine new gameplay experiences.
+All features were built to be lightweight, data-driven, and easily composable. Additive scenes supported collaborative level design. A custom character controller and camera system were developed to account for unusual geometry and tight space while feeling grounded and responsive, providing flexibility for our designers.
+
+All of these technical decisions were made to support of our fantastic designers, giving them ample control and enabling them to  confidently develop and refine new gameplay experiences.
 
 ---
 
@@ -54,10 +56,5 @@ Development Highlights
 
 ## Links
 
-- [Play on Itch.io](https://backstab-industries.itch.io/echoes-in-the-mists)
-- [View on Imagine RIT](https://www.rit.edu/imagine/exhibits/echoes-mists-bite-sized-souls)
-- [RIT News Coverage](https://www.rit.edu/news/rit-named-top-5-university-study-game-design)
-- [Built on: Mosaic →](./mosaic)
-- [Roc Games Fest](https://www.rocgamefest.com/springminishow2025/exhibitors/#:~:text=GAME%20FEST%0AIn-,Echoes%20In%20The%20Mists,-%2C%20you%20are%20the_)
-- [Imagine RIT](https://www.rit.edu/imagine/exhibits/echoes-mists-bite-sized-souls)
-- [RPI Gamefest](https://gamehub.rpi.edu/gamefest-2025)
+- [Play the demo on Itch.io](https://backstab-industries.itch.io/echoes-in-the-mists)
+- [Built on: Mosaic](/projects/mosaic)

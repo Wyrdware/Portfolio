@@ -13,6 +13,7 @@ My background spans a range of collaborative and independent projects, including
 
 Outside of game development, I maintain a deep interest in software architecture, simulation, and how tools can augment the creative process. I hold an MS in Game Design & Development from RIT, where I focused on enabling scalable pipelines for small and mid-sized teams.
 
-If you're looking for a systems-focused engineer who cares about empowering teams and making great tools, feel free to check out my projects, dive into my research, or reach out to me [**here**](\contact-me\).
+If you're looking for a systems-focused engineer who cares about empowering teams and making great tools, feel free to check out my projects, dive into my research, or reach out to me 
+[**here**](/contact-me/).
 
 Thanks for visiting!

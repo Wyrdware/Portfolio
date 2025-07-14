@@ -26,6 +26,11 @@ menu:
       name: Resume
       url: /resume/
       weight: 4
+    - identifier: contact-me
+      name: Contact Me
+      url: /contact-me/
+      weight: 4
+
 
 params:
   mainSections: ["projects", "papers"]
@@ -43,7 +48,7 @@ params:
   profileMode:
     enabled: true
     Title: "Jared Goronkin"
-    subtitle: "Engineering scalable systems and tools that empower teams to iterate quickly and ship reliably."
+    subtitle: "I'm a software engineer and I specialize in systems architecture and game development."
     imageUrl: "https://jaredgoronkin.com/images/avatar.JPEG"
     imageTitle: "photo of Jared"
 

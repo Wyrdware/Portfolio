@@ -7,7 +7,7 @@ title: 'About'
 
 Hi, I’m Jared, a software engineer specializing in scalable gameplay systems and tools development. I thrive at the intersection of design and engineering, where intuitive tools and robust architecture improve workflow and empower game teams to create richer experiences.
 
-I'm driven by the belief that strong technical foundations unlock creative freedom. Whether I'm building runtime systems like modular combat frameworks, or editor tools that let designers prototype faster, my focus is always on enabling teams to do their best work.
+I'm driven by the belief that strong technical foundations unlock creative freedom. building runtime systems like modular combat frameworks and editor tools that let designers prototype faster, my focus is always on enabling teams to do their best work.
 
 My background spans a range of collaborative and independent projects, including my capstone title Echoes in the Mists (featured at GDC and Imagine RIT), technical prototypes for procedural terrain and volumetric environments, and optimized AI behavior. I'm also the developer of Mosaic, a modular gameplay framework used across multiple Unity projects to streamline feature development.
 

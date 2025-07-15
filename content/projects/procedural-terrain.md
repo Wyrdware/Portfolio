@@ -2,6 +2,7 @@
 date: '2025-06-30T20:36:29-04:00'
 title: 'Procedural Terrain'
 tags: ["C#", "Procedural Generation", "Data-Driven Design", "Technical Art", "Tools"]
+summary: "A lightweight terrain generation tool using Perlin noise and animation curves to create handcrafted-feeling arctic environments in Unity."
 cover:
   image: images/proc_terrain.png
 weight: 3

@@ -2,6 +2,7 @@
 date: '2025-07-01T16:34:12-04:00'
 title: 'Optimized Schooling Behavior'
 tags: ["C#", "AI", "Flocking Algorithm", "Performance Optimization", "Obstacle Avoidance", "Boids"]
+summary: "A boid simulation with obstacle avoidance, designer friendly pathing, and optimized for a game embeded in the web browser."
 cover:
   image: images/fish_follow.png
 weight: 7

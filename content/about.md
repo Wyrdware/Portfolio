@@ -5,7 +5,7 @@ title: 'About'
 ---
 
 
-Hi, I’m Jared, a software engineer specializing in scalable gameplay systems and tools development. I thrive at the intersection of design and engineering, where intuitive tools and robust architecture improve workflow and empower game teams to create richer experiences.
+Hi, I’m Jared, a software engineer specializing in scalable gameplay systems and tools development. I thrive at the intersection of design and engineering, where intuitive and solid architecture improve workflow and empower game teams to create richer experiences.
 
 I'm driven by the belief that strong technical foundations unlock creative freedom. building runtime systems like modular combat frameworks and editor tools that let designers prototype faster, my focus is always on enabling teams to do their best work.
 

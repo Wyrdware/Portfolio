@@ -1,7 +1,7 @@
 ---
 title: "Echoes in the Mists"
 date: 2025-05-01
-summary: "A retro-horror Soulslike built as an RIT capstone project, powered by Mosaic and showcased at GDC and Imagine RIT."
+summary: "A full featured \"Soulslike in an evening\" built in 8 months by a 5-person core team. Powered by Mosaic and showcased at GDC and other conventions."
 tags: ["Unity", "Gameplay Systems", "Soulslike", "Data-Driven"]
 cover:
   image: images/echoes_cover_1200x630.png

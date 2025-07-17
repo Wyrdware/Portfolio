@@ -1,0 +1,7 @@
+{{ define "main" }}
+  {{- $extra := resources.Get "css/extra.css" | minify | fingerprint -}}
+  {{- $styles := slice $extra -}}
+  {{- partial "extend-head.html" (dict "Styles" $styles) -}}
+
+  {{- partial "content.html" . -}}
+{{ end }}

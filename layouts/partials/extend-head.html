@@ -1,0 +1,5 @@
+{{ with .Styles }}
+  {{ range . }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}">
+  {{ end }}
+{{ end }}

@@ -26,9 +26,9 @@ menu:
       name: Resume
       url: /resume/
       weight: 4
-    - identifier: contact-me
+    - identifier: contact
       name: Contact Me
-      url: /contact-me/
+      url: /contact/
       weight: 5
 
 
@@ -42,6 +42,7 @@ params:
   ShowToc: false
   customCSS:
     - css/custom.css
+    
   defaultTheme: auto
   enableInlineShortcodes: true
 

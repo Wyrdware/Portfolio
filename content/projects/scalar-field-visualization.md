@@ -1,5 +1,5 @@
 ---
-date: '2025-06-30T20:36:38-04:00'
+date: '2023-11-12T20:36:38-04:00'
 title: 'Scalar Field Visualization'
 tags: ["C#", "Procedural Generation", "Technical Art"]
 Summary: "A proof-of-concept system for terrain generation, supporting overhangs and caves, using marching cubes and 3D flow fields to avoid typical artifacts."

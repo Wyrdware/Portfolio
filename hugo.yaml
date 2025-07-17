@@ -48,7 +48,7 @@ params:
   profileMode:
     enabled: true
     Title: "Jared Goronkin"
-    subtitle: "I'm a software engineer specializing in systems architecture and game development."
+    subtitle: "Software engineer creating scalable systems and tools for game development"
     imageUrl: "https://jaredgoronkin.com/images/avatar.JPEG"
     imageTitle: "photo of Jared"
 

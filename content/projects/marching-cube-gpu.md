@@ -1,5 +1,5 @@
 ---
-date: '2025-06-30T20:36:43-04:00'
+date: '2024-05-14T20:36:43-04:00'
 title: 'Marching Cube GPU'
 tags: ["C#", "HLSL", "Rendering", "Technical Art","Performance Optimization"]
 Summary: "Real time scalar field visualization and noise generation in Unity, made to develop a deeper understanding of procedural generation."

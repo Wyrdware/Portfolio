@@ -9,13 +9,13 @@ weight: 7
 ---
 ## Overview
 
-I designed and implemented the schooling simulation for Untitled Fish Game. This was optimized for browsers, supporting hundreds of fish in real time. The system supports advanced features like obstacle avoidance, designer-authored pathing, and spatial bounding, making it ideal for dynamic aquatic or aerial scenes. The player's interaction with this simulation was the core component of gameplay with this project. 
+I designed and implemented the 3D schooling simulation for Untitled Fish Game. This was optimized for browsers, supporting hundreds of fish in real time. The system supports advanced features like obstacle avoidance, designer-authored pathing, and spatial bounding, making it ideal for dynamic aquatic or aerial scenes. The player's interaction with this simulation was the core component of gameplay with this project. 
 
 ---
 
 ## Challenge
 
-Simple flocking algorithms struggle with obstacle avoidance and scalability in real-time environments. Our goal was to build a performant, extensible simulation capable of avoiding collisions, reacting to environmental bounds, and enabling designer control, all without introducing costly computation and maintaining behaviour that could be easily intuited by the player.
+Simple flocking algorithms struggle with obstacle avoidance and performance in real-time environments. My goal was to build a performant, extensible simulation capable of avoiding collisions, reacting to environmental bounds, enabling designer control, and maintaining behaviour that could be easily intuited by the player.
 
 ---
 
@@ -32,8 +32,8 @@ Simple flocking algorithms struggle with obstacle avoidance and scalability in r
 
 The system supports large, responsive schools of fish navigating complex 3D environments with both high stability and low performance cost. When demonstrated at expos, the game quickly garnered attention, especialy from children who would become transfixed by their mesmerizing movement and reactivity. As an aside, this was a particularly interesting game to demo as young children were *significantly* better at the game than adults. 
 - Fish respond to player proximity and follow authored movement paths
-- Simulation runs reliably at large scales, even in dense or obstacle-rich environments
-- Designers can easily extend or tune flocking behavior without modifying the core system
+- Simulation runs reliably at large scales, even in dense or obstacle-laden environments
+- Designers can easily tune or extend flocking behavior without modifying the core system
 
 ---
 

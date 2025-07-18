@@ -15,7 +15,7 @@ This exploration of procedural terrain generation focuses on how to effectively 
 
 ## Challenge
 
-I wanted to create a procedurally generated terrain that could support overhangs and caves. While 3D perlin noise could be layered on simple 2D noise to carve out caves, this creates artifacts and unnatural looking results. Transforming a simple plane also no longer works when overhangs and caves are involved as there can be holes in the topology. 
+I wanted to create a procedurally generated terrain that could support overhangs and caves. While 3D perlin noise could be layered on simple 2D noise to carve out caves, this creates artifacts and unnatural looking results. Transforming a simple plane also doesn't work when overhangs and caves are involved.
 
 ---
 
@@ -27,7 +27,7 @@ The first problem to solve was the rendering. I utilized marching cubes to rende
 
 ## Outcome
 
-The system successfully generated overhangs and caves with smooth topology and no floating technology. This technique avoids a lot of common artifacts generated from traditional 3D noise without the need of costly algorithms to clean up the output. Marching Cubes through compute shaders are explored more [here](/projects/marching-cube-gpu/). Future development will focus on implementing data driven tools for designers to author terrains much like my [previous terrain generator](/projects/procedural-terrain/)
+The system successfully generated overhangs and caves with smooth topology and no floating artifacts. This technique avoids a lot of common artifacts generated from traditional 3D noise without the need of costly algorithms to clean up the output. I explore marching cubes through compute shaders more [here](/projects/marching-cube-gpu/). Future development will focus on implementing data driven tools for designers to author terrains much like my [previous terrain generator](/projects/procedural-terrain/).
 
 ---
 

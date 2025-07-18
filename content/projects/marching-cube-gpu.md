@@ -15,7 +15,7 @@ This project is an exploration of generating real-time 3D meshes in Unity using 
 
 ## Challenge
 
-Previous explorations of the marching cube algorithm were single threaded on the CPU, leading to poor performance when modifying the terrain. The goal was to use marching cubes and perlin noise to generate and render scalar fields in real time.
+My previous explorations of the marching cube algorithm were single threaded on the CPU, leading to poor performance when modifying the terrain. The goal was to use marching cubes and perlin noise to generate and render scalar fields in real time.
 
 ---
 
@@ -27,7 +27,7 @@ Implementing marching cubes into a compute shader and utilizing FastNoiseLite to
 
 ## Outcome
 
-By moving the marching cubes algorithm to the GPU and utilizing FastNoiseLite, generation was able to be achieved at a large scale and in real time. 
+By moving the marching cubes algorithm to the GPU and utilizing FastNoiseLite, I was able to generate the mesh at a large scale and in real time. 
 
 ---
 

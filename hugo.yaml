@@ -60,17 +60,10 @@ params:
         url: /research/
 
   socialIcons:
-    - name: itch.io
+    - name: itchio
       url: "https://wyrdware.itch.io"
     - name: github
       url: "https://github.com/wyrdware"
-    - name: linkedin
-      url: "https://linkedin.com/in/jaredgoronkin"
-    - name: email
-      url: "mailto:jgoronkin@gmail.com"
-
-
-
 
 #Metadata/SEO
   author: "Jared Goronkin"

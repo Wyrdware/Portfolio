@@ -34,4 +34,3 @@ By moving the marching cubes algorithm to the GPU and utilizing FastNoiseLite, g
 ## Links
 
 - [GitHub – Wyrdware/marching-cubes-compute](https://github.com/Wyrdware/marching-cubes-compute)
-- [Used in: Echoes in the Mists →](./echoes)

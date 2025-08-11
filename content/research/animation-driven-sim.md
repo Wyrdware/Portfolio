@@ -2,6 +2,7 @@
 title: "Animations Driving the Game Simulation"
 date: 2024-10-01
 summary: "This paper analyzes animation pipelines within various engines and explores how animation driven game simulations impact development."
+weight: 1
 tags: ["designer-driven tools","game animation pipelines", "engine-architecture", "systems-design"]
 cover:
   image: "/images/paper-cover.png"

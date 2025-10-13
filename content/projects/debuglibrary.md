@@ -6,6 +6,8 @@ tags: ["C++", "Tools", "Educational Software", "Data Structures", "Visualization
 cover:
   image: images/debug_bars.png
 weight: 4
+
+
 ---
 
 ## Overview

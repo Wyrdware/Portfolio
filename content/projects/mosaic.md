@@ -7,6 +7,8 @@ cover:
   image: images/mosaic_diagram.png
 
 weight: 1
+
+
 ---
 
 ## Overview

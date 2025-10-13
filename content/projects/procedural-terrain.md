@@ -6,6 +6,8 @@ summary: "A lightweight terrain generation tool using Perlin noise and animation
 cover:
   image: images/proc_terrain.png
 weight: 3
+
+
 ---
 ## Overview
 

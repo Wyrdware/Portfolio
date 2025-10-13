@@ -6,6 +6,8 @@ Summary: "Real time scalar field visualization and noise generation in Unity, ma
 cover:
   image: images/mc_compute.png
 weight: 6
+
+
 ---
 ## Overview
 

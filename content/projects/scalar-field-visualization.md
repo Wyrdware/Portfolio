@@ -6,6 +6,8 @@ Summary: "A proof-of-concept system for terrain generation, supporting overhangs
 cover:
   image: images/mc_terrain.png
 weight: 5
+
+
 ---
 ## Overview
 

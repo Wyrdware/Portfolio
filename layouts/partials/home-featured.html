@@ -1,0 +1,23 @@
+<!-- <section>
+  <h2>Featured Work</h2>
+  <div class="custom-grid">
+    {{ range .Site.Params.featuredPages }}
+      {{ with site.GetPage . }}
+        {{ partial "custom-card.html" (dict "page" . "class" "post-entry custom-card") }}
+      {{ end }}
+    {{ end }}
+  </div>
+</section> -->
+<section class="featured-fullbleed">
+  <h2 class="featured-heading">Featured Work</h2>
+
+  <div class="featured-rail">
+    <div class="featured-grid">
+      {{ range .Site.Params.featuredPages }}
+        {{ with site.GetPage . }}
+          {{ partial "custom-card.html" (dict "page" . "class" "post-entry custom-card") }}
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>

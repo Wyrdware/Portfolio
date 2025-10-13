@@ -197,3 +197,55 @@ header.header nav a:hover::after {
 .contact-wrapper button[type="submit"]:hover {
   background-color: var(--primary-hover, var(--secondary));
 }
+
+
+/* full-bleed container (escapes the main content width) */
+.featured-fullbleed {
+  margin-top: 1.5rem;
+}
+
+/* escape the centered content container */
+.featured-rail {
+  width: 100svw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  /* if you see horizontal scrollbars due to OS scrollbars, try:
+     width: 100svw;
+  */
+}
+
+/* Narrower fixed tiles, centered */
+.featured-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 300px)); /* was 320–360px */
+  gap: var(--gap);
+  padding: 0 var(--gap);
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.featured-grid .post-entry {
+  width: 100% !important;
+  max-width: 300px;  /* match the upper bound above */
+}
+
+/* Make the heading align with normal content (not full-bleed),
+   and give it breathing room above the cards */
+.featured-heading {
+  /* Align to content container */
+  max-width: var(--main-width, 900px);
+  margin-left: auto;
+  margin-right: auto;
+  padding-inline: var(--gap);
+  text-align: left;
+
+  /* Separation from the grid below */
+  margin-bottom: calc(var(--gap) * 1.25);
+}
+
+/* if the parent main has overflow hidden in your build, let this section bleed */
+.main .featured-rail {
+  overflow: visible;
+}
+
+html { overflow-x: hidden; }

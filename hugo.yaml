@@ -46,8 +46,18 @@ params:
   defaultTheme: auto
   enableInlineShortcodes: true
 
+  homeInfoParams:
+    Title: "Software Engineer  |   M.S. (RIT)"
+    Content: "I build systems and tools that help designers bring their vision to life"
+
+  featuredPages:
+    - "/projects/echoes/"
+    - "/projects/mosaic/"
+    - "/research/animation-driven-sim/"
+    - "/projects/procedural-terrain/"
+
   profileMode:
-    enabled: true
+    enabled: false
     Title: "Jared Goronkin"
     subtitle: "Software engineer creating scalable systems and tools for game development"
     imageUrl: "https://jaredgoronkin.com/images/avatar.JPEG"
@@ -67,7 +77,7 @@ params:
 
 #Metadata/SEO
   author: "Jared Goronkin"
-  description: "A game developer and systems thinker building modular tools in Unity."
+  description: "A game developer building modular tools in Unity."
   keywords: [portfolio, game dev, unity, systems design]
 
 

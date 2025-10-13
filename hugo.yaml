@@ -47,8 +47,12 @@ params:
   enableInlineShortcodes: true
 
   homeInfoParams:
-    Title: "Software Engineer  |   M.S. (RIT)"
-    Content: "I build systems and tools that help designers bring their vision to life"
+    Title: "Software Developer  |   M.S. (RIT)"
+    Content: |
+      > I'm building systems and tools to help designers bring their vision to life.
+
+
+
 
   featuredPages:
     - "/projects/echoes/"
@@ -74,10 +78,12 @@ params:
       url: "https://wyrdware.itch.io"
     - name: github
       url: "https://github.com/wyrdware"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/jaredgoronkin/"
 
 #Metadata/SEO
   author: "Jared Goronkin"
-  description: "A game developer building modular tools in Unity."
+  description: "Software engineer creating scalable systems and tools for game development"
   keywords: [portfolio, game dev, unity, systems design]
 
 

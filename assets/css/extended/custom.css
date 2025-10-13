@@ -62,8 +62,8 @@
   backdrop-filter: blur(4px);
   border-bottom-right-radius: 18px;
 
-  opacity: .0;
-  transform: translateY(-10px);
+  opacity: .9;
+  transform: translateY(-5px);
   transition: opacity 0.2s ease, transform 0.2s ease;
 }
 
@@ -199,34 +199,31 @@ header.header nav a:hover::after {
 }
 
 
+
+
+
+/*Featured */ 
+
 /* full-bleed container (escapes the main content width) */
 .featured-fullbleed {
   margin-top: 1.5rem;
 }
 
-/* escape the centered content container */
+/* gallary style look */
 .featured-rail {
-  width: 100svw;
-  margin-left: calc(50% - 50vw);
-  margin-right: calc(50% - 50vw);
-  /* if you see horizontal scrollbars due to OS scrollbars, try:
-     width: 100svw;
-  */
-}
+  width: 40svw;
+  margin-left: calc(50% - 20vw);
+  margin-right: calc(50% - 20vw);
+}  
 
 /* Narrower fixed tiles, centered */
 .featured-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 300px)); /* was 320–360px */
+  grid-template-columns: repeat(auto-fit, minmax(320px, 345px)); /* width of cards */
   gap: var(--gap);
   padding: 0 var(--gap);
   justify-content: center;
   margin: 0 auto;
-}
-
-.featured-grid .post-entry {
-  width: 100% !important;
-  max-width: 300px;  /* match the upper bound above */
 }
 
 /* Make the heading align with normal content (not full-bleed),
@@ -234,7 +231,7 @@ header.header nav a:hover::after {
 .featured-heading {
   /* Align to content container */
   max-width: var(--main-width, 900px);
-  margin-left: auto;
+  margin-left: -1.5rem;
   margin-right: auto;
   padding-inline: var(--gap);
   text-align: left;
@@ -243,9 +240,103 @@ header.header nav a:hover::after {
   margin-bottom: calc(var(--gap) * 1.25);
 }
 
-/* if the parent main has overflow hidden in your build, let this section bleed */
 .main .featured-rail {
   overflow: visible;
 }
 
 html { overflow-x: hidden; }
+
+.featured-fullbleed {
+  margin-bottom: 2rem; /* small extra gap below the cards */
+}
+
+
+
+
+/*Social Icons*/
+.first-entry.home-info .social-icons a svg {
+  width: 27px;              /* tweak 20–24 */
+  height: 27px;
+}
+
+/* Hover/active */
+.first-entry.home-info .social-icons a:hover { transform: translateY(-1px); opacity: 1; }
+.first-entry.home-info .social-icons a:active { transform: translateY(0); opacity: 0.9; }
+
+
+
+/* Make lists in the home hero render like real lists */
+.first-entry.home-info .entry-content ul,
+.first-entry.home-info .entry-content ol {
+  margin: 0 0 var(--gap);
+  padding-left: 1.25rem;      /* indentation */
+  list-style: disc outside;   /* bullets for ul */
+}
+
+.first-entry.home-info .entry-content ol {
+  list-style: decimal outside; /* numbers for ol */
+}
+
+.first-entry.home-info .entry-content li {
+  margin: 0.25rem 0;          /* comfortable line spacing */
+}
+
+
+/*Block quotes*/
+.first-entry.home-info .entry-content blockquote {
+  margin: 0 0 var(--gap);
+  padding: 0.5rem 1rem;
+  border-left: 3px solid var(--primary);
+  color: var(--primary);
+  
+}
+
+.first-entry.home-info .entry-content blockquote p {
+  margin: 0; /* tighten quote paragraphs */
+}
+
+
+
+
+
+
+/*Feature Card Sizing */
+/* Make the card a column so we can clamp internals neatly */
+.featured-grid .post-entry.custom-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;     
+  max-height: 260px;      
+}
+
+/* Cover image: consistent height */
+.featured-grid .custom-card .entry-cover img {
+  height: 320px;        
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Title: clamp to 2 lines */
+.featured-grid .custom-card .entry-header h2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  margin: 0;            
+}
+
+/* Clamp featured item description*/
+.featured-grid .custom-card .entry-content p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;     /*number of lines to clamp*/
+  overflow: hidden;
+  margin: .2rem 0 .0rem;
+}
+
+/* Footer/meta: keep it small or hide it if needed */
+.featured-grid .custom-card .entry-footer {
+  margin-top: auto;          /* pushes footer to bottom */
+  font-size: 0.7em;
+  opacity: 0.7;
+}

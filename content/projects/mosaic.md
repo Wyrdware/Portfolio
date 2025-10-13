@@ -1,7 +1,7 @@
 ---
 title: "Mosaic"
 date: 2022-08-01
-summary: "A universal gameplay framework for Unity that enables full modularity in systems development. Leveraged by Echoes In The Mists"
+summary: "Built for teams to enable full modularity in systems development. Leveraged by Echoes In The Mists"
 tags: ["Unity", "Systems Architecture", "Game Development", "C#", "Modular Design", "Tools", "Data-Driven"]
 cover:
   image: images/mosaic_diagram.png

@@ -230,7 +230,7 @@ header.header nav a:hover::after {
    and give it breathing room above the cards */
 .featured-heading {
   /* Align to content container */
-  max-width: var(--main-width, 900px);
+
   margin-left: -1.5rem;
   margin-right: auto;
   padding-inline: var(--gap);
@@ -341,6 +341,26 @@ html { overflow-x: hidden; }
   opacity: 0.7;
 }
 
+
+
+/* Match hero spacing between heading and content */
+.extra-info .entry-header {
+  margin-bottom: var(--content-gap, 1rem);
+}
+
+/* Loosen up the text slightly to match hero rhythm */
+.extra-info .entry-content {
+  line-height: 1.7;
+}
+
+/* Ensure headings and lists have comfortable spacing in this block */
+.extra-info .entry-content h2,
+.extra-info .entry-content h3 { margin-top: 1rem; }
+
+.extra-info .entry-content p,
+.extra-info .entry-content ul,
+.extra-info .entry-content ol,
+.extra-info .entry-content blockquote { margin-top: 0.75rem; }
 
 
 

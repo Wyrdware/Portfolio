@@ -5,6 +5,9 @@
   {{ $page := . }}
   {{ with $page.Content }}
     <article class="first-entry home-info extra-info">
+      <header class="entry-header">
+        <h1>Testimonials</h1>  {{/* or whatever your section title is */}}
+      </header>
       <div class="entry-content">
         {{ if not ($page.Param "disableAnchoredHeadings") }}
           {{ partial "anchored_headings.html" . }}

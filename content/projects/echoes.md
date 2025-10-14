@@ -12,7 +12,7 @@ weight: 2
 
 ## Overview
 
-*Echoes in the Mists* is a retro-inspired horror Soulslike developed as my graduate capstone at RIT available for [PC on itch.io](https://backstab-industries.itch.io/echoes-in-the-mists). Designed and built by a small multidisciplinary team, I took on the role of software engineer and producer on the project. It was powered by my modular gameplay framework [Mosaic](/projects/mosaic/) and recognized at the **GDC NYS Pavilion**, **RPI GameFest**, **EDGE**, **Roc Game Fest**, **Imagine RIT**, and multiple **RIT press features**.
+*Echoes in the Mists* is a retro-inspired horror Soulslike developed as my graduate capstone at RIT available for [PC on itch.io](https://backstab-industries.itch.io/echoes-in-the-mists). I led engineering and handled production on a small multidisiplinary team. It was powered by my modular gameplay framework [Mosaic](/projects/mosaic/) and recognized at the **GDC NYS Pavilion**, **RPI GameFest**, **EDGE**, **Roc Game Fest**, **Imagine RIT**, and multiple **RIT press features**.
 
 ---
 

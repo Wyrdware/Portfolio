@@ -8,8 +8,10 @@ cover:
 
 weight: 1
 
-
 ---
+
+> *“As a Designer on the Echoes in the Mists dev team, Mosaic provided me with a multitude of useful functions that made implementing game mechanics easy. The Mosaic toolset immensely helped iteration without me ever having to edit code. Since Mosaic features are all modular, I could quickly refine and playtest ideas immediately.”*  
+> — Rinnie Bi | Level Developer, Echoes in the Mists
 
 ## Overview
 
@@ -42,6 +44,9 @@ Mosaic demonstrated it's value. At GDC 2025 I presented how Mosaic made our team
 Less experienced programmers successfully implemented complex systems, such as a fully modular animation-matched backstab, without introducing architectural overhead thanks to Mosaic.
 
 Mosaic also enabled designers to compose and test behaviors independently. Its success highlights the power of well-designed abstractions to enable ambitious, sustainable game development at scale.
+
+> *“Mosaic works as a springboard in early development. It made prototypes extremely quick to develop, especially for character systems. Because any action could be transferred between entities, creating new players or enemies was simple and consistent. It also streamlined the creation of animators, actions, and attacks by drawing from a shared base.”*  
+> — James Zilberman | Combat Designer, Echoes in the Mists
 
 ---
 

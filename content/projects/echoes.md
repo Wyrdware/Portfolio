@@ -12,13 +12,13 @@ weight: 2
 
 ## Overview
 
-*Echoes in the Mists* is a retro-inspired horror Soulslike developed as my graduate capstone at RIT available for [PC on itch.io](https://backstab-industries.itch.io/echoes-in-the-mists). I led engineering and handled production on a small multidisiplinary team. It was powered by my modular gameplay framework [Mosaic](/projects/mosaic/) and recognized at the **GDC NYS Pavilion**, **RPI GameFest**, **EDGE**, **Roc Game Fest**, **Imagine RIT**, and multiple **RIT press features**.
+*Echoes in the Mists* is a souls-like game with a demo available for [PC on itch.io](https://backstab-industries.itch.io/echoes-in-the-mists). I led engineering and production on a small multidisiplinary team, designing and implementing all core systems and tools while managing schedules, meetings, and task planning to keep development on track. It was powered by my modular gameplay framework [Mosaic](/projects/mosaic/) and recognized at the **GDC NYS Pavilion**, **RPI GameFest**, **EDGE**, **Roc Game Fest**, **Imagine RIT**, and multiple **RIT press features**.
 
 ---
 
 ## Challenge
 
-With a tight 8 month timeline and a core team of 5 graduate students, we set out to develop what we dubbed a “souls-like in an evening”: A short experience capturing the depth and tension of a full-length souls-like game. This required a carefully balanced production, where systems for tactical combat, world exploration, enemy variety, and progression all work in tandem.
+With a tight 8 month timeline and a core team of 5 graduate students, we set out to develop what we dubbed a “souls-like in an evening”: A short experience capturing the depth and tension of a full-length souls-like game. This required a carefully balanced production, to ensure systems for tactical combat, world exploration, enemy variety, and progression were all developed in tandem.
 
 For this project to scale to a full release, I needed to architect systems that empowered all developers to contribute independently, avoid bottlenecks, and maintain a clean, scalable code as the project evolved.
 

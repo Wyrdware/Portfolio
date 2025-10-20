@@ -202,52 +202,39 @@ header.header nav a:hover::after {
 
 
 
-/*Featured */ 
-
-/* full-bleed container (escapes the main content width) */
-.featured-fullbleed {
-  margin-top: 1.5rem;
+/* tune these once in one place */
+:root {
+  --card-min: 320px;            /* min card width */
+  --card-max: 345px;            /* max card width */
+  --rail-max: calc((var(--card-max) * 2) + var(--gap)); /* space for 2 cards + gap */
 }
 
-/* gallary style look */
+/* the rail should take full width until it hits the 2-card cap */
 .featured-rail {
-  width: 40svw;
-  margin-left: calc(50% - 20vw);
-  margin-right: calc(50% - 20vw);
-}  
+  width: 100%;
+  max-width: var(--rail-max);
+  margin: 0 auto;
+  padding-inline: 0;    
+  box-sizing: border-box;
+}
 
-/* Narrower fixed tiles, centered */
+
+/* grid auto-fits up to two; when the viewport is narrower than 2*min+gap,
+   it naturally collapses to one column */
 .featured-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 345px)); /* width of cards */
+  grid-template-columns: repeat(auto-fit, minmax(var(--card-min), 1fr));
   gap: var(--gap);
-  padding: 0 var(--gap);
-  justify-content: center;
-  margin: 0 auto;
+  margin: 0;              
+  padding: 0;        
 }
 
-/* Make the heading align with normal content (not full-bleed),
-   and give it breathing room above the cards */
+
+
 .featured-heading {
-  /* Align to content container */
-
-  margin-left: -1.5rem;
-  margin-right: auto;
-  padding-inline: var(--gap);
-  text-align: left;
-
-  /* Separation from the grid below */
-  margin-bottom: calc(var(--gap) * 1.25);
-}
-
-.main .featured-rail {
-  overflow: visible;
-}
-
-html { overflow-x: hidden; }
-
-.featured-fullbleed {
-  margin-bottom: 2rem; /* small extra gap below the cards */
+  margin: 0 auto calc(var(--gap) * 1.25);
+  max-width: var(--rail-max);
+  padding-inline: 0;     
 }
 
 
@@ -288,6 +275,8 @@ html { overflow-x: hidden; }
   padding: 0.5rem 1rem;
   border-left: 3px solid var(--primary);
   color: var(--primary);
+  margin-top: 0rem;
+  margin-bottom: 0.5rem;  
   
 }
 
@@ -362,5 +351,171 @@ html { overflow-x: hidden; }
 .extra-info .entry-content ol,
 .extra-info .entry-content blockquote { margin-top: 0.75rem; }
 
+
+
+body.list:has(article.first-entry.home-info) header.header {
+  display: none !important;
+}
+
+
+
+
+
+
+
+
+/*---------------------*/
+/* Layout only; let PaperMod handle fonts, colors, spacing */
+.hi{
+  display:flex;
+  align-items:center;
+  gap: calc(var(--gap) * 1.25);
+}
+
+.hi__photo{
+  width: var(--hi-size);
+  height: var(--hi-size);
+  max-width: none;          /* defeat global img max-width if present */
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 18%;
+  box-shadow: 0 2px 16px rgba(0,0,0,.06);
+  display: block;
+}
+
+/* Desktop positions */
+.pos-right .hi__text { order:1; flex:1 1 0; }
+.pos-right .hi__media{ order:2; }
+.pos-left  .hi__media{ order:1; }
+.pos-left  .hi__text { order:2; flex:1 1 0; }
+
+.pos-above-left{
+  flex-direction: column;
+  align-items: flex-start;
+}
+.pos-above-center{
+  flex-direction: column;
+  align-items: center;
+  text-align: center;            /* only affect this block */
+}
+
+/* Mobile: always above + centered as requested */
+@media (max-width: 768px){
+  .hi{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: var(--gap);
+  }
+  .hi__photo{
+    width: min(160px, var(--hi-size));
+    height: min(160px, var(--hi-size));
+  }
+}
+
+
+
+
+.hi__header{
+  display:flex;
+  align-items:center;
+  gap:.6rem;
+  flex-wrap:wrap;
+}
+.hi__header .theme-toggle{
+  background:transparent;
+  border:0;
+  padding:0;
+  line-height:1;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  cursor:pointer;
+}
+.hi__header .theme-toggle svg{
+  width:3.5em; height:2.4em; display:block;
+  transform: translateY(.5em); /* tiny tweak if it sits a touch high/low */
+}
+@media (max-width:768px){
+  .hi__header{ justify-content:center; }
+}
+
+.hi__header .entry-title { display: inline-flex; }     /* simplest */
+
+.hi__header .theme-toggle svg,
+.hi__header .theme-toggle svg * {
+  /* pick one: absolute px or relative to icon size */
+  /* stroke-width: 1.25;            /* ~thinner than default 2 */ 
+  stroke-width: .14em;             /* scales with the icon size */
+  stroke-linecap: round;            /* keeps it smooth when thinner */
+  stroke-linejoin: round;
+  vector-effect: non-scaling-stroke;/* keeps stroke crisp if the SVG scales */
+}
+
+
+
+
+
+
+/* container: just spacing and wrapping, no box */
+.hi-links{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+
+  gap:.75rem;
+  margin-top: 1rem;          /* was 1rem; reduce */
+  margin-bottom: 1rem;        /* add breathing room below */
+}
+
+
+/* home buttons */
+.hi-link{
+  display:flex;
+  align-items:center;
+  width: 100%;
+  justify-content: center;   /* keeps the label centered */
+  padding: .6rem .8rem;
+  border-radius: 8px;
+  font-weight: 600;             /* bolder */
+  letter-spacing: .01em;
+  background: var(--background);
+  color: var(--secondary);
+  text-decoration: none;
+
+  line-height: 1;
+  
+  outline:2px solid var(--secondary);
+  outline-offset:-2px;
+  
+}
+
+
+.hi-link:hover{
+ 
+  color: var(--primary);
+  transform: translateY(0px);
+    outline:2px solid var(--primary);
+  outline-offset:-3px;
+}
+
+.hi-link:active{
+ 
+  color: var(--primary);
+  transform: translateY(-1px);
+    outline:2px solid var(--primary);
+  outline-offset:-3px;
+}
+
+.hi-link:focus-visible{
+  outline:2px solid var(--primary);
+  outline-offset:2px;
+}
+
+/* Optional: tighter grid on small screens or single-column */
+@media (max-width: 480px){
+  .hi-links{
+    grid-template-columns: 1fr;   /* full-width buttons stacked */
+  }
+}
 
 

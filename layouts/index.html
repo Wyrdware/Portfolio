@@ -1,12 +1,17 @@
+
+
 {{ define "main" }}
+
   {{ partial "home_info.html" . }}
+  {{/* Featured Work grid (your custom partial) */}}
   {{ partial "home-featured.html" . }}
 
+  {{/* Extra Markdown from content/_index.md (quotes, CTA, etc.) */}}
   {{ $page := . }}
   {{ with $page.Content }}
     <article class="first-entry home-info extra-info">
       <header class="entry-header">
-        <h1>Testimonials</h1>  {{/* or whatever your section title is */}}
+        <h2>Testimonials</h2>  
       </header>
       <div class="entry-content">
         {{ if not ($page.Param "disableAnchoredHeadings") }}
@@ -17,4 +22,8 @@
       </div>
     </article>
   {{ end }}
+
 {{ end }}
+
+
+

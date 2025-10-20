@@ -1,0 +1,87 @@
+{{/* Keep PaperMod classes, put title+content+image in one row; extra below */}}
+{{ $p := .Site.Params.homeInfoParams }}
+
+<article class="first-entry home-info">
+  <div class="entry-content">
+    <div class="hi pos-{{ $p.imagePosition | default "right" }}"
+         style="--hi-size: {{ $p.imageSize | default 220 }}px;">
+      {{ with $p.image }}
+      <div class="hi__media">
+        <img class="hi__photo"
+             src="{{ . | absURL }}"
+             alt="{{ $p.imageAlt | default "Profile photo" }}"
+             loading="lazy" decoding="async">
+      </div>
+      {{ end }}
+
+      <div class="hi__text">
+        <header class="entry-header hi__header">
+          <h1 class="entry-title">{{ $p.title | default .Site.Title }}</h1>
+
+          {{ if not .Site.Params.disableThemeToggle }}
+            <button id="home-theme-toggle" class="theme-toggle" title="Toggle theme" aria-label="Toggle theme" accesskey="t">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2" />
+              </svg>
+            </button>
+          {{ end }}
+        </header>
+
+        <script>
+        (function () {
+          var homeBtn = document.getElementById('home-theme-toggle');
+          if (!homeBtn) return;
+
+          // Find the core theme toggle in the real header (the one PaperMod wires up)
+          var coreBtn = document.querySelector('header.header .logo-switches #theme-toggle');
+          if (!coreBtn) return;
+
+          // Proxy HomeInfo clicks to the core toggle so EXACT same logic runs
+          homeBtn.addEventListener('click', function (e) {
+            e.preventDefault();
+            coreBtn.click();
+          });
+
+          // Optional: keep the HomeInfo icon in sync with current mode
+          function syncIcon() {
+            var dark = document.body.classList.contains('dark');
+            homeBtn.innerHTML = !dark
+              ? '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>'
+              : '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 1v3M12 20v3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M1 12h3M20 12h3M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>';
+          }
+          syncIcon();
+          document.addEventListener('DOMContentLoaded', syncIcon);
+          // Update on navigation/other toggles too
+          window.addEventListener('storage', syncIcon);
+          document.addEventListener('click', function (ev) {
+            if (ev.target === coreBtn) setTimeout(syncIcon, 0);
+          });
+        })();
+        </script>
+
+        {{ with $p.content }}<div class="hi__blurb">{{ . | markdownify }}</div>{{ end }}
+
+                {{/* Optional: drive links from params; falls back to defaults */}}
+        {{ $links := or .Site.Params.homeInfoParams.links (slice
+          (dict "href" "/projects/" "label" "Projects")
+          (dict "href" "/resume/"   "label" "Resume")
+          (dict "href" "/research/" "label" "Research")
+          (dict "href" "/about/"    "label" "About")
+          (dict "href" "/contact/"  "label" "Contact")
+        ) }}
+
+        <nav class="hi-links" aria-label="Primary sections">
+          {{ range $links }}
+            <a class="hi-link" href="{{ .href | relURL }}"><span>{{ .label }}</span></a>
+          {{ end }}
+        </nav>
+      </div>
+    </div>
+
+    {{ with $p.extraContent }}
+      <div class="hi-extra">
+        {{ . | markdownify }}
+      </div>
+    {{ end }}
+  </div>
+</article>

@@ -10,9 +10,9 @@ markup:
 
 menu:
   main:
-    - identifier: about
-      name: About
-      url: /about/
+    - identifier: resume
+      name: Resume
+      url: /resume/
       weight: 1
     - identifier: projects
       name: Projects
@@ -22,9 +22,9 @@ menu:
       name: Research
       url: /research/
       weight: 3
-    - identifier: resume
-      name: Resume
-      url: /resume/
+    - identifier: about
+      name: About
+      url: /about/
       weight: 4
     - identifier: contact
       name: Contact Me
@@ -47,16 +47,26 @@ params:
   enableInlineShortcodes: true
 
   homeInfoParams:
-    Title: "Software Developer  |   M.S. (RIT)"
+    Title: "Jared Goronkin  |   M.S. (RIT)"
     Content: |
-      > *I'm building systems and tools to help designers bring their vision to life.*
-
+      > *I am a multi-faceted, technically empowered Game Developer seeking a chance to complement the efforts of a passionate development team.*
+    
+    extraContent: |
       - Earned my **M.S. in Game Design and Development** from RIT, a program [ranked #3 in the nation](https://www.rit.edu/news/rit-named-top-5-university-study-game-design)
       - Showcased work at **GDC** (NYS Pavilion, twice), **RetroGameCon**, **RPI GameFest**, **Roc Game Fest**, **EDGE**, and **Imagine RIT**
       - Co-founded an independent student initiative that raised **$30K+** to send 12 students to GDC.
       - Built packages and systems that help small teams create complex experiences faster and cleaner
-
-
+    
+    image: "https://jaredgoronkin.com/images/avatar.JPEG"
+    imageAlt: "Jared Goronkin portrait"
+    imagePosition: "left"   # options: right | left | above-left | above-center
+    imageSize: 180          # 150 - 180
+    links:
+      - { href: "/resume/",   label: "Resume" }
+      - { href: "/projects/", label: "Projects" }
+      - { href: "/research/", label: "Research" }
+      - { href: "/about/",    label: "About" }
+      - { href: "/contact/",  label: "Contact" }
 
 
 
@@ -67,17 +77,18 @@ params:
     - "/projects/procedural-terrain/"
 
   profileMode:
-    enabled: false
-    Title: "Jared Goronkin"
-    subtitle: "Software engineer creating scalable systems and tools for game development"
+    enabled: true
     imageUrl: "https://jaredgoronkin.com/images/avatar.JPEG"
     imageTitle: "photo of Jared"
+    Title: "Jared Goronkin"
+    subtitle: |
+      > *I'm building systems and tools to help designers bring their vision to life.*
 
-    buttons:
-      - name: Projects
-        url: /projects/
-      - name: Research
-        url: /research/
+      - Earned my **M.S. in Game Design and Development** from RIT, a program [ranked #3 in the nation](https://www.rit.edu/news/rit-named-top-5-university-study-game-design)
+      - Showcased work at **GDC** (NYS Pavilion, twice), **RetroGameCon**, **RPI GameFest**, **Roc Game Fest**, **EDGE**, and **Imagine RIT**
+      - Co-founded an independent student initiative that raised **$30K+** to send 12 students to GDC.
+      - Built packages and systems that help small teams create complex experiences faster and cleaner
+
 
   socialIcons:
     - name: itchio

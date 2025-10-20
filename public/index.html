@@ -11,7 +11,7 @@
 <meta name="description" content="Software engineer creating scalable systems and tools for game development">
 <meta name="author" content="Jared Goronkin">
 <link rel="canonical" href="http://localhost:1313/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.0d9e417b38fa9708911af44377afdcbe0f22a448dcb9f556276f93c511415d50.css" integrity="sha256-DZ5Bezj6lwiRGvRDd6/cvg8ipEjcufVWJ2&#43;TxRFBXVA=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.2b1d2fec54b5c7e9d24d5dd73387d5202a8844d06a710c80eacc1937468cd327.css" integrity="sha256-Kx0v7FS1x&#43;nSTV3XM4fVICqIRNBqcQyA6swZN0aM0yc=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -102,8 +102,8 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/about/" title="About">
-                    <span>About</span>
+                <a href="http://localhost:1313/resume/" title="Resume">
+                    <span>Resume</span>
                 </a>
             </li>
             <li>
@@ -117,8 +117,8 @@
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/resume/" title="Resume">
-                    <span>Resume</span>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
                 </a>
             </li>
             <li>
@@ -130,55 +130,107 @@
     </nav>
 </header>
 <main class="main">
+
   
+
+
 <article class="first-entry home-info">
-    <header class="entry-header">
-        <h1>Software Developer  |   M.S. (RIT)</h1>
-    </header>
-    <div class="entry-content">
-        <blockquote>
-<p><em>I&rsquo;m building systems and tools to help designers bring their vision to life.</em></p></blockquote>
-<ul>
+  <div class="entry-content">
+    <div class="hi pos-left"
+         style="--hi-size: 180px;">
+      
+      <div class="hi__media">
+        <img class="hi__photo"
+             src="https://jaredgoronkin.com/images/avatar.JPEG"
+             alt="Jared Goronkin portrait"
+             loading="lazy" decoding="async">
+      </div>
+      
+
+      <div class="hi__text">
+        <header class="entry-header hi__header">
+          <h1 class="entry-title">Jared Goronkin  |   M.S. (RIT)</h1>
+
+          
+            <button id="home-theme-toggle" class="theme-toggle" title="Toggle theme" aria-label="Toggle theme" accesskey="t">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2" />
+              </svg>
+            </button>
+          
+        </header>
+
+        <script>
+        (function () {
+          var homeBtn = document.getElementById('home-theme-toggle');
+          if (!homeBtn) return;
+
+          
+          var coreBtn = document.querySelector('header.header .logo-switches #theme-toggle');
+          if (!coreBtn) return;
+
+          
+          homeBtn.addEventListener('click', function (e) {
+            e.preventDefault();
+            coreBtn.click();
+          });
+
+          
+          function syncIcon() {
+            var dark = document.body.classList.contains('dark');
+            homeBtn.innerHTML = !dark
+              ? '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>'
+              : '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 1v3M12 20v3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M1 12h3M20 12h3M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>';
+          }
+          syncIcon();
+          document.addEventListener('DOMContentLoaded', syncIcon);
+          
+          window.addEventListener('storage', syncIcon);
+          document.addEventListener('click', function (ev) {
+            if (ev.target === coreBtn) setTimeout(syncIcon, 0);
+          });
+        })();
+        </script>
+
+        <div class="hi__blurb"><blockquote>
+<p><em>I am a multi-faceted, technically empowered Game Developer seeking a chance to complement the efforts of a passionate development team.</em></p></blockquote></div>
+
+                
+        
+
+        <nav class="hi-links" aria-label="Primary sections">
+          
+            <a class="hi-link" href="/resume/"><span>Resume</span></a>
+          
+            <a class="hi-link" href="/projects/"><span>Projects</span></a>
+          
+            <a class="hi-link" href="/research/"><span>Research</span></a>
+          
+            <a class="hi-link" href="/about/"><span>About</span></a>
+          
+            <a class="hi-link" href="/contact/"><span>Contact</span></a>
+          
+        </nav>
+      </div>
+    </div>
+
+    
+      <div class="hi-extra">
+        <ul>
 <li>Earned my <strong>M.S. in Game Design and Development</strong> from RIT, a program <a href="https://www.rit.edu/news/rit-named-top-5-university-study-game-design">ranked #3 in the nation</a></li>
 <li>Showcased work at <strong>GDC</strong> (NYS Pavilion, twice), <strong>RetroGameCon</strong>, <strong>RPI GameFest</strong>, <strong>Roc Game Fest</strong>, <strong>EDGE</strong>, and <strong>Imagine RIT</strong></li>
 <li>Co-founded an independent student initiative that raised <strong>$30K+</strong> to send 12 students to GDC.</li>
 <li>Built packages and systems that help small teams create complex experiences faster and cleaner</li>
 </ul>
-    </div>
-    <footer class="entry-footer">
-        <div class="social-icons" >
-    <a href="https://wyrdware.itch.io" target="_blank" rel="noopener noreferrer me"
-        title="Itchio">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 245.371 220.736" fill="currentColor">
-    <path
-        d="M31.99 1.365C21.287 7.72.2 31.945 0 38.298v10.516C0 62.144 12.46 73.86 23.773 73.86c13.584 0 24.902-11.258 24.903-24.62 0 13.362 10.93 24.62 24.515 24.62 13.586 0 24.165-11.258 24.165-24.62 0 13.362 11.622 24.62 25.207 24.62h.246c13.586 0 25.208-11.258 25.208-24.62 0 13.362 10.58 24.62 24.164 24.62 13.585 0 24.515-11.258 24.515-24.62 0 13.362 11.32 24.62 24.903 24.62 11.313 0 23.773-11.714 23.773-25.046V38.298c-.2-6.354-21.287-30.58-31.988-36.933C180.118.197 157.056-.005 122.685 0c-34.37.003-81.228.54-90.697 1.365zm65.194 66.217a28.025 28.025 0 0 1-4.78 6.155c-5.128 5.014-12.157 8.122-19.906 8.122a28.482 28.482 0 0 1-19.948-8.126c-1.858-1.82-3.27-3.766-4.563-6.032l-.006.004c-1.292 2.27-3.092 4.215-4.954 6.037a28.5 28.5 0 0 1-19.948 8.12c-.934 0-1.906-.258-2.692-.528-1.092 11.372-1.553 22.24-1.716 30.164l-.002.045c-.02 4.024-.04 7.333-.06 11.93.21 23.86-2.363 77.334 10.52 90.473 19.964 4.655 56.7 6.775 93.555 6.788h.006c36.854-.013 73.59-2.133 93.554-6.788 12.883-13.14 10.31-66.614 10.52-90.474-.022-4.596-.04-7.905-.06-11.93l-.003-.045c-.162-7.926-.623-18.793-1.715-30.165-.786.27-1.757.528-2.692.528a28.5 28.5 0 0 1-19.948-8.12c-1.862-1.822-3.662-3.766-4.955-6.037l-.006-.004c-1.294 2.266-2.705 4.213-4.563 6.032a28.48 28.48 0 0 1-19.947 8.125c-7.748 0-14.778-3.11-19.906-8.123a28.025 28.025 0 0 1-4.78-6.155 27.99 27.99 0 0 1-4.736 6.155 28.49 28.49 0 0 1-19.95 8.124c-.27 0-.54-.012-.81-.02h-.007c-.27.008-.54.02-.813.02a28.49 28.49 0 0 1-19.95-8.123 27.992 27.992 0 0 1-4.736-6.155zm-20.486 26.49l-.002.01h.015c8.113.017 15.32 0 24.25 9.746 7.028-.737 14.372-1.105 21.722-1.094h.006c7.35-.01 14.694.357 21.723 1.094 8.93-9.747 16.137-9.73 24.25-9.746h.014l-.002-.01c3.833 0 19.166 0 29.85 30.007L210 165.244c8.504 30.624-2.723 31.373-16.727 31.4-20.768-.773-32.267-15.855-32.267-30.935-11.496 1.884-24.907 2.826-38.318 2.827h-.006c-13.412 0-26.823-.943-38.318-2.827 0 15.08-11.5 30.162-32.267 30.935-14.004-.027-25.23-.775-16.726-31.4L46.85 124.08C57.534 94.073 72.867 94.073 76.7 94.073zm45.985 23.582v.006c-.02.02-21.863 20.08-25.79 27.215l14.304-.573v12.474c0 .584 5.74.346 11.486.08h.006c5.744.266 11.485.504 11.485-.08v-12.474l14.304.573c-3.928-7.135-25.79-27.215-25.79-27.215v-.006l-.003.002z" />
-</svg>
-    </a>
-    <a href="https://github.com/wyrdware" target="_blank" rel="noopener noreferrer me"
-        title="Github">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-    stroke-linecap="round" stroke-linejoin="round">
-    <path
-        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
-    </path>
-</svg>
-    </a>
-    <a href="https://www.linkedin.com/in/jaredgoronkin/" target="_blank" rel="noopener noreferrer me"
-        title="Linkedin">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-    stroke-linecap="round" stroke-linejoin="round">
-    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-    <rect x="2" y="9" width="4" height="12"></rect>
-    <circle cx="4" cy="4" r="2"></circle>
-</svg>
-    </a>
-</div>
 
-    </footer>
+      </div>
+    
+  </div>
 </article>
   
+  
 <section class="featured-fullbleed">
-  <h1 class="featured-heading">Featured Work</h1>
+  <h2 class="featured-heading">Featured Work</h2>
 
   <div class="featured-rail">
     <div class="featured-grid">
@@ -283,9 +335,10 @@
 
   
   
+  
     <article class="first-entry home-info extra-info">
       <header class="entry-header">
-        <h1>Testimonials</h1>  
+        <h2>Testimonials</h2>  
       </header>
       <div class="entry-content">
         
@@ -301,6 +354,7 @@
       </div>
     </article>
   
+
 
     </main>
     
@@ -318,6 +372,220 @@
         <path d="M12 6H0l6-6z" />
     </svg>
 </a>
+<canvas id="bg-canvas" class="bg-canvas" aria-hidden="true"></canvas>
+
+<script id="bg-vert" type="x-shader/x-vertex">
+attribute vec2 aPos;
+varying vec2 vUv;
+void main(){
+  vUv = (aPos + 1.0) * 0.5;
+  gl_Position = vec4(aPos, 0.0, 1.0);
+}
+</script>
+
+<script id="bg-frag" type="x-shader/x-fragment">
+precision highp float;
+varying vec2 vUv;
+uniform float uTime;
+uniform vec2  uRes;
+uniform float uDark;  // 0.0 = light, 1.0 = dark
+uniform vec2  uMouse; // 0..1 mouse position in UV space (x,y)
+
+/* --------- EDIT BELOW TO CHANGE THE LOOK --------- */
+float hash(vec2 p){ return fract(sin(dot(p, vec2(127.1,311.7)))*43758.5453123); }
+float noise(vec2 p){
+  vec2 i=floor(p), f=fract(p);
+  float a=hash(i), b=hash(i+vec2(1.,0.)), c=hash(i+vec2(0.,1.)), d=hash(i+vec2(1.,1.));
+  vec2 u=f*f*(3.-2.*f);
+  return mix(a,b,u.x) + (c-a)*u.y*(1.-u.x) + (d-b)*u.x*u.y;
+}
+
+void main(){
+  vec2 aspect = vec2(uRes.x/uRes.y, 1.);
+  vec2 p = (vUv - 0.5) * aspect;
+
+  float t = uTime * 0.08;
+  float n = 0.0;
+  n += 0.55 * noise(3.0*p + vec2(t, 0.0));
+  n += 0.30 * noise(6.0*p + vec2(0.0, t));
+  n += 0.15 * noise(9.0*p + vec2(-t, t));
+
+  // Base + tint (edit these 4 colors for quick theme changes)
+  vec3 baseLight = vec3(0.98, 0.98, 0.99);
+  vec3 baseDark  = vec3(0.12, 0.12, 0.13);
+  vec3 tintLight = vec3(0.78, 0.75, 0.72);
+  vec3 tintDark  = vec3(0.16, 0.17, 0.20);
+
+  vec3 base = mix(baseLight, baseDark, uDark);
+  vec3 tint = mix(tintLight, tintDark, uDark);
+
+  // Map noise to 0..1 (soft contrast)
+  float v = smoothstep(0.0, 1.0, n);
+
+  /* --- Mouse accent (subtle color boost near cursor) -------------------- */
+  vec2 aspect2 = vec2(uRes.x/uRes.y, 1.0);
+  // Flip Y so mouse matches UV space (0,0 bottom-left)
+  vec2 mouseUV = vec2(uMouse.x, 1.0 - uMouse.y);
+  vec2 q = (vUv - 0.5) * aspect2;
+  vec2 m = (mouseUV - 0.5) * aspect2;
+  float d = length(q - m);
+  float focus = smoothstep(0.45, 0.0, d);
+  v = clamp(v + focus * 0.15, 0.0, 1.0);
+  /* ---------------------------------------------------------------------- */
+
+  vec3 col = mix(base, tint, v);
+  gl_FragColor = vec4(col, 1.0);
+}
+/* --------- EDIT ABOVE TO CHANGE THE LOOK --------- */
+</script>
+
+<script>
+(() => {
+  const canvas = document.getElementById('bg-canvas');
+  if (!canvas) return;
+
+  
+  canvas.style.background = getComputedStyle(document.documentElement).getPropertyValue('--bg-fallback') || '#000';
+
+  const prefersReduced = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+  const isMobile = /Mobi|Android/i.test(navigator.userAgent);
+
+  const gl = canvas.getContext('webgl', {
+    antialias: true,
+    depth: false,
+    stencil: false,
+    premultipliedAlpha: true,
+    powerPreference: 'low-power'
+  });
+  if (!gl) {   return; }
+
+  
+  function make(type, src){
+    const sh = gl.createShader(type);
+    gl.shaderSource(sh, src);
+    gl.compileShader(sh);
+    if (!gl.getShaderParameter(sh, gl.COMPILE_STATUS)) {
+      console.error(gl.getShaderInfoLog(sh)); gl.deleteShader(sh); return null;
+    }
+    return sh;
+  }
+
+  const vsh = make(gl.VERTEX_SHADER,   document.getElementById('bg-vert').textContent);
+  const fsh = make(gl.FRAGMENT_SHADER, document.getElementById('bg-frag').textContent);
+  const prog = gl.createProgram();
+  gl.attachShader(prog, vsh); gl.attachShader(prog, fsh); gl.linkProgram(prog);
+  if (!gl.getProgramParameter(prog, gl.LINK_STATUS)) { console.error(gl.getProgramInfoLog(prog)); return; }
+  gl.useProgram(prog);
+
+  
+  const buf = gl.createBuffer();
+  gl.bindBuffer(gl.ARRAY_BUFFER, buf);
+  gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([ -1,-1,  3,-1,  -1,3 ]), gl.STATIC_DRAW);
+  const aPos = gl.getAttribLocation(prog, 'aPos');
+  gl.enableVertexAttribArray(aPos);
+  gl.vertexAttribPointer(aPos, 2, gl.FLOAT, false, 0, 0);
+
+  
+  const uTime  = gl.getUniformLocation(prog, 'uTime');
+  const uRes   = gl.getUniformLocation(prog, 'uRes');
+  const uDark  = gl.getUniformLocation(prog, 'uDark');
+  const uMouse = gl.getUniformLocation(prog, 'uMouse');
+
+  
+  const dpr = Math.min(window.devicePixelRatio || 1, isMobile ? 1 : 2);
+  function resize(){
+    const w = Math.floor(window.innerWidth  * dpr);
+    const h = Math.floor(window.innerHeight * dpr);
+    if (canvas.width !== w || canvas.height !== h){
+      canvas.width = w; canvas.height = h;
+      gl.viewport(0, 0, w, h);
+      gl.uniform2f(uRes, w, h);
+    }
+    canvas.style.width  = window.innerWidth + 'px';
+    canvas.style.height = window.innerHeight + 'px';
+  }
+  resize();
+  window.addEventListener('resize', resize, { passive: true });
+
+  
+  const isDark = () => document.body.classList.contains('dark');
+  const setTheme = () => gl.uniform1f(uDark, isDark() ? 1.0 : 0.0);
+  setTheme();
+  new MutationObserver(setTheme).observe(document.body, { attributes: true, attributeFilter: ['class'] });
+
+  
+  let mouse = { x: 0.5, y: 0.5 };
+  let targetMouse = { x: 0.5, y: 0.5 };
+
+  function setMouseFromEvent(e){
+    const t = e.touches?.[0];
+    const cx = (t ? t.clientX : e.clientX) ?? 0;
+    const cy = (t ? t.clientY : e.clientY) ?? 0;
+    targetMouse.x = Math.min(Math.max(cx / window.innerWidth , 0), 1);
+    targetMouse.y = Math.min(Math.max(cy / window.innerHeight, 0), 1);
+  }
+  window.addEventListener('mousemove', setMouseFromEvent, { passive: true });
+  window.addEventListener('touchstart', setMouseFromEvent, { passive: true });
+  window.addEventListener('touchmove',  setMouseFromEvent, { passive: true });
+
+  function smoothMouse(dt){
+    const k = Math.min(1, dt * 12);
+    mouse.x += (targetMouse.x - mouse.x) * k;
+    mouse.y += (targetMouse.y - mouse.y) * k;
+  }
+
+  
+  let start = performance.now(), raf = 0, prev = start;
+
+  function draw(now, dt){
+    if (!prefersReduced) smoothMouse(dt);
+    gl.uniform2f(uMouse, mouse.x, mouse.y);
+    const t = prefersReduced ? 0.0 : (now - start) / 1000.0;
+    gl.uniform1f(uTime, t);
+    gl.drawArrays(gl.TRIANGLES, 0, 3);
+  }
+
+  
+  draw(performance.now(), 0);
+
+  
+  (function reveal(){
+    document.body.classList.add('shader-ready');
+    const s = document.getElementById('bg-fallback-style'); if (s) s.remove();
+  })();
+
+  function frame(now){
+    const dt = (now - prev) / 1000; prev = now;
+    draw(now, dt);
+    raf = requestAnimationFrame(frame);
+  }
+  raf = requestAnimationFrame(frame);
+
+  document.addEventListener('visibilitychange', () => {
+    if (document.hidden) cancelAnimationFrame(raf);
+    else raf = requestAnimationFrame(frame);
+  }, { passive: true });
+})();
+</script>
+
+<style>
+ 
+.bg-canvas{
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: var(--bg-fallback, #000);  
+}
+
+ 
+body.shader-ready .list,
+body.shader-ready .single,
+body.shader-ready .page{
+  background: transparent !important;
+}
+</style>
+
 
 <script>
     let menu = document.getElementById('menu')

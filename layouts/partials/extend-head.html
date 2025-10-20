@@ -1,0 +1,23 @@
+<meta name="color-scheme" content="light dark">
+<style>
+  html { background:#0b0d10; }                  /* dark fallback */
+  @media (prefers-color-scheme: light){ html{ background:#ffffff; } }
+  .no-transitions *, .no-transitions *::before, .no-transitions *::after { transition:none!important; }
+</style>
+<script>
+(function () {
+  try {
+    var pref = localStorage.getItem('pref-theme');
+    var sysDark = matchMedia('(prefers-color-scheme: dark)').matches;
+    var dark = pref ? pref === 'dark' : sysDark;
+    var de = document.documentElement;
+    de.classList.add('no-transitions');
+    de.classList.toggle('dark', dark);
+    de.style.backgroundColor = dark ? '#0b0d10' : '#ffffff';
+    de.style.scrollbarGutter = 'stable';
+  } catch(e){}
+})();
+</script>
+<script>
+addEventListener('DOMContentLoaded', ()=>document.documentElement.classList.remove('no-transitions'));
+</script>

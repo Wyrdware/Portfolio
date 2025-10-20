@@ -1,3 +1,33 @@
+/* Hard stop for horizontal overflow */
+html { overflow-x: hidden; }     /* prevents the bar from showing */
+body { overflow-x: clip; }       /* modern, avoids creating a scrolling context */
+
+/* If you used 100vw anywhere, prefer 100% to avoid scrollbar-width issues */
+.full-bleed,
+.hero,
+.section {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* Images/covers should not exceed their container */
+img, .entry-cover img { max-width: 100%; height: auto; }
+html, body { background: #0b0d10; }
+html.dark, body.dark { background: #0b0d10; }
+
+
+#bg-canvas {
+  position: fixed;
+  inset: 0;           /* top:0; right:0; bottom:0; left:0 */
+  display: block;     /* prevent inline gap issues */
+  pointer-events: none;
+  z-index: 0;         /* content goes above */
+}
+header, main, footer { position: relative; z-index: 1; }
+
+
+
+
 /* Grid container for posts */
 .custom-grid {
   display: grid;

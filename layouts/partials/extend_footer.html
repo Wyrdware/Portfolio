@@ -1,5 +1,13 @@
+
+
+
+
+
 <!-- Full-screen background shader (site-wide, PaperMod footer hook) -->
-<canvas id="bg-canvas" class="bg-canvas" aria-hidden="true"></canvas>
+
+ <canvas id="bg-canvas" class="bg-canvas" aria-hidden="true"
+   style="position:fixed;inset:0;display:block;pointer-events:none;
+          z-index:0;background:#0b0d10;opacity:0;transition:opacity .18s ease-out"></canvas>
 
 <script id="bg-vert" type="x-shader/x-vertex">
 attribute vec2 aPos;
@@ -78,10 +86,11 @@ void main(){
   const isMobile = /Mobi|Android/i.test(navigator.userAgent);
 
   const gl = canvas.getContext('webgl', {
+    alpha: false,
     antialias: true,
     depth: false,
     stencil: false,
-    premultipliedAlpha: true,
+    premultipliedAlpha: false,
     powerPreference: 'low-power'
   });
   if (!gl) { /* Keep solid fallback */ return; }
@@ -172,14 +181,15 @@ void main(){
     gl.drawArrays(gl.TRIANGLES, 0, 3);
   }
 
-  // First synchronous draw to avoid flash
+  gl.clearColor(0.043, 0.051, 0.063, 1.0); // ~ #0b0d10
+  gl.clear(gl.COLOR_BUFFER_BIT);
   draw(performance.now(), 0);
-
-  // Now that the shader is visible, make wrappers transparent and remove fallback
-  (function reveal(){
-    document.body.classList.add('shader-ready');
-    const s = document.getElementById('bg-fallback-style'); if (s) s.remove();
-  })();
+  canvas.style.opacity = '1';
+  // First synchronous draw to avoid flash (opaque, dark)
+  draw(performance.now(), 0);
+  // Reveal only after we’ve drawn a dark frame
+  canvas.style.opacity = '1';
+  document.body.classList.add('shader-ready');
 
   function frame(now){
     const dt = (now - prev) / 1000; prev = now;
@@ -196,14 +206,15 @@ void main(){
 </script>
 
 <style>
-/* Canvas behind content; use fallback color until GL paints */
 .bg-canvas{
   position: fixed;
   inset: 0;
-  z-index: -1;
+  z-index: 0;               /* <— avoid negative stacking issues */
   pointer-events: none;
-  background: var(--bg-fallback, #000); /* prevents white while GL warms up */
+  background: var(--bg-fallback, #000);
 }
+
+header, main, footer { position: relative; z-index: 1; }
 
 /* Only AFTER first shader frame, make wrappers transparent */
 body.shader-ready .list,
@@ -212,3 +223,6 @@ body.shader-ready .page{
   background: transparent !important;
 }
 </style>
+
+
+

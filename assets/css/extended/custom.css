@@ -262,7 +262,8 @@ header.header nav a:hover::after {
 
 
 .featured-heading {
-  margin: 0 auto calc(var(--gap) * 1.25);
+  margin-top: 0rem;
+  margin-bottom: 2.25rem;
   max-width: var(--rail-max);
   padding-inline: 0;     
 }
@@ -362,10 +363,6 @@ header.header nav a:hover::after {
 
 
 
-/* Match hero spacing between heading and content */
-.extra-info .entry-header {
-  margin-bottom: var(--content-gap, 1rem);
-}
 
 /* Loosen up the text slightly to match hero rhythm */
 .extra-info .entry-content {
@@ -395,7 +392,7 @@ body.list:has(article.first-entry.home-info) header.header {
 
 
 /*---------------------*/
-/* Layout only; let PaperMod handle fonts, colors, spacing */
+
 .hi{
   display:flex;
   align-items:center;
@@ -411,6 +408,10 @@ body.list:has(article.first-entry.home-info) header.header {
   border-radius: 18%;
   box-shadow: 0 2px 16px rgba(0,0,0,.06);
   display: block;
+}
+
+.hi__header{
+  margin-bottom: 0.6rem;
 }
 
 /* Desktop positions */
@@ -434,7 +435,7 @@ body.list:has(article.first-entry.home-info) header.header {
   .hi{
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    text-align: left;
     gap: var(--gap);
   }
   .hi__photo{
@@ -481,8 +482,6 @@ body.list:has(article.first-entry.home-info) header.header {
   stroke-linejoin: round;
   vector-effect: non-scaling-stroke;/* keeps stroke crisp if the SVG scales */
 }
-
-
 
 
 
@@ -547,5 +546,23 @@ body.list:has(article.first-entry.home-info) header.header {
     grid-template-columns: 1fr;   /* full-width buttons stacked */
   }
 }
+
+
+.hi-extra{
+  margin-bottom: 0rem;
+  margin-top: 1.5rem;          /* space above the list */
+}
+
+
+
+
+/* UNBOX the hero (HomeInfo) */
+body.list article.first-entry.home-info{
+
+  padding-top: 6rem;          /* keep only what you want */
+  padding-bottom: 0rem; /* precise gap control */
+}
+
+
 
 

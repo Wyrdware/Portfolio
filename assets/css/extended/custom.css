@@ -554,8 +554,6 @@ body.list:has(article.first-entry.home-info) header.header {
 }
 
 
-
-
 /* UNBOX the hero (HomeInfo) */
 body.list article.first-entry.home-info{
 

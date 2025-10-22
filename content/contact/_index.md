@@ -6,7 +6,9 @@ classes: ["contact-page"]
 
 ---
 
-Thanks for taking a look around! If you want to know more about me or my projects, or are looking to hire a systems-focused programmer, please reach out to me through the contact form below. I'd love to hear from you!
+{{< social >}}
+
+If you are looking to hire a dynamic and passionate systems-focused programmer with a record of elevating those around them, or just want to know more about me or my projects, please reach out through the contact form below.
 
 <div class="contact-wrapper">
 

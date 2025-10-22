@@ -278,8 +278,8 @@ header.header nav a:hover::after {
 }
 
 /* Hover/active */
-.first-entry.home-info .social-icons a:hover { transform: translateY(-1px); opacity: 1; }
-.first-entry.home-info .social-icons a:active { transform: translateY(0); opacity: 0.9; }
+.social-icons a:hover { transform: translateY(-1px); opacity: 1; }
+.social-icons a:active { transform: translateY(0); opacity: 0.9; }
 
 
 
@@ -340,7 +340,7 @@ header.header nav a:hover::after {
 .featured-grid .custom-card .entry-header h2 {
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 3;
   overflow: hidden;
   margin: 0;            
 }
@@ -349,7 +349,7 @@ header.header nav a:hover::after {
 .featured-grid .custom-card .entry-content p {
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;     /*number of lines to clamp*/
+  -webkit-line-clamp: 5;     /*number of lines to clamp*/
   overflow: hidden;
   margin: .2rem 0 .0rem;
 }
@@ -562,5 +562,28 @@ body.list article.first-entry.home-info{
 }
 
 
+/* PaperMod social icon row: remove link underlines */
+.social-icons a {
+  text-decoration: none !important;
+  border-bottom: none !important;   /* if your theme uses border-bottom underlines */
+  box-shadow: none !important;      /* if underlines are done via box-shadow */
+  background-image: none !important;/* if underlines are gradient-based */
+  display: inline-flex;
+  align-items: center;
+}
 
+/* keep a nice hover without bringing back the underline */
+.social-icons a:hover,
+.social-icons a:focus-visible {
+  text-decoration: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+  opacity: 0.85;                    /* subtle feedback — tweak as you like */
+}
 
+/* sometimes the underline peeks due to SVG baseline; make SVG block-level */
+.social-icons a svg {
+  display: block;
+}
+
+.social-icons {  margin-bottom: .75rem; }

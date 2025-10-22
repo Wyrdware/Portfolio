@@ -1,7 +1,7 @@
 ---
 title: "Mosaic"
 date: 2022-08-01
-summary: "Built for teams to enable full modularity in systems development. Leveraged by Echoes In The Mists"
+summary: "Designed and engineered a Unity package to enable full modularity in systems development. Leveraged by Echoes In The Mists"
 tags: ["Unity", "Systems Architecture", "Game Development", "C#", "Modular Design", "Tools", "Data-Driven"]
 cover:
   image: images/mosaic_diagram.png
@@ -25,7 +25,8 @@ Mosaic serves as the architectural foundation for *Echoes in the Mists*, an RIT 
 
 Game development is iterative by necessity, but most gameplay systems are built rigidly, tied closely to a single project’s architecture and difficult to adapt elsewhere. As projects evolve, tech debt accumulates, making features costly to extend, remove, or reuse.
 
-Temporary solutions often become entrenched, bloating the codebase. Less experienced developers can unintentionally compound these issues without clear architectural guidelines. Even well-built systems aren't always designed to scale across teams, contributors, or future projects.
+Mosaic, even when utilized by novice programmers, helped facilitate development of dynamic gameplay mechanics and systems without introducing architectural overhead.
+Temporary solutions often become entrenched, bloating the codebase. Even well-built systems aren't always designed to scale across teams, contributors, or future projects.
 
 ---
 
@@ -39,7 +40,7 @@ The resulting framework lies between the game object model and the character con
 
 ## Outcome
 
-Mosaic demonstrated it's value. At GDC 2025 I presented how Mosaic made our team's ambitious capstone game possible. Its modular design enabled rapid iteration and parallel development across disciplines, while ensuring clean architectural boundaries.
+At GDC 2025, I was proud to demonstrate Mosaic’s value when I presented how my efforts on Mosaic allowed my team’s ambitious capstone game to become possible. Mosaic’s modular design enabled rapid iteration, parallel development across disciplines, and ensured clean architectural boundaries for *Echoes In the Mist*.
 
 Less experienced programmers successfully implemented complex systems, such as a fully modular animation-matched backstab, without introducing architectural overhead thanks to Mosaic.
 
@@ -47,12 +48,6 @@ Mosaic also enabled designers to compose and test behaviors independently. Its s
 
 > *“Mosaic works as a springboard in early development. It made prototypes extremely quick to develop, especially for character systems. Because any action could be transferred between entities, creating new players or enemies was simple and consistent. It also streamlined the creation of animators, actions, and attacks by drawing from a shared base.”*  
 > — James Zilberman | Combat Designer, Echoes in the Mists
-
----
-
-## Current Status
-
-Mosaic is currently undergoing structural revisions. The system has been used in multiple Unity projects and is available for review or walkthroughs upon request.
 
 ---
 
@@ -66,6 +61,6 @@ If you’re building scalable systems, prototyping new gameplay mechanics, or ne
 
 - [GitHub – Wyrdware/Mosaic](https://github.com/Wyrdware/Mosaic)
 - [Used in: Echoes in the Mists →](/projects/echoes)
-- [RIT Named a Top 5 University To Study Game Design](https://www.rit.edu/news/rit-named-top-5-university-study-game-design)
+- [Mosaic & Echoes in the Mists featured in article naming RIT a Top Five Game Design University](https://www.rit.edu/news/rit-named-top-5-university-study-game-design)
 
 

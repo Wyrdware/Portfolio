@@ -1,7 +1,7 @@
 ---
 title: "Echoes in the Mists"
 date: 2025-05-01
-summary: "Showcased at GDC 2025 NYS Pavillion. I led engineering on this full featured soulslike-in-an-evening built in 8 months by a 5-person core team. Powered by Mosaic."
+summary: "Shown at GDC 2025 NYS Pavilion, I led engineering and production on this souls-like. Descend into a corrupted seaport where danger and discovery lurk around every corner. Powered by Mosaic."
 tags: ["Unity", "Gameplay Systems", "Soulslike", "Data-Driven"]
 cover:
   image: images/echoes_cover_1200x630.png
@@ -10,11 +10,16 @@ weight: 2
 
 ---
 
+> *In Echoes In The Mists, you are the last remaining knight in a dark overrun seaport. Uncover the echoes of your past and face monsters born of the Mists in challenging combat as you seek out the source of the corruption. Every corner hides dangers, secrets, and rewards. Forge your path and grow in power until you are ready to confront the final boss.*
+
+
 ## Overview
 
-*Echoes in the Mists* is a souls-like game with a demo available for [PC on itch.io](https://backstab-industries.itch.io/echoes-in-the-mists). I led engineering and production on a small multidisiplinary team, designing and implementing all core systems and tools while managing schedules, meetings, and task planning to keep development on track. It was powered by my modular gameplay framework [Mosaic](/projects/mosaic/) and recognized at the **GDC NYS Pavilion**, **RPI GameFest**, **EDGE**, **Roc Game Fest**, **Imagine RIT**, and multiple **RIT press features**.
+*Echoes in the Mists* is a souls-like game with a demo available for [PC on itch.io](https://backstab-industries.itch.io/echoes-in-the-mists). I led engineering and production on a multidisciplinary team, designing and implementing all core systems and tools while managing schedules, meetings, and task planning to keep development on track. It was powered by my modular gameplay framework [Mosaic](/projects/mosaic/) and recognized at the **GDC NYS Pavilion**, **RPI GameFest**, **EDGE**, **Roc Game Fest**, **Imagine RIT**, and multiple **RIT press features**.
 
 ---
+
+![combat](/images/eim_combat.gif)
 
 ## Challenge
 
@@ -36,6 +41,8 @@ All of these technical decisions were made in support of our fantastic designers
 
 ## Outcome
 Echoes In The Mists demonstrated that with the proper technical foundations and direction, this small team of students could build a full featured souls-like experience within a tight academic timeline. Players routinely spend anywhere up to an hour exploring the demo at public conventions, praising the responsive combat, compelling progression systems, and souls-like feel. 
+
+![combat](/images/eim_port.gif)
 
 **Development Highlights** 
 - 30+ unique enemy types 

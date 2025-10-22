@@ -15,7 +15,7 @@ weight: 1
 
 ## Overview
 
-Mosaic is a universal gameplay framework for Unity used by designers and developers to build, collaborate on, and share gameplay systems. The framework ensures developed features are scalable, reusable, and fully cross compatible. This allows individuals, studios, and communities to invest in their systems creating value that is retained accross projects. 
+Mosaic is a universal gameplay framework I developed for Unity used by designers and developers to build, collaborate on, and share gameplay systems. The framework ensures developed features are scalable, reusable, and fully cross compatible. This allows individuals, studios, and communities to invest in their systems creating value that is retained accross projects. 
 
 Mosaic serves as the architectural foundation for *Echoes in the Mists*, an RIT capstone game featured at various local conventions, showcased at the **2025 GDC New York State Pavilion**, and highlighted as part of RIT’s recognition as the **#3 MS game design program in the U.S**.
 
@@ -25,8 +25,7 @@ Mosaic serves as the architectural foundation for *Echoes in the Mists*, an RIT 
 
 Game development is iterative by necessity, but most gameplay systems are built rigidly, tied closely to a single project’s architecture and difficult to adapt elsewhere. As projects evolve, tech debt accumulates, making features costly to extend, remove, or reuse.
 
-Mosaic, even when utilized by novice programmers, helped facilitate development of dynamic gameplay mechanics and systems without introducing architectural overhead.
-Temporary solutions often become entrenched, bloating the codebase. Even well-built systems aren't always designed to scale across teams, contributors, or future projects.
+Temporary solutions often become entrenched, bloating the codebase. Less experienced developers can unintentionally compound these issues without clear architectural guidelines. Even well-built systems aren't always designed to scale across teams, contributors, or future projects.
 
 ---
 
@@ -42,7 +41,7 @@ The resulting framework lies between the game object model and the character con
 
 At GDC 2025, I was proud to demonstrate Mosaic’s value when I presented how my efforts on Mosaic allowed my team’s ambitious capstone game to become possible. Mosaic’s modular design enabled rapid iteration, parallel development across disciplines, and ensured clean architectural boundaries for *Echoes In the Mist*.
 
-Less experienced programmers successfully implemented complex systems, such as a fully modular animation-matched backstab, without introducing architectural overhead thanks to Mosaic.
+Mosaic, even when utilized by novice programmers, helped facilitate development of dynamic gameplay mechanics and systems without introducing architectural overhead.
 
 Mosaic also enabled designers to compose and test behaviors independently. Its success highlights the power of well-designed abstractions to enable ambitious, sustainable game development at scale.
 

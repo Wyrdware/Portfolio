@@ -13,7 +13,7 @@ weight: 2
 > *In Echoes In The Mists, you are the last remaining knight in a dark overrun seaport. Uncover the echoes of your past and face monsters born of the Mists in challenging combat as you seek out the source of the corruption. Every corner hides dangers, secrets, and rewards. Forge your path and grow in power until you are ready to confront the final boss.*
 
 
-## Overview
+# Overview
 
 *Echoes in the Mists* is a souls-like game with a demo available for [PC on itch.io](https://backstab-industries.itch.io/echoes-in-the-mists). I led engineering and production on a multidisciplinary team, designing and implementing all core systems and tools while managing schedules, meetings, and task planning to keep development on track. It was powered by my modular gameplay framework [Mosaic](/projects/mosaic/) and recognized at the **GDC NYS Pavilion**, **RPI GameFest**, **EDGE**, **Roc Game Fest**, **Imagine RIT**, and multiple **RIT press features**.
 
@@ -21,7 +21,7 @@ weight: 2
 
 ![combat](/images/eim_combat.gif)
 
-## Challenge
+# Challenge
 
 With a tight 8 month timeline and a core team of 5 graduate students, we set out to develop what we dubbed a “souls-like in an evening”: A short experience capturing the depth and tension of a full-length souls-like game. This required a carefully balanced production, to ensure systems for tactical combat, world exploration, enemy variety, and progression were all developed in tandem.
 
@@ -29,7 +29,7 @@ For this project to scale to a full release, I needed to architect systems that 
 
 ---
 
-## Approach
+# Approach
 
 Technical research, including reverse engineering Dark Souls’ combat system using modding tools ([read more](/research/animation-driven-sim/)) established a strong baseline for our core systems. [Mosaic](/projects/mosaic/) provided the foundational architecture of the project ensuring all of our systems were built in a scalable, modular, and re-usable manner, powering everything from enemy behavior to the dynamic charm system. 
 
@@ -39,7 +39,7 @@ All of these technical decisions were made in support of our fantastic designers
 
 ---
 
-## Outcome
+# Outcome
 Echoes In The Mists demonstrated that with the proper technical foundations and direction, this small team of students could build a full featured souls-like experience within a tight academic timeline. Players routinely spend anywhere up to an hour exploring the demo at public conventions, praising the responsive combat, compelling progression systems, and souls-like feel. 
 
 ![combat](/images/eim_port.gif)
@@ -54,7 +54,7 @@ Echoes In The Mists demonstrated that with the proper technical foundations and 
 
 ---
 
-## Recognition
+# Recognition
 - Selected for the NYS Pavilion at GDC, where I presented our project and Mosaic
 - Exhibitor at [Rochester Game Festival](https://www.rocgamefest.com/springminishow2025/exhibitors/#:~:text=GAME%20FEST%0AIn-,Echoes%20In%20The%20Mists,-%2C%20you%20are%20the), EDGE, and [Imagine RIT](https://www.rit.edu/imagine/exhibits/echoes-mists-bite-sized-souls)
 - Spotlighted by [RIT News](https://www.rit.edu/news/rit-named-top-5-university-study-game-design)
@@ -62,7 +62,7 @@ Echoes In The Mists demonstrated that with the proper technical foundations and 
 
 ---
 
-## Links
+# Links
 
 - [Play the demo on Itch.io](https://backstab-industries.itch.io/echoes-in-the-mists)
 - [Built on: Mosaic](/projects/mosaic)

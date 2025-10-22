@@ -13,7 +13,7 @@ weight: 1
 > *“As a Designer on the Echoes in the Mists dev team, Mosaic provided me with a multitude of useful functions that made implementing game mechanics easy. The Mosaic toolset immensely helped iteration without me ever having to edit code. Since Mosaic features are all modular, I could quickly refine and playtest ideas immediately.”*  
 > — Rinnie Bi | Level Developer, Echoes in the Mists
 
-## Overview
+# Overview
 
 Mosaic is a universal gameplay framework I developed for Unity used by designers and developers to build, collaborate on, and share gameplay systems. The framework ensures developed features are scalable, reusable, and fully cross compatible. This allows individuals, studios, and communities to invest in their systems creating value that is retained accross projects. 
 
@@ -21,7 +21,7 @@ Mosaic serves as the architectural foundation for *Echoes in the Mists*, an RIT 
 
 ---
 
-## Challenge
+# Challenge
 
 Game development is iterative by necessity, but most gameplay systems are built rigidly, tied closely to a single project’s architecture and difficult to adapt elsewhere. As projects evolve, tech debt accumulates, making features costly to extend, remove, or reuse.
 
@@ -29,7 +29,7 @@ Temporary solutions often become entrenched, bloating the codebase. Less experie
 
 ---
 
-## Approach
+# Approach
 
 Mosaic was developed through iterative prototyping and extensive research into scalable architectures, including game object models, programing paradigms, and other related systems such as ability systems and character controllers. Mosaic was also the subject of my graduate thesis.
 
@@ -37,7 +37,7 @@ The resulting framework lies between the game object model and the character con
 
 ---
 
-## Outcome
+# Outcome
 
 At GDC 2025, I was proud to demonstrate Mosaic’s value when I presented how my efforts on Mosaic allowed my team’s ambitious capstone game to become possible. Mosaic’s modular design enabled rapid iteration, parallel development across disciplines, and ensured clean architectural boundaries for *Echoes In the Mist*.
 
@@ -50,13 +50,13 @@ Mosaic also enabled designers to compose and test behaviors independently. Its s
 
 ---
 
-## Interested?
+# Interested?
 
 If you’re building scalable systems, prototyping new gameplay mechanics, or need a tools-focused engineer, I’d love to chat about how Mosaic’s ideas might translate to your pipeline.
 
 ---
 
-## Links
+# Links
 
 - [GitHub – Wyrdware/Mosaic](https://github.com/Wyrdware/Mosaic)
 - [Used in: Echoes in the Mists →](/projects/echoes)

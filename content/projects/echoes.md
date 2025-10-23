@@ -29,6 +29,8 @@ For this project to scale to a full release, I needed to architect systems that 
 
 ---
 
+![combat](/images/positional_combat.png)
+
 # Approach
 
 Technical research, including reverse engineering Dark Souls’ combat system using modding tools ([read more](/research/animation-driven-sim/)) established a strong baseline for our core systems. [Mosaic](/projects/mosaic/) provided the foundational architecture of the project ensuring all of our systems were built in a scalable, modular, and re-usable manner, powering everything from enemy behavior to the dynamic charm system. 
@@ -39,10 +41,12 @@ All of these technical decisions were made in support of our fantastic designers
 
 ---
 
+![combat](/images/eim_port.gif)
+
 # Outcome
 Echoes In The Mists demonstrated that with the proper technical foundations and direction, this small team of students could build a full featured souls-like experience within a tight academic timeline. Players routinely spend anywhere up to an hour exploring the demo at public conventions, praising the responsive combat, compelling progression systems, and souls-like feel. 
 
-![combat](/images/eim_port.gif)
+![combat](/images/some_enemy_variants.png)
 
 **Development Highlights** 
 - 30+ unique enemy types 

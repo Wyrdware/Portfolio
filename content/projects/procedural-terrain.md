@@ -51,7 +51,7 @@ The system produces natural, artifact-free overhangs and caves. It established t
 
 --- 
 
-![gpu marching cubes](/images/noise.gif)
+![gpu marching cubes](/images/Noise.gif)
 
 # GPU Marching Cubes
 I ported my marching cubes terrain system to a compute-shader implementation, enabling real-time, large-scale mesh generation entirely on the GPU. The goal was to move from experimental prototypes to a solution that could be used in production.

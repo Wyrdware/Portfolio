@@ -46,9 +46,6 @@ All of these technical decisions were made in support of our fantastic designers
 # Outcome
 Echoes In The Mists demonstrated that with the proper technical foundations and direction, this small team of students could build a full-featured Souls-like experience within a tight academic timeline. Players routinely spend anywhere up to an hour exploring the demo at public conventions, praising the responsive combat, compelling progression systems, and Souls-like feel. 
 
-> *"As the capstone professor, I worked closely with Jared and the team. Echoes in the Mists stood out as one of the top games developed that year, driven by Jared's leadership and the team's shared passion. What impressed me most was how effectively it guided players through the experience. You're never unsure of where to go, yet the design never undermines your sense of agency. It feels like you're discovering the path yourself rather than being led. It is a well-crafted and engaging experience."*  
-> — Sten McKinzie  |  Capstone Professor, RIT
-
 ![combat](/images/some_enemy_variants.png)
 
 **Development Highlights** 
@@ -58,6 +55,9 @@ Echoes In The Mists demonstrated that with the proper technical foundations and 
 - 5 major interconnected regions 
 - 1 modular boss encounter as the final challenge 
 - 5 core team members, 8 months total development time 
+
+> *"As the capstone professor, I worked closely with Jared and the team. Echoes in the Mists stood out as one of the top games developed that year, driven by Jared's leadership and the team's shared passion. What impressed me most was how effectively it guided players through the experience. You're never unsure of where to go, yet the design never undermines your sense of agency. It feels like you're discovering the path yourself rather than being led. It is a well-crafted and engaging experience."*  
+> — Sten McKinzie  |  Capstone Professor, RIT
 
 ---
 

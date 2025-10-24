@@ -18,7 +18,7 @@ Over the years I’ve explored UX and UI design from both the technical and expe
 
 ![pastel radial](/images/pastel_radial.png)
 
-## Pastel (2024)
+# Pastel (2024)
 Engineered a dynamic radial UI system enabling Pastel’s color-mixing gameplay, where players control anywhere from one to ten slimes at once. The interface adapts fluidly to each configuration, visualizing relationships through real-time render textures and multiple cameras. The system I built procedurally generates and caches its masks in real time using compute shaders, **replacing what would have been over 100 hand-authored** assets with a flexible, data-driven approach. Cached generation and parameter matching ensured near-instant performance, while an MVC architecture cleanly separated gameplay logic from rendering. The result was a flexible, performant UI that kept players oriented and reinforced the game’s playful, readable aesthetic.
 
 ---

@@ -15,7 +15,7 @@ weight: 2
 
 # Overview
 
-*Echoes in the Mists* is a souls-like game with a demo available for [PC on itch.io](https://backstab-industries.itch.io/echoes-in-the-mists). I led engineering and production on a multidisciplinary team, designing and implementing all core systems and tools while managing schedules, meetings, and task planning to keep development on track. It was powered by my modular gameplay framework [Mosaic](/projects/mosaic/) and recognized at the **GDC NYS Pavilion**, **RPI GameFest**, **EDGE**, **Roc Game Fest**, **Imagine RIT**, and multiple **RIT press features**.
+*Echoes in the Mists* is a Souls-like game with a demo available for [PC on itch.io](https://backstab-industries.itch.io/echoes-in-the-mists). I led engineering and production on a multidisciplinary team, designing and implementing all core systems and tools while managing schedules, meetings, and task planning to keep development on track. It was powered by my modular gameplay framework [Mosaic](/projects/mosaic/) and recognized at the **GDC NYS Pavilion**, **RPI GameFest**, **EDGE**, **Roc Game Fest**, **Imagine RIT**, and multiple **RIT press features**.
 
 ---
 
@@ -23,7 +23,7 @@ weight: 2
 
 # Challenge
 
-With a tight 8 month timeline and a core team of 5 graduate students, we set out to develop what we dubbed a “souls-like in an evening”: A short experience capturing the depth and tension of a full-length souls-like game. This required a carefully balanced production, to ensure systems for tactical combat, world exploration, enemy variety, and progression were all developed in tandem.
+With a tight 8-month timeline and a core team of 5 graduate students, we set out to develop what we dubbed a “Souls-like in an evening”: A short experience capturing the depth and tension of a full-length Souls-like game. This required a carefully balanced production, to ensure systems for tactical combat, world exploration, enemy variety, and progression were all developed in tandem.
 
 For this project to scale to a full release, I needed to architect systems that empowered all developers to contribute independently, avoid bottlenecks, and maintain a clean, scalable code as the project evolved.
 
@@ -44,7 +44,10 @@ All of these technical decisions were made in support of our fantastic designers
 ![combat](/images/eim_port.gif)
 
 # Outcome
-Echoes In The Mists demonstrated that with the proper technical foundations and direction, this small team of students could build a full featured souls-like experience within a tight academic timeline. Players routinely spend anywhere up to an hour exploring the demo at public conventions, praising the responsive combat, compelling progression systems, and souls-like feel. 
+Echoes In The Mists demonstrated that with the proper technical foundations and direction, this small team of students could build a full-featured Souls-like experience within a tight academic timeline. Players routinely spend anywhere up to an hour exploring the demo at public conventions, praising the responsive combat, compelling progression systems, and Souls-like feel. 
+
+> *"As the capstone professor, I worked closely with Jared and the team. Echoes in the Mists stood out as one of the top games developed that year, driven by Jared's leadership and the team's shared passion. What impressed me most was how effectively it guided players through the experience. You're never unsure of where to go, yet the design never undermines your sense of agency. It feels like you're discovering the path yourself rather than being led. It is a well-crafted and engaging experience."*  
+> — Sten McKinzie  |  Capstone Professor, RIT
 
 ![combat](/images/some_enemy_variants.png)
 

@@ -15,7 +15,7 @@ weight: 2
 
 # Overview
 
-*Echoes in the Mists* is a Souls-like game with a demo available for [PC on itch.io](https://backstab-industries.itch.io/echoes-in-the-mists). I led engineering and production on a multidisciplinary team, designing and implementing all core systems and tools while managing schedules, meetings, and task planning to keep development on track. It was powered by my modular gameplay framework [Mosaic](/projects/mosaic/) and recognized at the **GDC NYS Pavilion**, **RPI GameFest**, **EDGE**, **Roc Game Fest**, **Imagine RIT**, and multiple **RIT press features**.
+*Echoes in the Mists* is a Souls-like game with a demo available for [PC on itch.io](https://backstab-industries.itch.io/echoes-in-the-mists). I led engineering and production on a multidisciplinary team. I designed and implemented all core systems and tools while managing schedules, meetings, and task planning to keep development on track. It was powered by my modular gameplay framework [Mosaic](/projects/mosaic/) and recognized at the **GDC NYS Pavilion**, **RPI GameFest**, **EDGE**, **Roc Game Fest**, **Imagine RIT**, and multiple **RIT press features**.
 
 ---
 

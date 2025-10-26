@@ -15,7 +15,7 @@ A series of explorations into procedural terrain generation in Unity.
 
 ---
 
-![gpu marching cubes](/images/proc_terrain.png)
+![perlin terrain](/images/proc_terrain.png)
 
 # Curve-Authored Terrain
 I built a lightweight procedural terrain generator for Unity focused on artistic control. It uses Perlin noise shaped by animation curves and slope-based texture blending to create authored-feeling arctic landscapes without sacrificing performance.
@@ -29,25 +29,25 @@ I built a lightweight procedural terrain generator for Unity focused on artistic
 - Used slope and height data to drive material blending and procedural prop placement,
 
 **Outcome**
-Delivers curated landscapes entirely from data-driven methods. This project established the foundation for my later 3D terrain and GPU-accelerated marching cube systems.
+Delivers curated landscapes entirely from data-driven methods. This project established the foundation for my later terrain and GPU-accelerated marching cube systems.
 
 ---
 
-![gpu marching cubes](/images/mc_terrain.png)
+![flowfield terrain](/images/mc_terrain.png)
 
 # Marching Cubes Terrain
 I built a proof-of-concept system for 3D terrain generation that supports overhangs, arches, and caves using marching cubes and Perlin flow fields. The goal was to produce smooth, continuous terrain without the floating artifacts common in traditional 3D noise.
 
 **My Approach**
 
-- Implemented a marching cubes renderer to visualize scalar fields in real time.
+- Implemented a marching cubes renderer to visualize scalar fields.
 
-- Generated the density field from a vertical gradient distorted by 3D flow fields, maintaining topological consistency while introducing complex features.
+- Generated the scalar field from a vertical gradient distorted by perlin flow fields, maintaining topological consistency while introducing complex features.
 
 - Tuned the algorithm to preserve seamless geometry across chunks without post-processing cleanup.
 
 **Outcome**
-The system produces natural, artifact-free overhangs and caves. It established the framework for my later GPU implementation, where I re-engineered the pipeline for parallel computation and large-scale performance.
+The system produces natural, artifact-free overhangs and caves. It established the framework for my later GPU implementation, where I re-engineered the pipeline for better performance.
 
 --- 
 

@@ -8,7 +8,7 @@ title: "Home"
 
 
 > *“I’ve rarely encountered a student team so driven to achieve excellence, and much of that came from Jared’s leadership. Echoes in the Mists stood out as one of the strongest games developed that year.”*  
-> — Sten McKinzie  |  Graduate Program Coordinator, RIT
+> — Sten McKinzie  |  Graduate Program Director, RIT
 
 
 

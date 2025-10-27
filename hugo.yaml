@@ -51,13 +51,15 @@ params:
     Content: |
       > *I am a multi-faceted, technically empowered Game Developer seeking a chance to complement the efforts of a passionate development team.*
     
+
     extraContent: |
+      
       - Earned my **M.S. in Game Design and Development** from RIT, a graduate program [ranked #3 in the nation](https://www.rit.edu/news/rit-named-top-5-university-study-game-design)
       where I applied my research on how **animations can be leveraged to drive gameplay** to my capstone and implemented various **procedural terrain generation** techniques.
       - Personally developed Mosaic, a Unity package that has helped teams develop and refine gameplay features with less technical overhead, resulting in shipping builds faster.
       - Led engineering and production on Echoes in the Mist, a PC game powered by Mosaic.
       - Showcased work at **GDC** (NYS Pavilion, twice), **RetroGameCon**, **RPI GameFest**, **Roc Game Fest**, **EDGE**, and **Imagine RIT**
-      - Co-founded an independent student initiative that raised **$30K+** to send 12 students to GDC.
+      - Co-founded an independent student initiative that raised **$30K+** to send 12 students to GDC. 
 
     
     image: "/images/JG5.jpg" #1 and 2 seem to be the best

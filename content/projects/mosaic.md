@@ -1,7 +1,8 @@
 ---
 title: "Mosaic"
 date: 2022-08-01
-summary: "Designed and engineered a Unity package to enable full modularity in systems development. Leveraged by Echoes In The Mists"
+summary: "Designed and engineered a Unity package featured at GDC 2025 for its ability to rapidly develop gameplay mechanics and systems. Leveraged by Echoes In The Mists."
+
 tags: ["Unity", "Systems Architecture", "Game Development", "C#", "Modular Design", "Tools", "Data-Driven"]
 cover:
   image: images/mosaic_diagram.png

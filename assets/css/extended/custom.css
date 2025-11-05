@@ -516,6 +516,7 @@ body.list:has(article.first-entry.home-info) header.header {
   outline:2px solid var(--secondary);
   outline-offset:-2px;
   
+  white-space: nowrap;
 }
 
 
@@ -538,13 +539,6 @@ body.list:has(article.first-entry.home-info) header.header {
 .hi-link:focus-visible{
   outline:2px solid var(--primary);
   outline-offset:2px;
-}
-
-/* Optional: tighter grid on small screens or single-column */
-@media (max-width: 480px){
-  .hi-links{
-    grid-template-columns: 1fr;   /* full-width buttons stacked */
-  }
 }
 
 

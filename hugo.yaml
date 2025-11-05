@@ -49,15 +49,17 @@ params:
   homeInfoParams:
     Title: "Jared Goronkin  |   M.S. (RIT)"
     Content: |
-      > ***I am a multi-faceted, technically empowered Game Developer seeking a chance to complement the efforts of a passionate development team.***
+      > ***I am a multi-faceted, technically empowered <br> 
+      Game Developer seeking a chance to complement <br> 
+      the efforts of a passionate development team.***
     
 
     extraContent: |
       
-      - Earned an **M.S. in Game Design and Development** from RIT ([#3 nationaly](https://www.rit.edu/news/rit-named-top-5-university-study-game-design))
-      where I applied research on how to **leverage animations to drive gameplay** to my capstone and implemented various **procedural generation** techniques.
-      - Developed **Mosaic**, a Unity package that has helped teams develop and refine gameplay features with less technical overhead, resulting in shipping builds faster.
+      - Earned an **M.S. in Game Design and Development** from Rochester Institute of Technology (RIT). 
+      - While earning my degree, I created [Mosaic](/projects/mosaic/), a Unity package that has helped teams develop and refine gameplay features with less technical overhead, resulting in shipping builds faster.
       - Led engineering and production on **Echoes in the Mist**, a PC game powered by Mosaic.
+      - Refined game animation systems to better drive gameplay, benefit from procedural generation and expedite iteration.
       - Showcased work at **GDC** (NYS Pavilion, twice), **RetroGameCon**, **RPI GameFest**, **Roc Game Fest**, **EDGE**, and **Imagine RIT**
       - Co-founded an independent student initiative that raised **$30K+** to send 12 students to GDC. 
 

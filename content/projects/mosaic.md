@@ -4,8 +4,10 @@ date: 2022-08-01
 summary: "Designed and engineered a Unity package featured at GDC 2025 for its ability to rapidly develop gameplay mechanics and systems. Leveraged by Echoes In The Mists."
 
 tags: ["Unity", "Systems Architecture", "Game Development", "C#", "Modular Design", "Tools", "Data-Driven"]
+hiddenInSingle: true
 cover:
   image: images/mosaic_diagram.png
+  hiddenInSingle: true
 
 weight: 1
 
@@ -22,13 +24,8 @@ Mosaic serves as the architectural foundation for *Echoes in the Mists*, an RIT 
 
 ---
 
-# Challenge
-
-Game development is iterative by necessity, but most gameplay systems are built rigidly, tied closely to a single project’s architecture and difficult to adapt elsewhere. As projects evolve, tech debt accumulates, making features costly to extend, remove, or reuse.
-
-Temporary solutions often become entrenched, bloating the codebase. Less experienced developers can unintentionally compound these issues without clear architectural guidelines. Even well-built systems aren't always designed to scale across teams, contributors, or future projects.
-
----
+![combat](/images/mosaic_diagram.png)
+**Figure:** *This diagram shows how Mosaic integrates into an actor in Echoes in the Mists. The components inside the Mosaic box make up the full framework, while everything around it is user-developed and extends from it. All gameplay systems including AI, input, behaviors, modifiers, and data tags connect through this lightweight, modular core, allowing systems built for one actor to be reused across all actors with a minimal code footprint.*
 
 # Approach
 
@@ -47,7 +44,7 @@ Mosaic, even when utilized by novice programmers, helped facilitate development 
 Mosaic also enabled designers to compose and test behaviors independently. Its success highlights the power of well-designed abstractions to enable ambitious, sustainable game development at scale.
 
 > *“Mosaic works as a springboard in early development. It made prototypes extremely quick to develop, especially for character systems. Because any action could be transferred between entities, creating new players or enemies was simple and consistent. It also streamlined the creation of animators, actions, and attacks by drawing from a shared base.”*  
-> — James Zilberman | Combat Designer, Echoes in the Mists
+> — James Zilberman | Sotware Developer, Bad Ideas Productions 
 
 ---
 

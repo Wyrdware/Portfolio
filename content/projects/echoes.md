@@ -12,16 +12,11 @@ weight: 2
 
 > *In Echoes In The Mists, you are the last remaining knight in a dark overrun seaport. Uncover the echoes of your past and face monsters born of the Mists in challenging combat as you seek out the source of the corruption. Every corner hides dangers, secrets, and rewards. Forge your path and grow in power until you are ready to confront the final boss.*
 
+![combat](/images/eim_combat.gif)
 
 # Overview
 
 *Echoes in the Mists* is a Souls-like game with a demo available for [PC on itch.io](https://backstab-industries.itch.io/echoes-in-the-mists). I led engineering and production on a multidisciplinary team. I designed and implemented all core systems and tools while managing schedules, meetings, and task planning to keep development on track. It was powered by my modular gameplay framework [Mosaic](/projects/mosaic/) and recognized at the **GDC NYS Pavilion**, **RPI GameFest**, **EDGE**, **Roc Game Fest**, **Imagine RIT**, and multiple **RIT press features**.
-
----
-
-![combat](/images/eim_combat.gif)
-
-# Challenge
 
 With a tight 8-month timeline and a core team of 5 graduate students, we set out to develop what we dubbed a “Souls-like in an evening”: A short experience capturing the depth and tension of a full-length Souls-like game. This required a carefully balanced production, to ensure systems for tactical combat, world exploration, enemy variety, and progression were all developed in tandem.
 

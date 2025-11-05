@@ -18,7 +18,7 @@ weight: 2
 
 *Echoes in the Mists* is a Souls-like game with a demo available for [PC on itch.io](https://backstab-industries.itch.io/echoes-in-the-mists). I led engineering and production on a multidisciplinary team. I designed and implemented all core systems and tools while managing schedules, meetings, and task planning to keep development on track. It was powered by my modular gameplay framework [Mosaic](/projects/mosaic/) and recognized at the **GDC NYS Pavilion**, **RPI GameFest**, **EDGE**, **Roc Game Fest**, **Imagine RIT**, and multiple **RIT press features**.
 
-With a tight 8-month timeline and a core team of 5 graduate students, we set out to develop what we dubbed a “Souls-like in an evening”: A short experience capturing the depth and tension of a full-length Souls-like game. This required a carefully balanced production, to ensure systems for tactical combat, world exploration, enemy variety, and progression were all developed in tandem.
+With a tight eight-month timeline and a core team of 5 graduate students, we set out to develop what we dubbed a “Souls-like in an evening”: A short experience capturing the depth and tension of a full-length Souls-like game. This required a carefully balanced production, to ensure systems for tactical combat, world exploration, enemy variety, and progression were all developed in tandem.
 
 For this project to scale to a full release, I needed to architect systems that empowered all developers to contribute independently, avoid bottlenecks, and maintain a clean, scalable code as the project evolved.
 
@@ -49,7 +49,7 @@ Echoes In The Mists demonstrated that with the proper technical foundations and 
 - 10+ gameplay-impacting charm upgrades 
 - 5 major interconnected regions 
 - 1 modular boss encounter as the final challenge 
-- 5 core team members, 8 months total development time 
+- 5 core team members, eight months total development time 
 
 > *"As the capstone professor, I worked closely with Jared and the team. Echoes in the Mists stood out as one of the top games developed that year, driven by Jared's leadership and the team's shared passion. What impressed me most was how effectively it guided players through the experience. You're never unsure of where to go, yet the design never undermines your sense of agency. It feels like you're discovering the path yourself rather than being led. It is a well-crafted and engaging experience."*  
 > — Sten McKinzie  |  Capstone Professor, RIT

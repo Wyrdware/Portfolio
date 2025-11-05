@@ -581,3 +581,20 @@ body.list article.first-entry.home-info{
 }
 
 .social-icons {  margin-bottom: .75rem; }
+
+
+
+.align-left {
+    float: left;
+    margin-right: 15px; /* Adds some space between image and text */
+    /* Add any other desired styling here */
+}
+
+.align-right {
+    float: right;
+    margin-left: 15px;
+}
+figure figcaption {
+    margin-top: 15px; /* Adjust the value (e.g., 10px, 20px) as needed */
+}
+

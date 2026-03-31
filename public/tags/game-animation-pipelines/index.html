@@ -1,18 +1,199 @@
-<!doctype html><html lang=en dir=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>Game Animation Pipelines | Jared Goronkin</title><meta name=keywords content><meta name=description content="Software engineer creating scalable systems and tools for game development"><meta name=author content="Jared Goronkin"><link rel=canonical href=https://jaredgoronkin.com/tags/game-animation-pipelines/><link crossorigin=anonymous href=/assets/css/stylesheet.122906a9919c41b6c698a13214edfcf649612a11f497819fc40cfb380dda6e74.css integrity="sha256-EikGqZGcQbbGmKEyFO389klhKhH0l4GfxAz7OA3abnQ=" rel="preload stylesheet" as=style><link rel=icon href=https://jaredgoronkin.com/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://jaredgoronkin.com/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://jaredgoronkin.com/favicon-32x32.png><link rel=apple-touch-icon href=https://jaredgoronkin.com/apple-touch-icon.png><link rel=mask-icon href=https://jaredgoronkin.com/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate type=application/rss+xml href=https://jaredgoronkin.com/tags/game-animation-pipelines/index.xml><link rel=alternate hreflang=en href=https://jaredgoronkin.com/tags/game-animation-pipelines/><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--code-block-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style></noscript><meta property="og:url" content="https://jaredgoronkin.com/tags/game-animation-pipelines/"><meta property="og:site_name" content="Jared Goronkin"><meta property="og:title" content="Game Animation Pipelines"><meta property="og:description" content="Software engineer creating scalable systems and tools for game development"><meta property="og:locale" content="en-us"><meta property="og:type" content="website"><meta name=twitter:card content="summary"><meta name=twitter:title content="Game Animation Pipelines"><meta name=twitter:description content="Software engineer creating scalable systems and tools for game development"></head><body class=list id=top><script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add("dark"):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove("dark"):window.matchMedia("(prefers-color-scheme: dark)").matches&&document.body.classList.add("dark")</script><header class=header><nav class=nav><div class=logo><a href=https://jaredgoronkin.com/ accesskey=h title="Jared Goronkin (Alt + H)">Jared Goronkin</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)" aria-label="Toggle theme">
-<svg id="moon" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
-<svg id="sun" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu><li><a href=https://jaredgoronkin.com/resume/ title=Resume><span>Resume</span></a></li><li><a href=https://jaredgoronkin.com/projects/ title=Projects><span>Projects</span></a></li><li><a href=https://jaredgoronkin.com/research/ title=Research><span>Research</span></a></li><li><a href=https://jaredgoronkin.com/about/ title=About><span>About</span></a></li><li><a href=https://jaredgoronkin.com/contact/ title="Contact Me"><span>Contact Me</span></a></li></ul></nav></header><main class=main><header class=page-header><div class=breadcrumbs><a href=https://jaredgoronkin.com/>Home</a>&nbsp;»&nbsp;<a href=https://jaredgoronkin.com/tags/>Tags</a></div><h1>Game Animation Pipelines</h1></header><div class=custom-grid></div><article class="post-entry tag-entry custom-card"><div class=card-media><figure class=entry-cover><img loading=lazy src=https://jaredgoronkin.com/images/paper-cover.png alt></figure><div class=card-title-overlay><h2 class=entry-hint-parent>Animations Driving the Game Simulation</h2></div></div></header><div class=card-content><div class=entry-content><p>In this paper I analyze animation pipelines within various engines and explore how animation driven game simulations impact development.</p></div><footer class=entry-footer><span title='2024-10-01 00:00:00 +0000 UTC'>October 1, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Jared Goronkin</footer></div><a class=entry-link aria-label="post link to Animations Driving the Game Simulation" href=https://jaredgoronkin.com/research/animation-driven-sim/></a></article></div></main><footer class=footer><span>&copy; 2025 <a href=https://jaredgoronkin.com/>Jared Goronkin</a></span> ·
-<span>Powered by
-<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
-<a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentColor"><path d="M12 6H0l6-6z"/></svg>
-</a><canvas id=bg-canvas class=bg-canvas aria-hidden=true style="position:fixed;inset:0;display:block;pointer-events:none;z-index:0;background:#0b0d10;opacity:0;transition:opacity .18s ease-out"></canvas>
-<script id=bg-vert type=x-shader/x-vertex>
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Game Animation Pipelines | Jared Goronkin</title>
+<meta name="keywords" content="">
+<meta name="description" content="Software engineer creating scalable systems and tools for game development">
+<meta name="author" content="Jared Goronkin">
+<link rel="canonical" href="http://localhost:1313/tags/game-animation-pipelines/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.cbad4b282af9350267f8e9b8340144ed37c99fcc59b5d82328457831a7d7e75b.css" integrity="sha256-y61LKCr5NQJn&#43;Om4NAFE7TfJn8xZtdgjKEV4MafX51s=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/tags/game-animation-pipelines/index.xml">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/tags/game-animation-pipelines/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Jared Goronkin (Alt + H)">Jared Goronkin</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/resume/" title="Resume">
+                    <span>Resume</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/projects/" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/research/" title="Research">
+                    <span>Research</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/contact/" title="Contact Me">
+                    <span>Contact Me</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header"><div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/tags/">Tags</a></div>
+  <h1>
+    Game Animation Pipelines
+  </h1>
+</header>
+
+<div class="custom-grid"></div>
+
+  <article class="post-entry tag-entry custom-card">
+    
+
+    <div class="card-media"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="http://localhost:1313/images/paper-cover.png" alt="">
+</figure>
+
+        <div class="card-title-overlay">
+          <h2 class="entry-hint-parent">Animations Driving the Game Simulation
+          </h2>
+
+        </div>
+    </div>
+    </header>
+    <div class="card-content">
+      <div class="entry-content">
+        <p>In this paper I analyze animation pipelines within various engines and explore how animation driven game simulations impact development.</p>
+      </div>
+      <footer class="entry-footer"><span title='2024-10-01 00:00:00 +0000 UTC'>October 1, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Jared Goronkin</footer>
+    </div>
+    <a class="entry-link" aria-label="post link to Animations Driving the Game Simulation" href="http://localhost:1313/research/animation-driven-sim/"></a>
+  </article>
+</div>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Jared Goronkin</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+
+
+
+
+
+ <canvas id="bg-canvas" class="bg-canvas" aria-hidden="true"></canvas>
+
+<script id="bg-vert" type="x-shader/x-vertex">
 attribute vec2 aPos;
 varying vec2 vUv;
 void main(){
   vUv = (aPos + 1.0) * 0.5;
   gl_Position = vec4(aPos, 0.0, 1.0);
 }
-</script><script id=bg-frag type=x-shader/x-fragment>
+</script>
+
+<script id="bg-frag" type="x-shader/x-fragment">
 precision highp float;
 varying vec2 vUv;
 uniform float uTime;
@@ -66,4 +247,193 @@ void main(){
   gl_FragColor = vec4(col, 1.0);
 }
 /* --------- EDIT ABOVE TO CHANGE THE LOOK --------- */
-</script><script>(()=>{const t=document.getElementById("bg-canvas");if(!t)return;t.style.background=getComputedStyle(document.documentElement).getPropertyValue("--bg-fallback")||"#000";const g=window.matchMedia?.("(prefers-reduced-motion: reduce)").matches,E=/Mobi|Android/i.test(navigator.userAgent),e=t.getContext("webgl",{alpha:!1,antialias:!0,depth:!1,stencil:!1,premultipliedAlpha:!1,powerPreference:"low-power"});if(!e)return;function l(t,n){const s=e.createShader(t);return e.shaderSource(s,n),e.compileShader(s),e.getShaderParameter(s,e.COMPILE_STATUS)?s:(console.error(e.getShaderInfoLog(s)),e.deleteShader(s),null)}const C=l(e.VERTEX_SHADER,document.getElementById("bg-vert").textContent),v=l(e.FRAGMENT_SHADER,document.getElementById("bg-frag").textContent),n=e.createProgram();if(e.attachShader(n,C),e.attachShader(n,v),e.linkProgram(n),!e.getProgramParameter(n,e.LINK_STATUS)){console.error(e.getProgramInfoLog(n));return}e.useProgram(n);const x=e.createBuffer();e.bindBuffer(e.ARRAY_BUFFER,x),e.bufferData(e.ARRAY_BUFFER,new Float32Array([-1,-1,3,-1,-1,3]),e.STATIC_DRAW);const d=e.getAttribLocation(n,"aPos");e.enableVertexAttribArray(d),e.vertexAttribPointer(d,2,e.FLOAT,!1,0,0);const O=e.getUniformLocation(n,"uTime"),w=e.getUniformLocation(n,"uRes"),y=e.getUniformLocation(n,"uDark"),j=e.getUniformLocation(n,"uMouse"),f=Math.min(window.devicePixelRatio||1,E?1:2);function p(){const n=Math.floor(window.innerWidth*f),s=Math.floor(window.innerHeight*f);(t.width!==n||t.height!==s)&&(t.width=n,t.height=s,e.viewport(0,0,n,s),e.uniform2f(w,n,s)),t.style.width=window.innerWidth+"px",t.style.height=window.innerHeight+"px"}p(),window.addEventListener("resize",p,{passive:!0});const b=()=>document.body.classList.contains("dark"),m=()=>e.uniform1f(y,b()?1:0);m(),new MutationObserver(m).observe(document.body,{attributes:!0,attributeFilter:["class"]});let s={x:.5,y:.5},i={x:.5,y:.5};function c(e){const t=e.touches?.[0],n=(t?t.clientX:e.clientX)??0,s=(t?t.clientY:e.clientY)??0;i.x=Math.min(Math.max(n/window.innerWidth,0),1),i.y=Math.min(Math.max(s/window.innerHeight,0),1)}window.addEventListener("mousemove",c,{passive:!0}),window.addEventListener("touchstart",c,{passive:!0}),window.addEventListener("touchmove",c,{passive:!0});function _(e){const t=Math.min(1,e*12);s.x+=(i.x-s.x)*t,s.y+=(i.y-s.y)*t}let u=performance.now(),o=0,h=u;function r(t,n){g||_(n),e.uniform2f(j,s.x,s.y);const o=g?0:(t-u)/1e3;e.uniform1f(O,o),e.drawArrays(e.TRIANGLES,0,3)}e.clearColor(.043,.051,.063,1),e.clear(e.COLOR_BUFFER_BIT),r(performance.now(),0),t.style.opacity="1",r(performance.now(),0),t.style.opacity="1",document.body.classList.add("shader-ready");function a(e){const t=(e-h)/1e3;h=e,r(e,t),o=requestAnimationFrame(a)}o=requestAnimationFrame(a),document.addEventListener("visibilitychange",()=>{document.hidden?cancelAnimationFrame(o):o=requestAnimationFrame(a)},{passive:!0})})()</script><style>.bg-canvas{position:fixed;inset:0;z-index:0;pointer-events:none;background:var(--bg-fallback,#000)}header,main,footer{position:relative;z-index:1}body.shader-ready .list,body.shader-ready .single,body.shader-ready .page{background:0 0 !important}</style><script>let menu=document.getElementById("menu");menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove("dark"),localStorage.setItem("pref-theme","light")):(document.body.classList.add("dark"),localStorage.setItem("pref-theme","dark"))})</script></body></html>
+</script>
+
+<script>
+(() => {
+  const canvas = document.getElementById('bg-canvas');
+  if (!canvas) return;
+
+  
+  canvas.style.background = getComputedStyle(document.documentElement).getPropertyValue('--bg-fallback') || '#000';
+
+  const prefersReduced = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+  const isMobile = /Mobi|Android/i.test(navigator.userAgent);
+
+  const gl = canvas.getContext('webgl', {
+    alpha: false,
+    antialias: true,
+    depth: false,
+    stencil: false,
+    premultipliedAlpha: false,
+    powerPreference: 'low-power'
+  });
+  if (!gl) {   return; }
+
+  
+  function make(type, src){
+    const sh = gl.createShader(type);
+    gl.shaderSource(sh, src);
+    gl.compileShader(sh);
+    if (!gl.getShaderParameter(sh, gl.COMPILE_STATUS)) {
+      console.error(gl.getShaderInfoLog(sh)); gl.deleteShader(sh); return null;
+    }
+    return sh;
+  }
+
+  const vsh = make(gl.VERTEX_SHADER,   document.getElementById('bg-vert').textContent);
+  const fsh = make(gl.FRAGMENT_SHADER, document.getElementById('bg-frag').textContent);
+  const prog = gl.createProgram();
+  gl.attachShader(prog, vsh); gl.attachShader(prog, fsh); gl.linkProgram(prog);
+  if (!gl.getProgramParameter(prog, gl.LINK_STATUS)) { console.error(gl.getProgramInfoLog(prog)); return; }
+  gl.useProgram(prog);
+
+  
+  const buf = gl.createBuffer();
+  gl.bindBuffer(gl.ARRAY_BUFFER, buf);
+  gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([ -1,-1,  3,-1,  -1,3 ]), gl.STATIC_DRAW);
+  const aPos = gl.getAttribLocation(prog, 'aPos');
+  gl.enableVertexAttribArray(aPos);
+  gl.vertexAttribPointer(aPos, 2, gl.FLOAT, false, 0, 0);
+
+  
+  const uTime  = gl.getUniformLocation(prog, 'uTime');
+  const uRes   = gl.getUniformLocation(prog, 'uRes');
+  const uDark  = gl.getUniformLocation(prog, 'uDark');
+  const uMouse = gl.getUniformLocation(prog, 'uMouse');
+
+  
+  const dpr = Math.min(window.devicePixelRatio || 1, isMobile ? 1 : 2);
+  function resize(){
+    const w = Math.floor(window.innerWidth  * dpr);
+    const h = Math.floor(window.innerHeight * dpr);
+    if (canvas.width !== w || canvas.height !== h){
+      canvas.width = w; canvas.height = h;
+      gl.viewport(0, 0, w, h);
+      gl.uniform2f(uRes, w, h);
+    }
+    canvas.style.width  = window.innerWidth + 'px';
+    canvas.style.height = window.innerHeight + 'px';
+  }
+  resize();
+  window.addEventListener('resize', resize, { passive: true });
+
+  
+  const isDark = () => document.body.classList.contains('dark');
+  const setTheme = () => gl.uniform1f(uDark, isDark() ? 1.0 : 0.0);
+  setTheme();
+  new MutationObserver(setTheme).observe(document.body, { attributes: true, attributeFilter: ['class'] });
+
+  
+  let mouse = { x: 0.5, y: 0.5 };
+  let targetMouse = { x: 0.5, y: 0.5 };
+
+  function setMouseFromEvent(e){
+    const t = e.touches?.[0];
+    const cx = (t ? t.clientX : e.clientX) ?? 0;
+    const cy = (t ? t.clientY : e.clientY) ?? 0;
+    targetMouse.x = Math.min(Math.max(cx / window.innerWidth , 0), 1);
+    targetMouse.y = Math.min(Math.max(cy / window.innerHeight, 0), 1);
+  }
+  window.addEventListener('mousemove', setMouseFromEvent, { passive: true });
+  window.addEventListener('touchstart', setMouseFromEvent, { passive: true });
+  window.addEventListener('touchmove',  setMouseFromEvent, { passive: true });
+
+  function smoothMouse(dt){
+    const k = Math.min(1, dt * 12);
+    mouse.x += (targetMouse.x - mouse.x) * k;
+    mouse.y += (targetMouse.y - mouse.y) * k;
+  }
+
+  
+  let start = performance.now(), raf = 0, prev = start;
+
+  function draw(now, dt){
+    if (!prefersReduced) smoothMouse(dt);
+    gl.uniform2f(uMouse, mouse.x, mouse.y);
+    const t = prefersReduced ? 0.0 : (now - start) / 1000.0;
+    gl.uniform1f(uTime, t);
+    gl.drawArrays(gl.TRIANGLES, 0, 3);
+  }
+
+  gl.clearColor(0.043, 0.051, 0.063, 1.0); 
+  gl.clear(gl.COLOR_BUFFER_BIT);
+  draw(performance.now(), 0);
+  canvas.style.opacity = '1';
+  document.body.classList.add('shader-ready');
+
+  function frame(now){
+    const dt = (now - prev) / 1000; prev = now;
+    draw(now, dt);
+    raf = requestAnimationFrame(frame);
+  }
+  raf = requestAnimationFrame(frame);
+
+  document.addEventListener('visibilitychange', () => {
+    if (document.hidden) cancelAnimationFrame(raf);
+    else raf = requestAnimationFrame(frame);
+  }, { passive: true });
+})();
+</script>
+
+
+
+
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

@@ -78,10 +78,10 @@ params:
 
 
   featuredPages:
+    - "/projects/generalized-physical-animation-without-kinematic-bodies/"
+    - "/projects/herdspun-harvest/"
     - "/projects/echoes/"
     - "/projects/mosaic/"
-    - "/research/animation-driven-sim/"
-    - "/projects/procedural-terrain/"
 
   profileMode:
     enabled: true

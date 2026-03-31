@@ -5,7 +5,7 @@ summary: "A C++ debug and visualization tool developed to help students in SUNY 
 tags: ["C++", "Tools", "Educational Software", "Data Structures", "Visualization"]
 cover:
   image: images/debug_bars.png
-weight: 4
+weight: 6
 
 
 ---

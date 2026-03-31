@@ -5,7 +5,7 @@ tags: ["C#", "AI", "Flocking Algorithm", "Performance Optimization", "Obstacle A
 summary: "A boid simulation with obstacle avoidance, designer friendly pathing, and optimized for a game embeded in the web browser."
 cover:
   image: images/fish_follow.png
-weight: 5
+weight: 7
 
 
 ---

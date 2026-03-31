@@ -5,7 +5,7 @@ tags: ["C#", "Procedural Generation", "Data-Driven Design", "Technical Art", "To
 summary: "Built systems that let designers sculpt the final output, achieved overhangs without floating artifacts, and accelerated performance with compute shaders."
 cover:
   image: images/proc_gen_overview.png
-weight: 3
+weight: 5
 
 
 ---

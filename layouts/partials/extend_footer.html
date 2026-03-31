@@ -5,9 +5,7 @@
 
 <!-- Full-screen background shader (site-wide, PaperMod footer hook) -->
 
- <canvas id="bg-canvas" class="bg-canvas" aria-hidden="true"
-   style="position:fixed;inset:0;display:block;pointer-events:none;
-          z-index:0;background:#0b0d10;opacity:0;transition:opacity .18s ease-out"></canvas>
+ <canvas id="bg-canvas" class="bg-canvas" aria-hidden="true"></canvas>
 
 <script id="bg-vert" type="x-shader/x-vertex">
 attribute vec2 aPos;
@@ -185,10 +183,6 @@ void main(){
   gl.clear(gl.COLOR_BUFFER_BIT);
   draw(performance.now(), 0);
   canvas.style.opacity = '1';
-  // First synchronous draw to avoid flash (opaque, dark)
-  draw(performance.now(), 0);
-  // Reveal only after we’ve drawn a dark frame
-  canvas.style.opacity = '1';
   document.body.classList.add('shader-ready');
 
   function frame(now){
@@ -204,25 +198,6 @@ void main(){
   }, { passive: true });
 })();
 </script>
-
-<style>
-.bg-canvas{
-  position: fixed;
-  inset: 0;
-  z-index: 0;               /* <— avoid negative stacking issues */
-  pointer-events: none;
-  background: var(--bg-fallback, #000);
-}
-
-header, main, footer { position: relative; z-index: 1; }
-
-/* Only AFTER first shader frame, make wrappers transparent */
-body.shader-ready .list,
-body.shader-ready .single,
-body.shader-ready .page{
-  background: transparent !important;
-}
-</style>
 
 
 

@@ -6,7 +6,7 @@ tags: ["UI/UX"]
 cover:
   image: images/uiux_header.png
 
-weight: 6
+weight: 8
 draft: false
 
 ---

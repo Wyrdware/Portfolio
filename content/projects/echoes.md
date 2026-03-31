@@ -6,7 +6,7 @@ tags: ["Unity", "Gameplay Systems", "Soulslike", "Data-Driven"]
 cover:
   image: images/echoes_cover_1200x630.png
 
-weight: 2
+weight: 4
 
 ---
 

@@ -9,7 +9,7 @@ cover:
   image: images/mosaic_diagram.png
   hiddenInSingle: true
 
-weight: 1
+weight: 3
 
 ---
 

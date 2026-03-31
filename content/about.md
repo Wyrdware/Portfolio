@@ -5,7 +5,7 @@ title: 'About'
 ---
 
 {{< figure src="https://jaredgoronkin.com/images/JG5.jpg" width="300" alt="My Image" class="align-right" caption="<br><br>" >}}
-I’m Jared, a dynamic software engineer specialized in game development. I thrive at the intersection of design and engineering, where well-designed architectures improve workflow and empowers teams to create richer experiences. I'm searching for the right opportunity to complement an equally passionate and dynamic development team.  
+I build systems that make development fast and flexible. I’m Jared, a dynamic software engineer specialized in game development. I thrive at the intersection of design and engineering, where well-designed architectures improve workflow and empowers teams to create richer experiences. I'm searching for the right opportunity to complement an equally passionate and dynamic development team.  
 
 I'm driven by the belief that strong technical foundations unlock creative freedom. My focus is always on enabling teams to do their best work. I do that by developing data-driven systems and tools, such as the fully modular combat features I developed for Echoes In The Mists, that let designers prototype faster.  
 

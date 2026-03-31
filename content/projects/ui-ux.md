@@ -7,7 +7,7 @@ cover:
   image: images/uiux_header.png
 
 weight: 8
-draft: false
+draft: true
 
 ---
 

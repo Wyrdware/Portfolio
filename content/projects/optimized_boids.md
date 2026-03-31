@@ -6,6 +6,7 @@ summary: "A boid simulation with obstacle avoidance, designer friendly pathing, 
 cover:
   image: images/fish_follow.png
 weight: 7
+draft: true
 
 
 ---

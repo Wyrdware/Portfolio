@@ -20,7 +20,7 @@
       <link>http://localhost:1313/research/animation-driven-sim/</link>
       <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/animation-driven-sim/</guid>
-      <description>In this paper I analyze animation pipelines within various engines and explore how animation driven game simulations impact development.</description>
+      <description>In this paper, I analyze animation pipelines within various engines and explore how animation-driven game simulations impact development.</description>
     </item>
     <item>
       <title>Herdspun Harvest, Lead Engineer (Contract)</title>
@@ -30,18 +30,18 @@
       <description>Client-funded mobile game for Clean Cashmere via StarSouls Studio; prototype secured follow-on funding, demo shipped in 2 months.</description>
     </item>
     <item>
-      <title>Mosaic</title>
-      <link>http://localhost:1313/projects/mosaic/</link>
-      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/mosaic/</guid>
-      <description>Designed and engineered a Unity package featured at GDC 2025 for its ability to rapidly develop gameplay mechanics and systems. Leveraged by Echoes In The Mists.</description>
-    </item>
-    <item>
       <title>Echoes in the Mists</title>
       <link>http://localhost:1313/projects/echoes/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/echoes/</guid>
       <description>Shown at GDC 2025 NYS Pavilion, I led engineering and production on this souls-like. Descend into a corrupted seaport where danger and discovery lurk around every corner. Powered by Mosaic.</description>
+    </item>
+    <item>
+      <title>Mosaic</title>
+      <link>http://localhost:1313/projects/mosaic/</link>
+      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/mosaic/</guid>
+      <description>Designed and engineered a Unity package featured at GDC 2025 for its ability to rapidly develop gameplay mechanics and systems. Leveraged by Echoes In The Mists.</description>
     </item>
     <item>
       <title>Procedural Terrain</title>
@@ -55,14 +55,14 @@
       <link>http://localhost:1313/projects/debuglibrary/</link>
       <pubDate>Sun, 30 Apr 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/debuglibrary/</guid>
-      <description>A C++ debug and visualization tool developed to help students in SUNY Poly&amp;rsquo;s CS 240 course learn datastructures and algorithms.</description>
+      <description>A C++ debug and visualization tool developed to help students in SUNY Poly&amp;rsquo;s CS 240 course learn data structures and algorithms.</description>
     </item>
     <item>
       <title>Optimized Schooling Behavior</title>
       <link>http://localhost:1313/projects/optimized_boids/</link>
       <pubDate>Sun, 01 Oct 2023 16:34:12 -0400</pubDate>
       <guid>http://localhost:1313/projects/optimized_boids/</guid>
-      <description>A boid simulation with obstacle avoidance, designer friendly pathing, and optimized for a game embeded in the web browser.</description>
+      <description>A boid simulation with obstacle avoidance, designer-friendly pathing, and optimized for a game embedded in the web browser.</description>
     </item>
     <item>
       <title>UI UX Systems</title>
@@ -83,7 +83,7 @@
       <link>http://localhost:1313/research/ds-ui-analysis/</link>
       <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/research/ds-ui-analysis/</guid>
-      <description>This visual analysis of the UI of Dark Souls 3 highlights how it&amp;rsquo;s design reflects the game&amp;rsquo;s overarching themes and contributes to a positive user experience.</description>
+      <description>This visual analysis of the UI of Dark Souls 3 highlights how its design reflects the game&amp;rsquo;s overarching themes and contributes to a positive user experience.</description>
     </item>
     <item>
       <title>About</title>

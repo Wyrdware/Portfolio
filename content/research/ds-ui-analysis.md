@@ -1,8 +1,8 @@
 ---
 date: '2022-03-11'
 title: 'Dark Souls UI Analysis'
-summary: "This visual analysis of the UI of Dark Souls 3 highlights how it's design reflects the game's overarching themes and contributes to a positive user experience. "
-tags: ["UI", "UX", "visual communiction", "analysis"]
+summary: "This visual analysis of the UI of Dark Souls 3 highlights how its design reflects the game's overarching themes and contributes to a positive user experience."
+tags: ["UI", "UX", "visual communication", "analysis"]
 
 cover:
   image: "/images/paper-cover.png"

@@ -9,7 +9,7 @@ cover:
   image: images/mosaic_diagram.png
   hiddenInSingle: true
 
-weight: 3
+weight: 4
 
 ---
 
@@ -18,7 +18,7 @@ weight: 3
 
 # Overview
 
-Mosaic is a universal gameplay framework I developed for Unity used by designers and developers to build, collaborate on, and share gameplay systems. The framework ensures developed features are scalable, reusable, and fully cross compatible. This allows individuals, studios, and communities to invest in their systems creating value that is retained accross projects. 
+Mosaic is a universal gameplay framework I developed for Unity used by designers and developers to build, collaborate on, and share gameplay systems. The framework ensures developed features are scalable, reusable, and fully cross compatible. This allows individuals, studios, and communities to invest in their systems, creating value that is retained across projects. 
 
 Mosaic serves as the architectural foundation for *Echoes in the Mists*, an RIT capstone game featured at various local conventions, showcased at the **2025 GDC New York State Pavilion**, and highlighted as part of RIT’s recognition as the **#3 MS game design program in the U.S**.
 
@@ -29,9 +29,9 @@ Mosaic serves as the architectural foundation for *Echoes in the Mists*, an RIT 
 
 # Approach
 
-Mosaic was developed through iterative prototyping and extensive research into scalable architectures, including game object models, programing paradigms, and other related systems such as ability systems and character controllers. Mosaic was also the subject of my graduate thesis.
+Mosaic was developed through iterative prototyping and extensive research into scalable architectures, including game object models, programming paradigms, and other related systems such as ability systems and character controllers. Mosaic was also the subject of my graduate thesis.
 
-The resulting framework lies between the game object model and the character controller, offering true modularity through four components: **Behaviors**, **Modifiers**, **Decorators**, and **DataTags**. These four components ensure full modularity across all systems that use Mosaic. The design was validated through use by peers with varying levels of experience on long term projects and feedback from mentors and colleagues in the field.
+The resulting framework lies between the game object model and the character controller, offering true modularity through four components: **Behaviors**, **Modifiers**, **Decorators**, and **DataTags**. These four components ensure full modularity across all systems that use Mosaic. The design was validated through use by peers with varying levels of experience on long-term projects and feedback from mentors and colleagues in the field.
 
 ---
 
@@ -44,7 +44,7 @@ Mosaic, even when utilized by novice programmers, helped facilitate development 
 Mosaic also enabled designers to compose and test behaviors independently. Its success highlights the power of well-designed abstractions to enable ambitious, sustainable game development at scale.
 
 > *“Mosaic works as a springboard in early development. It made prototypes extremely quick to develop, especially for character systems. Because any action could be transferred between entities, creating new players or enemies was simple and consistent. It also streamlined the creation of animators, actions, and attacks by drawing from a shared base.”*  
-> — James Zilberman | Sotware Developer, Bad Ideas Productions 
+> — James Zilberman | Software Developer, Bad Ideas Productions 
 
 ---
 

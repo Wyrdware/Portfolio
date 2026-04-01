@@ -16,18 +16,18 @@
       <description>Client-funded mobile game for Clean Cashmere via StarSouls Studio; prototype secured follow-on funding, demo shipped in 2 months.</description>
     </item>
     <item>
-      <title>Mosaic</title>
-      <link>http://localhost:1313/projects/mosaic/</link>
-      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/mosaic/</guid>
-      <description>Designed and engineered a Unity package featured at GDC 2025 for its ability to rapidly develop gameplay mechanics and systems. Leveraged by Echoes In The Mists.</description>
-    </item>
-    <item>
       <title>Echoes in the Mists</title>
       <link>http://localhost:1313/projects/echoes/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/echoes/</guid>
       <description>Shown at GDC 2025 NYS Pavilion, I led engineering and production on this souls-like. Descend into a corrupted seaport where danger and discovery lurk around every corner. Powered by Mosaic.</description>
+    </item>
+    <item>
+      <title>Mosaic</title>
+      <link>http://localhost:1313/projects/mosaic/</link>
+      <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/mosaic/</guid>
+      <description>Designed and engineered a Unity package featured at GDC 2025 for its ability to rapidly develop gameplay mechanics and systems. Leveraged by Echoes In The Mists.</description>
     </item>
   </channel>
 </rss>

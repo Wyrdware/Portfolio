@@ -11,11 +11,11 @@
     <loc>http://localhost:1313/projects/herdspun-harvest/</loc>
     <lastmod>2026-03-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/mosaic/</loc>
-    <lastmod>2022-08-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/projects/echoes/</loc>
     <lastmod>2025-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/mosaic/</loc>
+    <lastmod>2022-08-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/procedural-terrain/</loc>
     <lastmod>2023-09-30T20:36:29-04:00</lastmod>
@@ -176,7 +176,7 @@
     <loc>http://localhost:1313/tags/ux/</loc>
     <lastmod>2022-03-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/visual-communiction/</loc>
+    <loc>http://localhost:1313/tags/visual-communication/</loc>
     <lastmod>2022-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/</loc>

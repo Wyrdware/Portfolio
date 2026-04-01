@@ -38,7 +38,7 @@ params:
   ShowBreadCrumbsInList: true
   ShowCodeCopyButtons: true
   ShowPostNavLinks: true
-  ShowReadingTime: true
+  ShowReadingTime: false
   ShowToc: false
   customCSS:
     - css/custom.css
@@ -51,17 +51,19 @@ params:
     Content: |
       > ***I am a multi-faceted, technically empowered <br> 
       Game Developer looking to join and complement <br> 
-      the efforts of a passionate development team.***
-    
+      the efforts of a passionate development team.***<br>
 
     extraContent: |
       
-      - Earned an **M.S. in Game Design and Development** from Rochester Institute of Technology (RIT). 
-      - While earning my degree, I created [Mosaic](/projects/mosaic/), a Unity package that has helped teams develop and refine gameplay features with less technical overhead, resulting in shipping builds faster.
-      - Led engineering and production on **Echoes in the Mist**, a PC game powered by Mosaic.
-      - Refined game animation systems to better drive gameplay, benefit from procedural generation and expedite iteration.
-      - Showcased work at **GDC** (NYS Pavilion, twice), **RetroGameCon**, **RPI GameFest**, **Roc Game Fest**, **EDGE**, and **Imagine RIT**
-      - Co-founded an independent student initiative that raised **$30K+** to send 12 students to GDC. 
+      Led engineering on a paid client mobile game released on iOS and Android.
+
+      Build gameplay systems that scale and give designers the control they actually need.
+
+      Showcased work at GDC’s NYS Pavilion twice, along with RetroGameCon, RPI GameFest, Roc Game Fest, EDGE, and Imagine RIT.
+
+      Co-founded an independent student initiative that raised $30K+ to send 12 students to GDC.
+
+      Earned an M.S. in Game Design and Development from RIT.
 
     
     image: "/images/JG5.jpg" #1 and 2 seem to be the best

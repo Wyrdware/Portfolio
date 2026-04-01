@@ -1,7 +1,7 @@
 ---
 title: "Animations Driving the Game Simulation"
 date: 2024-10-01
-summary: "In this paper I analyze animation pipelines within various engines and explore how animation driven game simulations impact development."
+summary: "In this paper, I analyze animation pipelines within various engines and explore how animation-driven game simulations impact development."
 weight: 1
 
 

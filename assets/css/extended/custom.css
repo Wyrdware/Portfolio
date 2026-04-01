@@ -12,12 +12,16 @@ body { overflow-x: clip; }       /* modern, avoids creating a scrolling context 
 
 /* Images/covers should not exceed their container */
 img, .entry-cover img { max-width: 100%; height: auto; }
-html, body { background: #0b0d10; }
-html.dark, body.dark { background: #0b0d10; }
 :root {
+  --bg-fallback: #f6f8fc;
+  --bg-fallback-dark: #0b0d10;
+  --accent-color: #D9AB23;
+  --surface-max-width: 600px;
+  --surface-radius: 12px;
+  --surface-padding: 2rem;
+  --surface-shadow: 0 0 10px rgba(0,0,0,0.05);
   --card-min: 320px;
   --card-max: 345px;
-  --card-image-height: 320px;
   --card-media-aspect: 16 / 9;
   --card-radius: 8px;
   --card-shadow: 0 1px 6px rgba(0, 0, 0, 0.04);
@@ -25,6 +29,8 @@ html.dark, body.dark { background: #0b0d10; }
   --card-hover-lift: -4px;
   --rail-max: calc((var(--card-max) * 2) + var(--gap));
 }
+html, body { background: var(--bg-fallback); }
+html.dark, body.dark { background: var(--bg-fallback-dark); }
 
 
 #bg-canvas {
@@ -33,7 +39,7 @@ html.dark, body.dark { background: #0b0d10; }
   display: block;     /* prevent inline gap issues */
   pointer-events: none;
   z-index: 0;         /* content goes above */
-  background: var(--bg-fallback, #000);
+  background: var(--bg-fallback);
   opacity: 0;
   transition: opacity .18s ease-out;
 }
@@ -113,7 +119,7 @@ body.shader-ready .page{
   padding: 0.5rem 1.75rem .75rem 0.75rem;
   background-color: rgba(37, 37, 37, 0.4);
   backdrop-filter: blur(4px);
-  border-bottom-right-radius: 18px;
+  border-bottom-right-radius: var(--surface-radius);
 
   opacity: .9;
   transform: translateY(-5px);
@@ -191,11 +197,11 @@ header.header nav a:hover::after {
 
 /* Wrap the form in a container with some spacing */
 .contact-wrapper {
-  max-width: 600px;
+  max-width: var(--surface-max-width);
   margin: 2rem auto;
-  padding: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  padding: var(--surface-padding);
+  border-radius: var(--surface-radius);
+  box-shadow: var(--surface-shadow);
   background-color: var(--theme); /* Matches PaperMod background */
   color: var(--color);
 }
@@ -322,7 +328,7 @@ header.header nav a:hover::after {
 .first-entry.home-info .entry-content blockquote {
   margin: 0 0 var(--gap);
   padding: 0.5rem 1rem;
-  border-left: 5px solid #D9AB23;
+  border-left: 5px solid var(--accent-color);
   color: var(--primary);
   margin-top: 0rem;
   margin-bottom: 0.5rem;  
@@ -559,15 +565,16 @@ body.list:has(article.first-entry.home-info) header.header {
 
 
 .hi-extra{
-  max-width: 600px;
+  max-width: var(--surface-max-width);
   margin: 1.5rem auto 0;
-  padding: 2rem;
+  padding: var(--surface-padding);
   position: relative;
-  border-radius: 12px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  border-radius: var(--surface-radius);
+  box-shadow: var(--surface-shadow);
   background-color: var(--theme);
   color: var(--primary);
   font-size: 1rem;
+  line-height: 1.7;
 }
 
 .hi-extra::before{
@@ -578,7 +585,7 @@ body.list:has(article.first-entry.home-info) header.header {
   bottom: 1rem;
   width: 2px;
   border-radius: 2px;
-  background: #D9AB23;
+  background: var(--accent-color);
 }
 
 .first-entry.home-info .entry-content .hi-extra > ul {
@@ -586,14 +593,7 @@ body.list:has(article.first-entry.home-info) header.header {
   padding-left: 1.25rem;
 }
 
-.first-entry.home-info .entry-content .hi-extra {
-  line-height: 1.7;
-}
 .first-entry.home-info .entry-content .hi-extra > * + * {
-  margin-top: 0.9rem;
-}
-
-.first-entry.home-info .entry-content .hi-extra p + p {
   margin-top: 0.9rem;
 }
 

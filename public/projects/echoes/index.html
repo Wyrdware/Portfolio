@@ -10,7 +10,7 @@
 <meta name="description" content="Shown at GDC 2025 NYS Pavilion, I led engineering and production on this souls-like. Descend into a corrupted seaport where danger and discovery lurk around every corner. Powered by Mosaic.">
 <meta name="author" content="Jared Goronkin">
 <link rel="canonical" href="http://localhost:1313/projects/echoes/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.f1655083c58fa21927948e88d4c04763703433bd9fa9b5929096c71add1aa23c.css" integrity="sha256-8WVQg8WPohknlI6I1MBHY3A0M72fqbWSkJbHGt0aojw=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.a10158ccad67dbe40fd0735adee2209bcb21d26b58d46e755bdd580d0f09be37.css" integrity="sha256-oQFYzK1n2&#43;QP0HNa3uIgm8sh0mtY1G51W91YDQ8Jvjc=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -273,9 +273,9 @@ void main(){
   n += 0.15 * noise(9.0*p + vec2(-t, t));
 
   // Base + tint (edit these 4 colors for quick theme changes)
-  vec3 baseLight = vec3(0.98, 0.98, 0.99);
+  vec3 baseLight = vec3(0.965, 0.970, 0.980);
   vec3 baseDark  = vec3(0.12, 0.12, 0.13);
-  vec3 tintLight = vec3(0.78, 0.75, 0.72);
+  vec3 tintLight = vec3(0.885, 0.905, 0.935);
   vec3 tintDark  = vec3(0.16, 0.17, 0.20);
 
   vec3 base = mix(baseLight, baseDark, uDark);
@@ -372,7 +372,12 @@ void main(){
 
   
   const isDark = () => document.body.classList.contains('dark');
-  const setTheme = () => gl.uniform1f(uDark, isDark() ? 1.0 : 0.0);
+  const setTheme = () => {
+    const dark = isDark();
+    gl.uniform1f(uDark, dark ? 1.0 : 0.0);
+    if (dark) gl.clearColor(0.043, 0.051, 0.063, 1.0);      
+    else gl.clearColor(0.965, 0.970, 0.980, 1.0);            
+  };
   setTheme();
   new MutationObserver(setTheme).observe(document.body, { attributes: true, attributeFilter: ['class'] });
 
@@ -408,7 +413,6 @@ void main(){
     gl.drawArrays(gl.TRIANGLES, 0, 3);
   }
 
-  gl.clearColor(0.043, 0.051, 0.063, 1.0); 
   gl.clear(gl.COLOR_BUFFER_BIT);
   draw(performance.now(), 0);
   canvas.style.opacity = '1';

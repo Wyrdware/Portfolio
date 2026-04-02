@@ -2,7 +2,7 @@
 title: "Herdspun Harvest, Lead Engineer (Contract)"
 date: 2026-03-31
 summary: "Client-funded mobile game for Clean Cashmere via StarSouls Studio; prototype secured follow-on funding, demo shipped in 2 months."
-tags: ["Mobile", "Lead Engineer", "Contract", "MVC", "Analytics", "Unity"]
+tags: ["Unity", "Mobile Game Development", "Lead Engineer", "MVC Architecture", "Game Analytics", "Production Engineering", "UI"]
 weight: 2
 cover:
   image: images/HerdspunHarvest-Title.png

@@ -5,7 +5,7 @@ summary: "In this paper, I analyze animation pipelines within various engines an
 weight: 1
 
 
-tags: ["designer-driven tools","game animation pipelines", "engine-architecture", "systems-design"]
+tags: ["Technical Research", "Game Animation", "Engine Architecture", "Systems Design", "Pipeline Design"]
 cover:
   image: "/images/paper-cover.png"
   hidden: true

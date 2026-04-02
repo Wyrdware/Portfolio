@@ -2,7 +2,7 @@
 title: "UI UX Systems"
 date: 2024-05-01
 summary: "Over the years I’ve explored UX and UI design from both the technical and experiential sides, and now teach the subject in WVU’s graduate program. This section highlights a few of the systems I’ve built."
-tags: ["UI/UX"]
+tags: ["UI/UX", "UX Engineering", "Gameplay UI", "Accessibility", "Technical Design"]
 cover:
   image: images/uiux_header.png
 

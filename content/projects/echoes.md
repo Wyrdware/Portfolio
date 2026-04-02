@@ -2,7 +2,7 @@
 title: "Echoes in the Mists"
 date: 2025-05-01
 summary: "Shown at GDC 2025 NYS Pavilion, I led engineering and production on this souls-like. Descend into a corrupted seaport where danger and discovery lurk around every corner. Powered by Mosaic."
-tags: ["Unity", "Gameplay Systems", "Soulslike", "Data-Driven"]
+tags: ["Unity", "Gameplay Engineering", "Systems Design", "Production Leadership", "Soulslike"]
 cover:
   image: images/echoes_cover_1200x630.png
 

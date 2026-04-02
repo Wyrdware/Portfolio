@@ -1,7 +1,7 @@
 ---
 date: '2023-09-30T20:36:29-04:00'
 title: 'Procedural Terrain'
-tags: ["C#", "Procedural Generation", "Data-Driven Design", "Technical Art", "Tools"]
+tags: ["C#", "Procedural Generation", "Compute Shaders", "Technical Art", "Tools Programming", "Performance Optimization"]
 summary: "Built systems that let designers sculpt the final output, achieved overhangs without floating artifacts, and accelerated performance with compute shaders."
 cover:
   image: images/proc_gen_overview.png

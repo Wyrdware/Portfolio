@@ -2,7 +2,7 @@
 title: "Generalized Physical Animation Without Kinematic Bodies"
 date: 2026-03-31
 summary: "Fully physics-driven character animation system with no kinematic bodies or per-character retuning."
-tags: ["Physics Animation", "Character Animation", "Robotics", "Real-Time Systems", "Procedural Animation"]
+tags: ["Physics Simulation", "Character Animation", "Technical R&D", "Gameplay Engineering", "Real-Time Systems"]
 weight: 1
 ---
 

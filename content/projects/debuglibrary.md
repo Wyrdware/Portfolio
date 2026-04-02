@@ -2,7 +2,7 @@
 title: "Data Structure Debug Library"
 date: 2023-04-30
 summary: "A C++ debug and visualization tool developed to help students in SUNY Poly's CS 240 course learn data structures and algorithms."
-tags: ["C++", "Tools", "Educational Software", "Data Structures", "Visualization"]
+tags: ["C++", "Tools Programming", "Debugging Tools", "Data Structures", "Technical Education"]
 cover:
   image: images/debug_bars.png
 weight: 6

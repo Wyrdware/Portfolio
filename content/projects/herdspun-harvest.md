@@ -23,3 +23,6 @@ Client-funded mobile game for Clean Cashmere via StarSouls Studio; prototype sec
 - Designed MVC-style architecture separating simulation and presentation, simplifying feature iteration and expansion
 - Implemented offline crafting progression
 - Implemented analytics to support early user testing
+
+## Links
+- [Google Play Store](https://play.google.com/store/apps/details?id=com.StarSoulStudioLLC.HerdspunHarvest&hl=en_US)

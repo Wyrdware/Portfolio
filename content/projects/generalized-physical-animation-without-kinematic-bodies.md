@@ -8,7 +8,10 @@ weight: 1
 
 > *No Retuning, Consistent Across Characters, Supports Realistic and Stylized Motion*
 
-Video coming soon.
+<video autoplay muted loop playsinline preload="metadata" width="100%">
+  <source src="/files/PhysicalAnimation.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## Impact
 Fully physics-driven character animation system with no kinematic bodies or per-character retuning.

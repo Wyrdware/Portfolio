@@ -41,7 +41,7 @@ params:
   ShowReadingTime: false
   ShowToc: false
   customCSS:
-    - css/custom.css
+    - css/extended/custom.css
     
   defaultTheme: auto
   enableInlineShortcodes: true
@@ -49,9 +49,9 @@ params:
   homeInfoParams:
     Title: "Jared Goronkin  |   M.S. (RIT)"
     Content: |
-      > ***I reduce entropy in game development <br>
-      Game engineer looking to join <br>
-      a passionate dev team***<br>
+      > ***Building software for simplicity and <br>
+      developer ergenomics. Game engineer <br> 
+      looking to join a passionate dev team.***<br>
 
     extraContent: |
       

@@ -32,6 +32,19 @@ img, .entry-cover img { max-width: 100%; height: auto; }
 html, body { background: var(--bg-fallback); }
 html.dark, body.dark { background: var(--bg-fallback-dark); }
 
+/* Minimal scrollbar - blends with shader backgrounds */
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background: var(--bg-fallback); }
+html.dark ::-webkit-scrollbar-track { background: var(--bg-fallback-dark); }
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+  border: 2px solid var(--bg-fallback);
+}
+html.dark ::-webkit-scrollbar-thumb {
+  background: #666;
+  border-color: var(--bg-fallback-dark);
+}
 
 #bg-canvas {
   position: fixed;

@@ -13,7 +13,7 @@ weight: 1
   Your browser does not support the video tag.
 </video>
 
-## Impact
+## Overview
 Fully physics-driven character animation system with no kinematic bodies or per-character retuning.
 
 Unlike traditional approaches, motion remains entirely within the physics simulation while still following animation. The character is not constrained to animation space, allowing impacts and interactions to naturally influence movement without rubberbanding or mode switching.
